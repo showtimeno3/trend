@@ -59,12 +59,11 @@ def _github(snaps: list[dict], dates14: list[str]) -> dict:
     cur = good[-1]
     prev = {r["name"]: r["rank"] for r in _ok(good[-2], "github", "repos")} if len(good) > 1 else None
     stars_by_date = {s["date"]: {r["name"]: r["stars"] for r in _ok(s, "github", "repos")} for s in good}
-    pad = [None] * (WINDOW - len(dates14))
     repos = []
     for r in _ok(cur, "github", "repos"):
         raw = [stars_by_date.get(d, {}).get(r["name"]) for d in dates14]
         base = next((v for v in raw if v is not None), None)
-        spark = pad + [None if v is None else v - base for v in raw]
+        spark = [None if v is None else v - base for v in raw]
         was = prev.get(r["name"]) if prev is not None else None
         repos.append({**r,
                       "move": None if was is None else was - r["rank"],
@@ -90,11 +89,17 @@ def _words(s: dict) -> Counter:
     return Counter(tokenize(" ".join(texts)))
 
 
+def _complete(s: dict) -> bool:
+    return all(_ok(s, src, key) for src, key in (("github", "repos"), ("hn", "items"), ("arxiv", "papers")))
+
+
 def _keywords(snaps: list[dict]) -> dict:
-    if len(snaps) - 1 < KEYWORD_DAYS:
+    # 세 소스가 모두 성공한 날만 비교 (일부 실패한 날은 빈도가 낮아져 왜곡됨)
+    full = [s for s in snaps if _complete(s)]
+    if not _complete(snaps[-1]) or len(full) - 1 < KEYWORD_DAYS:
         return {"ready": False, "items": []}
-    today = _words(snaps[-1])
-    prior = [_words(s) for s in snaps[-1 - KEYWORD_DAYS:-1]]
+    today = _words(full[-1])
+    prior = [_words(s) for s in full[-1 - KEYWORD_DAYS:-1]]
     items = []
     for word, n in today.items():
         if n < KEYWORD_MIN:
@@ -108,7 +113,9 @@ def _keywords(snaps: list[dict]) -> dict:
 
 def build_history(snaps: list[dict]) -> dict:
     snaps = sorted(snaps, key=lambda s: s["date"])
-    dates14 = [s["date"] for s in snaps[-WINDOW:]]
+    last = date.fromisoformat(snaps[-1]["date"])
+    # 달력 기준 14일: 스냅샷 파일이 없는 날도 칸을 남겨 선이 끊기게
+    dates14 = [(last - timedelta(days=WINDOW - 1 - i)).isoformat() for i in range(WINDOW)]
     return {
         "updated": snaps[-1]["date"],
         "dates14": dates14,

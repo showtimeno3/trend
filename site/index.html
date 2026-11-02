@@ -149,7 +149,7 @@ function renderRepos(h) {
   top.forEach((r, i) => lines(svg, r.spark, 640, 220, max, COLORS[i], 2.5));
   $("chart").append(svg);
   $("legend").append(...top.map((r, i) => el("span", {}, el("i", { style: `background:${COLORS[i]}` }), r.name)));
-  if (h.dates14.length < 2) $("legend").append(el("span", {}, "데이터가 쌓이면 선이 그려짐"));
+  if (top.every((r) => r.spark.filter((v) => v != null).length < 2)) $("legend").append(el("span", {}, "데이터가 쌓이면 선이 그려짐"));
 
   const kv = (list, cls, label) => list.length ? list.map((e) => el("div", { class: "kv" }, link(`https://github.com/${e.name}`, e.name), el("span", { class: "mono", style: cls }, label(e))))
     : [el("div", { class: "muted", style: "font-size:14px" }, "없음")];
