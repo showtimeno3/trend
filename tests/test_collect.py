@@ -47,7 +47,7 @@ class TrendingTest(unittest.TestCase):
         self.assertEqual(r["stars"], 45209)
         self.assertEqual(r["stars_week"], 11566)
         self.assertEqual(r["lang"], "CSS")
-        self.assertIn("Claude Code", r["desc"])
+        self.assertEqual(r["desc"], "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.")
 
     def test_missing_desc_and_lang(self):
         r = self.repos[2]

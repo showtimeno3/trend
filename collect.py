@@ -20,7 +20,7 @@ ARXIV_NS = "{http://arxiv.org/schemas/atom}"
 ARTICLE_RE = re.compile(r'<article class="Box-row">(.*?)</article>', re.S)
 NAME_RE = re.compile(r'href="/([^/"]+/[^/"]+)/stargazers"[^>]*>(.*?)</a>', re.S)
 WEEK_RE = re.compile(r"([\d,]+) stars this week")
-DESC_RE = re.compile(r"<p[^>]*>(.*?)</p>", re.S)
+DESC_RE = re.compile(r"<p(?:\s[^>]*)?>(.*?)</p>", re.S)  # <path> 와 구분
 LANG_RE = re.compile(r'itemprop="programmingLanguage">(.*?)<', re.S)
 TAG_RE = re.compile(r"<[^>]+>")
 

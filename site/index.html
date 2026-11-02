@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>개발 트렌드 대시보드</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--line:#e4e4e0;--line2:#efefeb;--ink:#17181c;--muted:#5b5f68;--accent:#c2410c;--up:#0f6b62;--down:#9a3412;--new:#1d4ed8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Noto Sans KR',system-ui,sans-serif}
+a{color:var(--ink);text-decoration:none}a:hover{color:var(--accent);text-decoration:underline}
+.mono{font-family:'JetBrains Mono',ui-monospace,monospace}
+.muted{color:var(--muted)}
+.wrap{max-width:1160px;margin:0 auto;padding:40px 16px;display:flex;flex-direction:column;gap:20px}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px}
+h1{margin:0 0 6px;font-size:28px}
+h2{margin:0;font-size:16px}
+header p{margin:0;font-size:14px}
+nav{display:flex;gap:8px;flex-wrap:wrap}
+nav a{border:1px solid #d6d6d1;border-radius:8px;padding:10px 14px;font-size:13px;background:var(--card)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px;min-width:0}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.tile{display:flex;flex-direction:column;gap:6px;padding:16px 18px}
+.tile .l,.tile .s{font-size:12px;color:var(--muted)}
+.tile .v{font-size:24px;font-weight:700;overflow-wrap:anywhere}
+.row{display:flex;flex-wrap:wrap;gap:16px}
+.grow{flex:999 1 560px;min-width:0}
+.side{flex:1 1 280px;min-width:0;display:flex;flex-direction:column;gap:16px}
+.half{flex:1 1 420px;min-width:0}
+.stack{display:flex;flex-direction:column;gap:10px}
+.kv{display:flex;justify-content:space-between;gap:8px;font-size:14px}
+.kv .mono{font-size:12px;white-space:nowrap}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:14px;height:3px;border-radius:2px;display:inline-block}
+.tbl{padding:0;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:760px}
+th{text-align:left;color:var(--muted);font-size:12px;font-weight:500;padding:12px 8px}
+td{padding:12px 8px;border-top:1px solid var(--line2);vertical-align:middle}
+th:first-child,td:first-child{padding-left:18px}th:last-child,td:last-child{padding-right:18px;text-align:right}
+.repo a{font-weight:500}.repo div{font-size:13px;color:var(--muted);margin-top:3px}
+.gain{color:var(--accent);white-space:nowrap}
+.kw{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:10px 32px}
+.kwrow{display:grid;grid-template-columns:110px minmax(0,1fr) 64px;gap:12px;align-items:center;font-size:14px}
+.bar{height:10px;background:var(--line2);border-radius:5px;overflow:hidden}.bar i{display:block;height:100%;background:var(--accent);border-radius:5px}
+.item{display:flex;flex-direction:column;gap:3px;padding:10px 0;border-top:1px solid var(--line2);min-width:0}
+.item a{font-size:14px;font-weight:500;overflow-wrap:anywhere}.item span{font-size:12px;color:var(--muted)}
+.hn{display:grid;grid-template-columns:52px minmax(0,1fr);gap:10px;border-top:1px solid var(--line2)}
+.hn .pts{color:var(--accent);font-size:13px;text-align:right;padding-top:12px}.hn .item{border:0}
+.warn{font-size:13px;color:var(--down);background:#fff4ed;border-radius:6px;padding:8px 10px}
+.secthead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px}
+svg{display:block}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div><h1>개발 트렌드 대시보드</h1><p class="muted" id="updated">불러오는 중…</p></div>
+<nav aria-label="섹션 이동"><a href="#repos">레포</a><a href="#keywords">키워드</a><a href="#hn">HN</a><a href="#arxiv">arXiv</a></nav>
+</header>
+<div class="tiles" id="tiles"></div>
+<div class="row" id="repos">
+<section class="card grow stack"><h2>상위 5개 레포 별 증가 추이 (14일)</h2><div id="chart"></div><div class="legend" id="legend"></div></section>
+<div class="side">
+<section class="card stack" id="entered"><h2>새로 진입</h2></section>
+<section class="card stack" id="dropped"><h2>순위에서 빠짐</h2></section>
+</div>
+</div>
+<section class="card tbl" id="table"></section>
+<section class="card stack" id="keywords"><div class="secthead"><h2>뜨는 키워드</h2><span class="muted" style="font-size:12px">HN 제목 + 레포 설명 + arXiv 제목 · 오늘 vs 7일 평균</span></div></section>
+<div class="row">
+<section class="card half" id="hn"><h2>Hacker News 오늘의 인기 글</h2></section>
+<section class="card half" id="arxiv"><h2>arXiv 최신 논문</h2></section>
+</div>
+</div>
+<script>
+// 외부 데이터는 전부 textContent/속성으로만 넣는다 (innerHTML 금지).
+const SVG = "http://www.w3.org/2000/svg";
+const COLORS = ["#1d4ed8", "#c2410c", "#0f766e", "#7c3aed", "#a16207"];
+const $ = (id) => document.getElementById(id);
+const fmt = (n) => Number(n).toLocaleString("en-US");
+
+function el(tag, attrs, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (k === "class") e.className = v; else if (k === "style") e.style.cssText = v; else e.setAttribute(k, v);
+  }
+  for (const k of kids) if (k != null) e.append(k instanceof Node ? k : String(k));
+  return e;
+}
+function svgEl(tag, attrs) {
+  const e = document.createElementNS(SVG, tag);
+  for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v);
+  return e;
+}
+function safeUrl(u) { return /^https?:\/\//i.test(u || "") ? u : "#"; }
+function link(href, text, attrs) { return el("a", { href: safeUrl(href), rel: "noopener", ...(attrs || {}) }, text); }
+
+// null 에서 끊긴 선. values 길이 = 칸 수.
+function lines(svg, values, w, h, max, color, width) {
+  const n = values.length, x = (i) => (n === 1 ? w / 2 : (i * w) / (n - 1)), y = (v) => h - (v / max) * h;
+  let run = [];
+  const flush = () => {
+    if (run.length === 1) svg.append(svgEl("circle", { cx: run[0][0], cy: run[0][1], r: width, fill: color }));
+    else if (run.length > 1) svg.append(svgEl("polyline", { points: run.map((p) => p.join(",")).join(" "), fill: "none", stroke: color, "stroke-width": width, "stroke-linejoin": "round", "stroke-linecap": "round" }));
+    run = [];
+  };
+  values.forEach((v, i) => (v == null ? flush() : run.push([x(i).toFixed(1), y(v).toFixed(1)])));
+  flush();
+}
+const maxOf = (arrs) => Math.max(1, ...arrs.flat().filter((v) => v != null));
+
+function staleNote(src) {
+  return src && src.stale_days > 0 ? el("div", { class: "warn" }, `오늘 수집 실패 · ${src.stale_days}일 전 데이터`) : null;
+}
+function failNote() { return el("div", { class: "warn" }, "수집 실패"); }
+
+function moveCell(r) {
+  if (r.is_new) return el("td", { class: "mono", style: "color:var(--new);font-size:12px" }, "NEW");
+  if (r.move > 0) return el("td", { class: "mono", style: "color:var(--up);font-size:12px" }, `▲ ${r.move}`);
+  if (r.move < 0) return el("td", { class: "mono", style: "color:var(--down);font-size:12px" }, `▼ ${-r.move}`);
+  return el("td", { class: "mono muted", style: "font-size:12px" }, "–");
+}
+
+function renderTiles(h) {
+  const g = h.github, hn = h.hn, k = h.keywords;
+  const top = g.repos && g.repos.find((r) => r.name === g.top5[0]);
+  const best = hn.items ? hn.items.reduce((a, b) => (b.points > a.points ? b : a)) : null;
+  const tiles = [
+    ["레포 1위 7일 증가", top ? `+${fmt(top.stars_week)}` : "–", top ? top.name : "수집 실패"],
+    ["새로 진입 레포", g.entered ? g.entered.length : "–", "어제 대비"],
+    ["HN 최고 점수", best ? fmt(best.points) : "–", best ? "오늘 인기 글 1위" : "수집 실패"],
+    ["가장 뜨는 키워드", k.ready && k.items.length ? k.items[0].word : "–",
+      k.ready ? (k.items.length ? `7일 평균 대비 +${k.items[0].change_pct}%` : "눈에 띄는 변화 없음") : "데이터 쌓는 중"],
+  ];
+  $("tiles").append(...tiles.map(([l, v, s]) => el("div", { class: "card tile" }, el("span", { class: "l" }, l), el("span", { class: "v mono" }, v), el("span", { class: "s" }, s))));
+}
+
+function renderRepos(h) {
+  const g = h.github;
+  if (g.error) { ["chart", "entered", "dropped", "table"].forEach((id) => $(id).append(failNote())); return; }
+  const note = staleNote(g); if (note) $("chart").before(note);
+  const top = g.top5.map((n) => g.repos.find((r) => r.name === n));
+  const svg = svgEl("svg", { viewBox: "-8 -8 656 236", role: "img", "aria-label": "상위 5개 레포의 14일간 누적 별 증가 선 그래프", style: "width:100%;height:auto" });
+  for (let i = 0; i <= 4; i++) svg.append(svgEl("line", { x1: 0, x2: 640, y1: i * 55, y2: i * 55, stroke: "#efefeb" }));
+  const max = maxOf(top.map((r) => r.spark));
+  top.forEach((r, i) => lines(svg, r.spark, 640, 220, max, COLORS[i], 2.5));
+  $("chart").append(svg);
+  $("legend").append(...top.map((r, i) => el("span", {}, el("i", { style: `background:${COLORS[i]}` }), r.name)));
+  if (h.dates14.length < 2) $("legend").append(el("span", {}, "데이터가 쌓이면 선이 그려짐"));
+
+  const kv = (list, cls, label) => list.length ? list.map((e) => el("div", { class: "kv" }, link(`https://github.com/${e.name}`, e.name), el("span", { class: "mono", style: cls }, label(e))))
+    : [el("div", { class: "muted", style: "font-size:14px" }, "없음")];
+  $("entered").append(...kv(g.entered, "color:var(--new)", (e) => `NEW #${e.rank}`));
+  $("dropped").append(...kv(g.dropped, "color:var(--muted)", (e) => `어제 #${e.rank}`));
+
+  const head = el("tr", {}, ...["순위", "변동", "레포", "언어", "14일 추이", "7일 증가"].map((t) => el("th", {}, t)));
+  const rows = g.repos.map((r) => {
+    const sp = svgEl("svg", { width: 96, height: 28, viewBox: "-2 -2 100 32", "aria-hidden": "true" });
+    lines(sp, r.spark, 96, 28, maxOf([r.spark]), "#c2410c", 1.8);
+    return el("tr", {},
+      el("td", { class: "mono muted" }, r.rank), moveCell(r),
+      el("td", { class: "repo" }, link(`https://github.com/${r.name}`, r.name), r.desc ? el("div", {}, r.desc) : null),
+      el("td", { class: "muted", style: "white-space:nowrap" }, r.lang || "–"),
+      el("td", {}, sp), el("td", { class: "mono gain" }, `+${fmt(r.stars_week)}`));
+  });
+  $("table").append(el("table", {}, el("thead", {}, head), el("tbody", {}, ...rows)));
+}
+
+function renderKeywords(k) {
+  const box = $("keywords");
+  if (!k.ready) { box.append(el("div", { class: "muted", style: "font-size:14px" }, "데이터 쌓는 중 (7일 필요)")); return; }
+  if (!k.items.length) { box.append(el("div", { class: "muted", style: "font-size:14px" }, "눈에 띄는 변화 없음")); return; }
+  const max = Math.max(...k.items.map((x) => x.change_pct), 1);
+  box.append(el("div", { class: "kw" }, ...k.items.map((x) => el("div", { class: "kwrow" },
+    el("span", { style: "font-weight:500;overflow-wrap:anywhere" }, x.word),
+    el("div", { class: "bar", title: `오늘 ${x.today}회 · 7일 평균 ${x.avg}회` }, el("i", { style: `width:${Math.max(4, (x.change_pct / max) * 100)}%` })),
+    el("span", { class: "mono", style: "font-size:13px;text-align:right;color:var(--down)" }, `${x.change_pct >= 0 ? "+" : ""}${x.change_pct}%`)))));
+}
+
+function renderHN(src) {
+  const box = $("hn");
+  if (src.error) { box.append(failNote()); return; }
+  const note = staleNote(src); if (note) box.append(note);
+  box.append(...src.items.map((i) => el("div", { class: "hn" },
+    el("span", { class: "mono pts" }, fmt(i.points)),
+    el("div", { class: "item" }, link(i.url, i.title),
+      el("span", {}, `${i.domain} · `, link(i.hn_url, `댓글 ${fmt(i.comments)}`, { style: "font-size:12px;font-weight:400;color:var(--muted)" }))))));
+}
+
+function renderArxiv(src) {
+  const box = $("arxiv");
+  if (src.error) { box.append(failNote()); return; }
+  const note = staleNote(src); if (note) box.append(note);
+  box.append(...src.papers.map((p) => el("div", { class: "item" }, link(p.url, p.title),
+    el("span", {}, `${p.first_author}${p.n_authors > 1 ? ` 외 ${p.n_authors - 1}명` : ""} · ${p.cat}`))));
+}
+
+fetch("history.json", { cache: "no-store" })
+  .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then((h) => {
+    $("updated").textContent = `GitHub Trending · Hacker News · arXiv · 갱신 ${h.updated}`;
+    renderTiles(h); renderRepos(h); renderKeywords(h.keywords); renderHN(h.hn); renderArxiv(h.arxiv);
+  })
+  .catch((e) => { $("updated").textContent = `데이터를 불러오지 못함 (${e.message})`; });
+</script>
+</body>
+</html>
