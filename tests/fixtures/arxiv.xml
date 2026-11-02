@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sLG0txIUz7g/GKW7ibPhDY0NNSQ</id>
+  <title>arXiv Query: search_query=cat:cs.AI&amp;id_list=&amp;start=0&amp;max_results=2</title>
+  <updated>2026-11-02T11:18:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=cat:cs.AI&amp;start=0&amp;max_results=2&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>2</opensearch:itemsPerPage>
+  <opensearch:totalResults>210274</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2610.42147v1</id>
+    <title>Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention</title>
+    <updated>2026-10-30T17:59:34Z</updated>
+    <link href="https://arxiv.org/abs/2610.42147v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.42147v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agentic workflows are increasingly shifting towards long-horizon tasks, such as open-ended scientific work, where models benefit from long context windows. However, at ultra-long context (above 1M tokens), full attention is prohibitively expensive. A promising approach is sparse attention, in which a dedicated indexer selects a subset of keys for the attention. Yet current methods of indexing either still have quadratic cost in context size or lose accuracy at ultra-long context scale. We address this with Latent Sparse Attention (LSA), an efficient attention method that maintains accuracy at ultra-long context. In LSA, keys are hierarchically clustered in a learned latent space, and queries score the hierarchy of clusters instead of scoring every key, making prefill, decode and training faster at long context. We propose two variants, Distilled-LSA (D-LSA), which can be applied to pre-trained models via distillation, and Native-LSA (N-LSA), which is trained natively on the next-token loss alone. On GLM-5.3-FLASH (QWEN-3.8-27B) at 10M tokens, D-LSA speeds up one attention layer by 22.7x (72.4x) in prefill and 4.6x (42.5x) in decode over its original sparse attention (full attention), while keeping similar accuracy across a variety of tasks. N-LSA matches the accuracy of full attention with a training speedup of 1.6x per layer at 128k tokens. LSA offers practical and efficient attention for models to benefit from ultra-long context.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-30T17:59:34Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ales Kubicek</name>
+    </author>
+    <author>
+      <name>Andrea Caciolai</name>
+    </author>
+    <author>
+      <name>Liangzu Peng</name>
+    </author>
+    <author>
+      <name>Sukrit Sumant</name>
+    </author>
+    <author>
+      <name>Benjamin Hoover</name>
+    </author>
+    <author>
+      <name>Fraser Greenlee</name>
+    </author>
+    <author>
+      <name>Ruairidh M. Battleday</name>
+    </author>
+    <author>
+      <name>Radim Urban</name>
+    </author>
+    <author>
+      <name>Torsten Hoefler</name>
+    </author>
+    <author>
+      <name>James C. R. Whittington</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.42146v1</id>
+    <title>Hierarchical World Models with Implicit Dynamics</title>
+    <updated>2026-10-30T17:59:25Z</updated>
+    <link href="https://arxiv.org/abs/2610.42146v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.42146v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative errors and search complexity. Existing hierarchical methods often use rigid macro-actions or latent skills, leading to brittle representations and limited fine-grained control. We introduce ID-WM (Implicit Dynamics World Models), a hierarchical world model that decouples state-space reachability from local control. Our framework utilizes a high-level model to sample feasible transitions across the state manifold and a low-level world model as an inverse dynamics solver to ground these transitions into precise actions. This allows the planner to identify reachable subgoals without being constrained by low-level execution details. By prioritizing local physical feasibility over global behavioral patterns, ID-WM synthesizes novel long-horizon plans from short segments, transcending the specific behavioral modes seen during training. We demonstrate its effectiveness across three navigation and manipulation suites, achieving a 38.5% improvement over state-of-the-art policy and diffusion-based planners. Crucially, by leveraging this hierarchical structure to mitigate compounding errors, our approach yields a 135% performance gain over single-level world model MPC, particularly in complex, unseen configurations for long-horizon tasks. Videos can be viewed at https://id-wm.github.io</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-30T17:59:25Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Gaoyue Zhou</name>
+    </author>
+    <author>
+      <name>Yvonne Wu</name>
+    </author>
+    <author>
+      <name>Zichen Jeff Cui</name>
+    </author>
+    <author>
+      <name>Nicolas Ballas</name>
+    </author>
+    <author>
+      <name>Mido Assran</name>
+    </author>
+    <author>
+      <name>Lerrel Pinto</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+</feed>
