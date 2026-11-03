@@ -128,10 +128,11 @@ function renderTiles(h) {
   const g = h.github, hn = h.hn, k = h.keywords;
   const top = g.repos && g.repos.find((r) => r.name === g.top5[0]);
   const best = hn.items ? hn.items.reduce((a, b) => (b.points > a.points ? b : a)) : null;
+  const ago = (src) => (src.stale_days > 0 ? ` · ${src.stale_days}일 전 데이터` : "");
   const tiles = [
-    ["레포 1위 7일 증가", top ? `+${fmt(top.stars_week)}` : "–", top ? top.name : "수집 실패"],
-    ["새로 진입 레포", g.entered ? g.entered.length : "–", "어제 대비"],
-    ["HN 최고 점수", best ? fmt(best.points) : "–", best ? "오늘 인기 글 1위" : "수집 실패"],
+    ["레포 1위 7일 증가", top ? `+${fmt(top.stars_week)}` : "–", top ? top.name + ago(g) : "수집 실패"],
+    ["새로 진입 레포", g.entered ? g.entered.length : "–", "어제 대비" + ago(g)],
+    ["HN 최고 점수", best ? fmt(best.points) : "–", best ? (hn.stale_days > 0 ? `${hn.stale_days}일 전 인기 글 1위` : "오늘 인기 글 1위") : "수집 실패"],
     ["가장 뜨는 키워드", k.ready && k.items.length ? k.items[0].word : "–",
       k.ready ? (k.items.length ? `7일 평균 대비 +${k.items[0].change_pct}%` : "눈에 띄는 변화 없음") : "데이터 쌓는 중"],
   ];

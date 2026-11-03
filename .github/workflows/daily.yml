@@ -2,7 +2,7 @@ name: daily
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # 09:00 KST
+    - cron: "17 23 * * *"   # 08:17 KST (정각은 GitHub 혼잡으로 지연이 커서 피함)
   workflow_dispatch:
   push:
     branches: [main]

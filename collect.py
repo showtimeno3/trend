@@ -104,10 +104,22 @@ def fetch_github() -> list[dict]:
     return parse_trending(_get("https://github.com/trending?since=weekly"))
 
 
-def fetch_hn() -> list[dict]:
+def fetch_hn(get=None) -> list[dict]:
+    get = get or _get
     base = "https://hacker-news.firebaseio.com/v0/"
-    ids = json.loads(_get(base + "topstories.json"))[:HN_COUNT]
-    return [hn_item(json.loads(_get(f"{base}item/{i}.json"))) for i in ids]
+    items = []
+    # 글 하나 실패(삭제·타임아웃)는 건너뛰고 다음 글로 채운다
+    for i in json.loads(get(base + "topstories.json"))[:HN_COUNT * 2]:
+        try:
+            raw = json.loads(get(f"{base}item/{i}.json"))
+        except Exception as exc:
+            print(f"[hn] item {i} 건너뜀: {exc!r}", file=sys.stderr)
+            continue
+        if raw:
+            items.append(hn_item(raw))
+        if len(items) == HN_COUNT:
+            break
+    return items
 
 
 def fetch_arxiv() -> list[dict]:

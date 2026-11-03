@@ -14,7 +14,7 @@ python -m unittest -v                   # 테스트
 
 ## 자동화
 
-`.github/workflows/daily.yml` 이 매일 09:00 KST 에 수집 → `data/` 커밋 → 빌드 → GitHub Pages 배포를 한다.
+`.github/workflows/daily.yml` 이 매일 08:17 KST 에 (GitHub 사정으로 늦어질 수 있음) 수집 → `data/` 커밋 → 빌드 → GitHub Pages 배포를 한다.
 Actions 탭에서 수동 실행(workflow_dispatch)도 된다. 코드만 push 하면 수집 없이 재배포만 한다.
 
 처음 한 번: 레포 Settings › Pages › Source 를 **GitHub Actions** 로 설정.

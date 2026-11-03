@@ -1,7 +1,7 @@
 import unittest
 from pathlib import Path
 
-from collect import hn_item, parse_arxiv, parse_trending, run_source
+from collect import fetch_hn, hn_item, parse_arxiv, parse_trending, run_source
 
 FIX = Path(__file__).parent / "fixtures"
 
@@ -26,6 +26,18 @@ class SourcesTest(unittest.TestCase):
         it = hn_item({"id": 2, "title": "t", "url": "https://www.example.com/a", "score": 1})
         self.assertEqual(it["domain"], "example.com")
         self.assertEqual(it["comments"], 0)
+
+    def test_hn_skips_bad_items(self):
+        def fake_get(url):
+            if url.endswith("topstories.json"):
+                return "[1, 2, 3, 4]"
+            if "/2.json" in url:
+                return "null"                      # 삭제된 글
+            if "/3.json" in url:
+                raise TimeoutError("timeout")
+            return '{"id": %s, "title": "t", "score": 1}' % url.rsplit("/", 1)[1][:-5]
+        items = fetch_hn(fake_get)
+        self.assertEqual([i["hn_url"][-1] for i in items], ["1", "4"])
 
     def test_run_source_isolates_errors(self):
         self.assertEqual(run_source("repos", lambda: [1]), {"repos": [1]})
