@@ -7,286 +7,286 @@
     "name": "Nutlope/hallmark",
     "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
     "lang": "CSS",
-    "stars": 45671,
-    "stars_week": 11566
+    "stars": 46153,
+    "stars_week": 10517
    },
    {
     "rank": 2,
     "name": "thedotmack/claude-mem",
     "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
     "lang": "TypeScript",
-    "stars": 110384,
-    "stars_week": 5852
+    "stars": 110943,
+    "stars_week": 7255
    },
    {
     "rank": 3,
     "name": "pbakaus/impeccable",
     "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
     "lang": "Rust",
-    "stars": 100155,
-    "stars_week": 12017
+    "stars": 100663,
+    "stars_week": 11754
    },
    {
     "rank": 4,
     "name": "AgriciDaniel/claude-seo",
     "desc": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
     "lang": "Python",
-    "stars": 25868,
-    "stars_week": 5034
+    "stars": 26043,
+    "stars_week": 4091
    },
    {
     "rank": 5,
     "name": "obra/superpowers",
     "desc": "An agentic skills framework & software development methodology that works.",
     "lang": "Shell",
-    "stars": 311038,
-    "stars_week": 5896
+    "stars": 311336,
+    "stars_week": 5956
    },
    {
     "rank": 6,
     "name": "pingdotgg/t3code",
     "desc": "",
     "lang": "TypeScript",
-    "stars": 40581,
-    "stars_week": 6926
+    "stars": 42332,
+    "stars_week": 9770
    },
    {
     "rank": 7,
     "name": "JetBrains/thinkrail",
     "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
     "lang": "TypeScript",
-    "stars": 7124,
-    "stars_week": 5760
+    "stars": 7219,
+    "stars_week": 4812
    },
    {
     "rank": 8,
     "name": "cloudflare/security-audit-skill",
     "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
     "lang": "JavaScript",
-    "stars": 57063,
-    "stars_week": 10069
+    "stars": 57531,
+    "stars_week": 9155
    },
    {
     "rank": 9,
     "name": "jakubkrehel/skills",
     "desc": "A collection of agent skills that help you build great interfaces.",
     "lang": "Markdown",
-    "stars": 10281,
-    "stars_week": 1607
+    "stars": 10405,
+    "stars_week": 1707
    },
    {
     "rank": 10,
     "name": "multica-ai/andrej-karpathy-skills",
     "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
     "lang": "",
-    "stars": 228389,
-    "stars_week": 4459
+    "stars": 228627,
+    "stars_week": 4397
    },
    {
     "rank": 11,
     "name": "anthropics/skills",
     "desc": "Public repository for Agent Skills",
     "lang": "Python",
-    "stars": 186649,
-    "stars_week": 2600
+    "stars": 186829,
+    "stars_week": 2828
    },
    {
     "rank": 12,
     "name": "Leonxlnx/taste-skill",
     "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
     "lang": "JavaScript",
-    "stars": 108434,
-    "stars_week": 5336
+    "stars": 108890,
+    "stars_week": 5729
    },
    {
     "rank": 13,
     "name": "TauricResearch/TradingAgents",
     "desc": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
     "lang": "Python",
-    "stars": 119844,
-    "stars_week": 5432
+    "stars": 120029,
+    "stars_week": 4603
    },
    {
     "rank": 14,
     "name": "ghostty-org/ghostty",
     "desc": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
     "lang": "Zig",
-    "stars": 63267,
-    "stars_week": 589
+    "stars": 63333,
+    "stars_week": 687
    },
    {
     "rank": 15,
     "name": "affaan-m/ECC",
     "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "lang": "JavaScript",
-    "stars": 295305,
-    "stars_week": 6299
+    "stars": 295783,
+    "stars_week": 6201
    },
    {
     "rank": 16,
     "name": "heygen-com/hyperframes",
     "desc": "Write HTML. Render video. Built for agents.",
     "lang": "TypeScript",
-    "stars": 77523,
-    "stars_week": 5153
+    "stars": 77838,
+    "stars_week": 4924
    }
   ]
  },
  "hn": {
   "items": [
    {
-    "title": "WTF Ubuntu?",
-    "url": "https://chalmovsky.com/posts/wtf-ubuntu",
-    "domain": "chalmovsky.com",
-    "points": 307,
-    "comments": 118,
-    "hn_url": "https://news.ycombinator.com/item?id=50337608"
+    "title": "Median net worth of U.S. households under 35 fell 23% from 2022 to 2025 (real)",
+    "url": "https://www.keepingup.com/benchmarks/net-worth/age-30-33",
+    "domain": "keepingup.com",
+    "points": 147,
+    "comments": 59,
+    "hn_url": "https://news.ycombinator.com/item?id=50347683"
    },
    {
-    "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
-    "url": "https://hackerbooks.org",
-    "domain": "hackerbooks.org",
-    "points": 1723,
-    "comments": 282,
-    "hn_url": "https://news.ycombinator.com/item?id=50326821"
+    "title": "Astra can read and write weights to improve Qwen",
+    "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+    "domain": "rikiyat.github.io",
+    "points": 2179,
+    "comments": 707,
+    "hn_url": "https://news.ycombinator.com/item?id=50341174"
    },
    {
-    "title": "Postgres 19 is late because so many more bugs are being found now",
-    "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
-    "domain": "rhaas.blogspot.com",
-    "points": 695,
-    "comments": 424,
-    "hn_url": "https://news.ycombinator.com/item?id=50312408"
+    "title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+    "url": "https://hackertimes.ca/",
+    "domain": "hackertimes.ca",
+    "points": 99,
+    "comments": 40,
+    "hn_url": "https://news.ycombinator.com/item?id=50346981"
    },
    {
-    "title": "Anthropic releases amended IPO prospectus with third-quarter financials",
-    "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
-    "domain": "cnbc.com",
-    "points": 56,
-    "comments": 15,
-    "hn_url": "https://news.ycombinator.com/item?id=50337439"
+    "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+    "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+    "domain": "github.com",
+    "points": 87,
+    "comments": 22,
+    "hn_url": "https://news.ycombinator.com/item?id=50346849"
    },
    {
-    "title": "Why are Soviet math textbooks so hardcore in comparison to US textbooks? (2017)",
-    "url": "https://www.quora.com/Why-are-Soviet-mathematics-physics-textbooks-so-insanely-hardcore-in-comparison-to-US-textbooks/answer/Scott-Miller-307?share=1",
-    "domain": "quora.com",
-    "points": 31,
-    "comments": 27,
-    "hn_url": "https://news.ycombinator.com/item?id=50337725"
-   },
-   {
-    "title": "Show HN: I've updated my Linux System Call website and API",
-    "url": "https://syscall.sh/",
-    "domain": "syscall.sh",
-    "points": 131,
-    "comments": 41,
-    "hn_url": "https://news.ycombinator.com/item?id=50334704"
-   },
-   {
-    "title": "HackerTube: YouTube built from videos recommended by HN",
-    "url": "https://karpathy.bearblog.dev/hacker-tube/",
-    "domain": "karpathy.bearblog.dev",
-    "points": 2747,
-    "comments": 605,
-    "hn_url": "https://news.ycombinator.com/item?id=50319510"
-   },
-   {
-    "title": "Bones may release proteins that slow aging and extend life span",
-    "url": "https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span",
-    "domain": "science.org",
-    "points": 227,
-    "comments": 80,
-    "hn_url": "https://news.ycombinator.com/item?id=50331957"
-   },
-   {
-    "title": "Napping Characteristics and Incident Dementia",
-    "url": "https://academic.oup.com/biomedgerontology/article/81/10/glag208/8769491?login=false",
-    "domain": "academic.oup.com",
-    "points": 3,
-    "comments": 0,
-    "hn_url": "https://news.ycombinator.com/item?id=50337635"
-   },
-   {
-    "title": "Ask HN: Which TV do you recommend for privacy?",
-    "url": "https://news.ycombinator.com/item?id=50328896",
+    "title": "Show HN: Subvocal – Talk to your computer without making noise",
+    "url": "https://news.ycombinator.com/item?id=50340088",
     "domain": "news.ycombinator.com",
-    "points": 570,
-    "comments": 684,
-    "hn_url": "https://news.ycombinator.com/item?id=50328896"
+    "points": 604,
+    "comments": 319,
+    "hn_url": "https://news.ycombinator.com/item?id=50340088"
+   },
+   {
+    "title": "Scaling Git at OpenAI",
+    "url": "https://openai.com/index/scaling-git-at-openai/",
+    "domain": "openai.com",
+    "points": 100,
+    "comments": 36,
+    "hn_url": "https://news.ycombinator.com/item?id=50345924"
+   },
+   {
+    "title": "US boy names that became girl names and vice versa",
+    "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
+    "domain": "namedaisy.com",
+    "points": 333,
+    "comments": 331,
+    "hn_url": "https://news.ycombinator.com/item?id=50339397"
+   },
+   {
+    "title": "Open-Source 5G Ran Platforms: A Dual Perspective on Performance and Capabilities",
+    "url": "https://arxiv.org/abs/2608.25820",
+    "domain": "arxiv.org",
+    "points": 11,
+    "comments": 0,
+    "hn_url": "https://news.ycombinator.com/item?id=50347464"
+   },
+   {
+    "title": "If you love a website, back it up",
+    "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+    "domain": "blog.mistys-internet.website",
+    "points": 450,
+    "comments": 100,
+    "hn_url": "https://news.ycombinator.com/item?id=50336518"
+   },
+   {
+    "title": "Resisting Cognitive Surrender",
+    "url": "https://knlb.dev/essays/surrender",
+    "domain": "knlb.dev",
+    "points": 37,
+    "comments": 8,
+    "hn_url": "https://news.ycombinator.com/item?id=50323123"
    }
   ]
  },
  "arxiv": {
   "papers": [
    {
-    "title": "Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention",
-    "first_author": "Ales Kubicek",
-    "n_authors": 10,
-    "cat": "cs.AI",
-    "url": "https://arxiv.org/abs/2610.42147v1"
-   },
-   {
-    "title": "Hierarchical World Models with Implicit Dynamics",
-    "first_author": "Gaoyue Zhou",
-    "n_authors": 7,
-    "cat": "cs.RO",
-    "url": "https://arxiv.org/abs/2610.42146v1"
-   },
-   {
-    "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
-    "first_author": "Shengguang Wu",
-    "n_authors": 6,
-    "cat": "cs.RO",
-    "url": "https://arxiv.org/abs/2610.42141v1"
-   },
-   {
-    "title": "ACCT: Asymmetric Cross-LLM Context Transfer",
-    "first_author": "Yuzhe Liu",
+    "title": "Character-Name Concentration in LLM Fiction: Measuring Displacement and Mitigating Repetition",
+    "first_author": "Alejandro Mozo Quesada",
     "n_authors": 3,
-    "cat": "cs.AI",
-    "url": "https://arxiv.org/abs/2610.42116v1"
+    "cat": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.01284v1"
    },
    {
-    "title": "Subquadratic Attention with a Hierarchical Tree-Structured Indexer",
-    "first_author": "Leon Lufkin",
+    "title": "OntoDoc: Automatically Generating Ontology Resource Descriptions",
+    "first_author": "Juan Guajardo Gutierrez",
+    "n_authors": 4,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.01276v1"
+   },
+   {
+    "title": "Toward Bounding Coding-Agent Autonomy in Software Maintenance: A Pilot Study of Boundary Contracts",
+    "first_author": "Heeyong Eun",
+    "n_authors": 6,
+    "cat": "cs.SE",
+    "url": "https://arxiv.org/abs/2611.01265v1"
+   },
+   {
+    "title": "LoRAForge: Co-Designing Post-Hoc Compression and Execution for Efficient Multi-LoRA Serving",
+    "first_author": "Shenghui Li",
+    "n_authors": 2,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.01256v1"
+   },
+   {
+    "title": "Mathematical Formulation and Comparative Performance Evaluation of Machine Learning Algorithms for Maize Land Suitability Prediction",
+    "first_author": "Haimanot Bitew",
+    "n_authors": 4,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.01239v1"
+   },
+   {
+    "title": "How Much Can Approximate Equilibria Change the Social Cost of Selfish Routing?",
+    "first_author": "Yu Cheng",
+    "n_authors": 2,
+    "cat": "cs.GT",
+    "url": "https://arxiv.org/abs/2611.01234v1"
+   },
+   {
+    "title": "STLT: A Novel System for Energy-Aware Distributed Inference in the Edge-Cloud-Space Continuum",
+    "first_author": "Andrija Stanisic",
+    "n_authors": 4,
+    "cat": "cs.DC",
+    "url": "https://arxiv.org/abs/2611.01233v1"
+   },
+   {
+    "title": "Vision-Language Models Are Joint Denoisers in Robotic Action Generation",
+    "first_author": "Xicheng Gong",
+    "n_authors": 8,
+    "cat": "cs.RO",
+    "url": "https://arxiv.org/abs/2611.01215v1"
+   },
+   {
+    "title": "ArSciKids: Arabic Curriculum-Aligned Datasets for Scientific Experiment and Multiple-Choice Question Generation in Primary Education",
+    "first_author": "Taghrid Housari",
     "n_authors": 6,
     "cat": "cs.CL",
-    "url": "https://arxiv.org/abs/2610.42112v1"
+    "url": "https://arxiv.org/abs/2611.01191v1"
    },
    {
-    "title": "CausalWAM: Learning the Causes of Actions in World Action Models",
-    "first_author": "Juntao Cheng",
-    "n_authors": 5,
-    "cat": "cs.AI",
-    "url": "https://arxiv.org/abs/2610.42096v1"
-   },
-   {
-    "title": "The Knowledge Layer Model (KLM): Evidence-Visible AI Output, Routing Diagnostics, and Negative Results",
-    "first_author": "Omer Asim Ozturk",
-    "n_authors": 2,
-    "cat": "cs.AI",
-    "url": "https://arxiv.org/abs/2610.42066v1"
-   },
-   {
-    "title": "CRoS: Causality Reward on Scrambled CoTs Improves Accuracy and Reasoning Faithfulness",
-    "first_author": "Xiao Yu",
-    "n_authors": 5,
-    "cat": "cs.CL",
-    "url": "https://arxiv.org/abs/2610.42054v1"
-   },
-   {
-    "title": "Near-Optimal Second-Order Convex Finite-Sum Optimization under Individual Smoothness",
-    "first_author": "Xinliang Zhang",
-    "n_authors": 4,
-    "cat": "math.OC",
-    "url": "https://arxiv.org/abs/2610.42040v1"
-   },
-   {
-    "title": "Same Question, Different Answers: Auditing Persona-Dependent Variation in Six LLMs on Smoking-Cessation Advice",
-    "first_author": "Artin Yousefi",
-    "n_authors": 4,
-    "cat": "cs.AI",
-    "url": "https://arxiv.org/abs/2610.42039v1"
+    "title": "Satisfied, Not Solving: Wireheading of Bounded Homeostatic Rewards in Reinforcement Learning",
+    "first_author": "Chase J. Metoyer",
+    "n_authors": 1,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.01183v1"
    }
   ]
  }
