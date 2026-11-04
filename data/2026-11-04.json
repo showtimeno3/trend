@@ -1,0 +1,293 @@
+{
+ "date": "2026-11-04",
+ "github": {
+  "repos": [
+   {
+    "rank": 1,
+    "name": "Nutlope/hallmark",
+    "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "lang": "CSS",
+    "stars": 47069,
+    "stars_week": 8765
+   },
+   {
+    "rank": 2,
+    "name": "thedotmack/claude-mem",
+    "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+    "lang": "TypeScript",
+    "stars": 112027,
+    "stars_week": 7995
+   },
+   {
+    "rank": 3,
+    "name": "pingdotgg/t3code",
+    "desc": "",
+    "lang": "TypeScript",
+    "stars": 44614,
+    "stars_week": 12542
+   },
+   {
+    "rank": 4,
+    "name": "obra/superpowers",
+    "desc": "An agentic skills framework & software development methodology that works.",
+    "lang": "Shell",
+    "stars": 311921,
+    "stars_week": 5994
+   },
+   {
+    "rank": 5,
+    "name": "pbakaus/impeccable",
+    "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+    "lang": "Rust",
+    "stars": 101641,
+    "stars_week": 11405
+   },
+   {
+    "rank": 6,
+    "name": "AgriciDaniel/claude-seo",
+    "desc": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+    "lang": "Python",
+    "stars": 26364,
+    "stars_week": 3751
+   },
+   {
+    "rank": 7,
+    "name": "JetBrains/thinkrail",
+    "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+    "lang": "TypeScript",
+    "stars": 7452,
+    "stars_week": 3898
+   },
+   {
+    "rank": 8,
+    "name": "anthropics/skills",
+    "desc": "Public repository for Agent Skills",
+    "lang": "Python",
+    "stars": 187148,
+    "stars_week": 2969
+   },
+   {
+    "rank": 9,
+    "name": "jakubkrehel/skills",
+    "desc": "A collection of agent skills that help you build great interfaces.",
+    "lang": "Markdown",
+    "stars": 10634,
+    "stars_week": 1761
+   },
+   {
+    "rank": 10,
+    "name": "multica-ai/andrej-karpathy-skills",
+    "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "lang": "",
+    "stars": 229142,
+    "stars_week": 3921
+   },
+   {
+    "rank": 11,
+    "name": "ghostty-org/ghostty",
+    "desc": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+    "lang": "Zig",
+    "stars": 63452,
+    "stars_week": 771
+   },
+   {
+    "rank": 12,
+    "name": "cloudflare/security-audit-skill",
+    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "lang": "JavaScript",
+    "stars": 58276,
+    "stars_week": 8598
+   },
+   {
+    "rank": 13,
+    "name": "hyprwm/Hyprland",
+    "desc": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+    "lang": "C++",
+    "stars": 40236,
+    "stars_week": 1232
+   },
+   {
+    "rank": 14,
+    "name": "TauricResearch/TradingAgents",
+    "desc": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+    "lang": "Python",
+    "stars": 120387,
+    "stars_week": 3336
+   },
+   {
+    "rank": 15,
+    "name": "max-sixty/worktrunk",
+    "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+    "lang": "Rust",
+    "stars": 10562,
+    "stars_week": 749
+   },
+   {
+    "rank": 16,
+    "name": "affaan-m/ECC",
+    "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "lang": "JavaScript",
+    "stars": 296602,
+    "stars_week": 6053
+   }
+  ]
+ },
+ "hn": {
+  "items": [
+   {
+    "title": "The Internals of PostgreSQL",
+    "url": "https://www.interdb.jp/pg/index.html",
+    "domain": "interdb.jp",
+    "points": 142,
+    "comments": 4,
+    "hn_url": "https://news.ycombinator.com/item?id=50358702"
+   },
+   {
+    "title": "Jailbreaking my car's navigation system just so I can change the time",
+    "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+    "domain": "blog.nns.ee",
+    "points": 639,
+    "comments": 268,
+    "hn_url": "https://news.ycombinator.com/item?id=50339288"
+   },
+   {
+    "title": "Stringman, an $800 open-source room scale gripper robot",
+    "url": "https://neufangled.com/",
+    "domain": "neufangled.com",
+    "points": 413,
+    "comments": 151,
+    "hn_url": "https://news.ycombinator.com/item?id=50354358"
+   },
+   {
+    "title": "Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels",
+    "url": "https://hackertv.org",
+    "domain": "hackertv.org",
+    "points": 200,
+    "comments": 40,
+    "hn_url": "https://news.ycombinator.com/item?id=50346755"
+   },
+   {
+    "title": "Giant Canyon on Mars Is Still Tectonically Active Today",
+    "url": "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today",
+    "domain": "lamont.columbia.edu",
+    "points": 13,
+    "comments": 0,
+    "hn_url": "https://news.ycombinator.com/item?id=50360573"
+   },
+   {
+    "title": "Safari introduces Adaptive Dark Mode in 27.3",
+    "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+    "domain": "webkit.org",
+    "points": 317,
+    "comments": 189,
+    "hn_url": "https://news.ycombinator.com/item?id=50358562"
+   },
+   {
+    "title": "Microsoft fixes a Windows 11 annoyance as PC revenue declines",
+    "url": "https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/",
+    "domain": "arstechnica.com",
+    "points": 16,
+    "comments": 31,
+    "hn_url": "https://news.ycombinator.com/item?id=50351463"
+   },
+   {
+    "title": "Japan's Jimi 'Mundane' Halloween Costumes of 2026",
+    "url": "https://spoon-tamago.com/japan-jimi-mundane-halloween-costumes-2026/",
+    "domain": "spoon-tamago.com",
+    "points": 127,
+    "comments": 21,
+    "hn_url": "https://news.ycombinator.com/item?id=50333131"
+   },
+   {
+    "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+    "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+    "domain": "arstechnica.com",
+    "points": 394,
+    "comments": 174,
+    "hn_url": "https://news.ycombinator.com/item?id=50336918"
+   },
+   {
+    "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+    "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+    "domain": "simonwillison.net",
+    "points": 506,
+    "comments": 158,
+    "hn_url": "https://news.ycombinator.com/item?id=50355251"
+   }
+  ]
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "FlowTranslator: Training-Free In-Image Machine Translation with Flow-Based Editing",
+    "first_author": "Zhixian Li",
+    "n_authors": 9,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.04303v1"
+   },
+   {
+    "title": "OSGR: Observation-Support Graph Reasoning for Earth Observation Question Answering",
+    "first_author": "Dazhou Yu",
+    "n_authors": 6,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.04301v1"
+   },
+   {
+    "title": "SEAM: Situated Executable Associative Memory for a Co-located Community",
+    "first_author": "Keru Wang",
+    "n_authors": 5,
+    "cat": "cs.HC",
+    "url": "https://arxiv.org/abs/2611.04296v1"
+   },
+   {
+    "title": "Reciprocity Can Erase Direction:tructural Boundaries and Controlled Utility of Magnetic Graph Networks",
+    "first_author": "Dawei Han",
+    "n_authors": 6,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.04295v1"
+   },
+   {
+    "title": "When Debate Amplifies Risk: Social-Bias Vulnerabilities in Multi-Agent Safety Deliberation",
+    "first_author": "Qinghua Mao",
+    "n_authors": 6,
+    "cat": "cs.CR",
+    "url": "https://arxiv.org/abs/2611.04289v1"
+   },
+   {
+    "title": "Predicting protein structures at any folding stage from sequence",
+    "first_author": "Lisheng Zhang",
+    "n_authors": 10,
+    "cat": "q-bio.BM",
+    "url": "https://arxiv.org/abs/2611.04287v1"
+   },
+   {
+    "title": "Bidirectional Centered Score Matching for Discrete Diffusion Distillation",
+    "first_author": "Peng Tu",
+    "n_authors": 6,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.04279v1"
+   },
+   {
+    "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+    "first_author": "Kangning Zhang",
+    "n_authors": 11,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.04277v1"
+   },
+   {
+    "title": "Reliability Stress Testing of RAG Retrieval under Query-Relevant Corpus Poisoning",
+    "first_author": "Janet Sung",
+    "n_authors": 5,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.04264v1"
+   },
+   {
+    "title": "Neologism Inoculation Prompting",
+    "first_author": "David Demitri Africa",
+    "n_authors": 2,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.04260v1"
+   }
+  ]
+ }
+}
