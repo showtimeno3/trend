@@ -1,0 +1,277 @@
+{
+ "date": "2026-11-05",
+ "github": {
+  "repos": [
+   {
+    "rank": 1,
+    "name": "thedotmack/claude-mem",
+    "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+    "lang": "TypeScript",
+    "stars": 112964,
+    "stars_week": 8822
+   },
+   {
+    "rank": 2,
+    "name": "Nutlope/hallmark",
+    "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "lang": "CSS",
+    "stars": 48053,
+    "stars_week": 7622
+   },
+   {
+    "rank": 3,
+    "name": "pingdotgg/t3code",
+    "desc": "",
+    "lang": "TypeScript",
+    "stars": 46789,
+    "stars_week": 14580
+   },
+   {
+    "rank": 4,
+    "name": "pbakaus/impeccable",
+    "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+    "lang": "Rust",
+    "stars": 102962,
+    "stars_week": 10921
+   },
+   {
+    "rank": 5,
+    "name": "obra/superpowers",
+    "desc": "An agentic skills framework & software development methodology that works.",
+    "lang": "Shell",
+    "stars": 312517,
+    "stars_week": 5565
+   },
+   {
+    "rank": 6,
+    "name": "anthropics/skills",
+    "desc": "Public repository for Agent Skills",
+    "lang": "Python",
+    "stars": 187457,
+    "stars_week": 3003
+   },
+   {
+    "rank": 7,
+    "name": "max-sixty/worktrunk",
+    "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+    "lang": "Rust",
+    "stars": 11107,
+    "stars_week": 1261
+   },
+   {
+    "rank": 8,
+    "name": "jakubkrehel/skills",
+    "desc": "A collection of agent skills that help you build great interfaces.",
+    "lang": "Markdown",
+    "stars": 10837,
+    "stars_week": 1865
+   },
+   {
+    "rank": 9,
+    "name": "JetBrains/thinkrail",
+    "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+    "lang": "TypeScript",
+    "stars": 7634,
+    "stars_week": 3031
+   },
+   {
+    "rank": 10,
+    "name": "ghostty-org/ghostty",
+    "desc": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+    "lang": "Zig",
+    "stars": 63561,
+    "stars_week": 738
+   },
+   {
+    "rank": 11,
+    "name": "multica-ai/andrej-karpathy-skills",
+    "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "lang": "",
+    "stars": 229547,
+    "stars_week": 3808
+   },
+   {
+    "rank": 12,
+    "name": "hyprwm/Hyprland",
+    "desc": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+    "lang": "C++",
+    "stars": 40309,
+    "stars_week": 1325
+   },
+   {
+    "rank": 13,
+    "name": "AgriciDaniel/claude-seo",
+    "desc": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+    "lang": "Python",
+    "stars": 26700,
+    "stars_week": 3531
+   },
+   {
+    "rank": 14,
+    "name": "calesthio/OpenMontage",
+    "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+    "lang": "Python",
+    "stars": 76606,
+    "stars_week": 3743
+   }
+  ]
+ },
+ "hn": {
+  "items": [
+   {
+    "title": "Residential proxies detected on White House network",
+    "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+    "domain": "layer3intel.com",
+    "points": 740,
+    "comments": 234,
+    "hn_url": "https://news.ycombinator.com/item?id=50371246"
+   },
+   {
+    "title": "Images 2.6",
+    "url": "https://openai.com/index/introducing-images-2-6/",
+    "domain": "openai.com",
+    "points": 157,
+    "comments": 100,
+    "hn_url": "https://news.ycombinator.com/item?id=50372945"
+   },
+   {
+    "title": "A thousand fewer paths to root",
+    "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+    "domain": "openai.com",
+    "points": 178,
+    "comments": 106,
+    "hn_url": "https://news.ycombinator.com/item?id=50372929"
+   },
+   {
+    "title": "Starfall – Affordable, routine access to microgravity",
+    "url": "https://www.spacex.com/starfall",
+    "domain": "spacex.com",
+    "points": 110,
+    "comments": 59,
+    "hn_url": "https://news.ycombinator.com/item?id=50373308"
+   },
+   {
+    "title": "AI is forcing us to pay off 40 years of technical debt",
+    "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+    "domain": "spectrum.ieee.org",
+    "points": 1111,
+    "comments": 643,
+    "hn_url": "https://news.ycombinator.com/item?id=50364336"
+   },
+   {
+    "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+    "url": "https://www.ricursive.com/ripple",
+    "domain": "ricursive.com",
+    "points": 241,
+    "comments": 82,
+    "hn_url": "https://news.ycombinator.com/item?id=50369925"
+   },
+   {
+    "title": "Frustrated Ranchers Want People to Quit 'Rescuing' Their Working Guardian Dogs",
+    "url": "https://cowboystatedaily.com/2026/10/15/frustrated-ranchers-want-people-to-quit-rescuing-their-working-guardian-dogs/",
+    "domain": "cowboystatedaily.com",
+    "points": 40,
+    "comments": 22,
+    "hn_url": "https://news.ycombinator.com/item?id=50342031"
+   },
+   {
+    "title": "Kimi K3.1 Pro model weights are out",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "domain": "huggingface.co",
+    "points": 413,
+    "comments": 114,
+    "hn_url": "https://news.ycombinator.com/item?id=50366999"
+   },
+   {
+    "title": "Insects don't swarm at LED lights",
+    "url": "https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/",
+    "domain": "birdsoutsidemywindow.org",
+    "points": 179,
+    "comments": 99,
+    "hn_url": "https://news.ycombinator.com/item?id=50370610"
+   },
+   {
+    "title": "A new Go API for JSON",
+    "url": "https://go.dev/blog/jsonv2",
+    "domain": "go.dev",
+    "points": 251,
+    "comments": 105,
+    "hn_url": "https://news.ycombinator.com/item?id=50369106"
+   }
+  ]
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "FPTR: Feasibility-Preserving Transactional Refinement for Deadline-Constrained Joint Beam and Resource Allocation",
+    "first_author": "Minghao Kong",
+    "n_authors": 6,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.06491v1"
+   },
+   {
+    "title": "Model Merging Does Not Require Uniform LoRA Ranks",
+    "first_author": "Zirong Xie",
+    "n_authors": 4,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.06486v1"
+   },
+   {
+    "title": "ArcRAG: Agentic Compositional Retrieval over Knowledge Graphs",
+    "first_author": "Jyotin Goel",
+    "n_authors": 5,
+    "cat": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.06481v1"
+   },
+   {
+    "title": "Microdroplet Generator Surrogate Enhancement and Inverse Design Through an Uncertainty-Guided Framework",
+    "first_author": "David Gabriel Harispe",
+    "n_authors": 3,
+    "cat": "physics.flu-dyn",
+    "url": "https://arxiv.org/abs/2611.06464v1"
+   },
+   {
+    "title": "Within-Family EfficientNet Scaling under Fixed-Resolution Transfer Learning for Spectral-Domain Optical Coherence Tomography Retinal Disease Classification",
+    "first_author": "Shkelqim Sherifi",
+    "n_authors": 1,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.06452v1"
+   },
+   {
+    "title": "AmbiHTMLBench: A Benchmark for HTML-based Visually Rich Document parsing",
+    "first_author": "Boyu Niu",
+    "n_authors": 11,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.06449v1"
+   },
+   {
+    "title": "SUMONE: A Simple and Efficient Summarizer for Plug-and-Play Agent Memory",
+    "first_author": "Jizhe Zhang",
+    "n_authors": 4,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.06445v1"
+   },
+   {
+    "title": "EviSeek: An Evidence-Centric Agentic Framework for Embodied Active Information Seeking",
+    "first_author": "Jintao Li",
+    "n_authors": 5,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.06434v1"
+   },
+   {
+    "title": "D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding",
+    "first_author": "Baoyou Chen",
+    "n_authors": 7,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.06425v1"
+   },
+   {
+    "title": "Mind Control of LLMs via Closed-Loop Stimulation: Out-of-Distribution Robustness",
+    "first_author": "Kasra Fallah",
+    "n_authors": 6,
+    "cat": "q-bio.NC",
+    "url": "https://arxiv.org/abs/2611.06418v1"
+   }
+  ]
+ }
+}
