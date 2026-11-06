@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-06T00:00:00+09:00",
+  "title": "Design System: 개발 트렌드",
+  "extensions": {
+    "colorMeta": {
+      "amber": { "role": "primary", "displayName": "지연 앰버 (Delay Amber)", "canonical": "#ffb000", "tonalRamp": ["oklch(15% 0.05 75)", "oklch(27% 0.08 75)", "oklch(39% 0.11 75)", "oklch(51% 0.14 75)", "oklch(63% 0.16 75)", "oklch(75% 0.165 75)", "oklch(85% 0.12 75)", "oklch(95% 0.05 75)"] },
+      "red": { "role": "secondary", "displayName": "취소 레드 (Cancel Red)", "canonical": "#ff6b5e", "tonalRamp": ["oklch(15% 0.05 28)", "oklch(27% 0.09 28)", "oklch(39% 0.13 28)", "oklch(51% 0.16 28)", "oklch(63% 0.18 28)", "oklch(71% 0.17 28)", "oklch(83% 0.1 28)", "oklch(95% 0.03 28)"] },
+      "ink": { "role": "neutral", "displayName": "페인트 화이트 (Paint White)", "canonical": "#f2f2f2", "tonalRamp": ["#1b1b1b", "#3a3a3a", "#5a5a5a", "#7b7b7b", "#9d9d9d", "#c0c0c0", "#dcdcdc", "#f2f2f2"] },
+      "ink-dim": { "role": "neutral", "displayName": "흐린 페인트 (Faded Paint)", "canonical": "#dcdde0" },
+      "label": { "role": "neutral", "displayName": "스틸 라이트 (Steel Light)", "canonical": "#a7aaaf" },
+      "steel": { "role": "neutral", "displayName": "스틸 프레임 (Steel Frame)", "canonical": "#2a2d31", "tonalRamp": ["#141518", "#1b1c20", "#26282c", "#2a2d31", "#33373c", "#4a4e55", "#a7aaaf", "#dcdde0"] },
+      "steel-2": { "role": "neutral", "displayName": "스틸 2", "canonical": "#33373c" },
+      "steel-3": { "role": "neutral", "displayName": "스틸 3 (Frame Edge)", "canonical": "#4a4e55" },
+      "board": { "role": "neutral", "displayName": "판 검정 (Board Black)", "canonical": "#141518" },
+      "flap": { "role": "neutral", "displayName": "칸 검정 (Flap Black)", "canonical": "#0b0b0d" },
+      "seam": { "role": "neutral", "displayName": "이음매 (Seam)", "canonical": "#26282c" }
+    },
+    "typographyMeta": {
+      "counter": { "displayName": "Counter", "purpose": "상단 카운터 띠의 판 숫자. 모바일 34px." },
+      "headline": { "displayName": "Headline", "purpose": "판 제목, label 색." },
+      "title": { "displayName": "Title", "purpose": "레포 이름 등 라틴 고유명." },
+      "body": { "displayName": "Body", "purpose": "기본 한국어 본문과 HN·arXiv 제목(700)." },
+      "body-sm": { "displayName": "Body small", "purpose": "레포 한국어 설명." },
+      "label": { "displayName": "Label", "purpose": "표 머리, 카운터 라벨, 메타." },
+      "label-cond": { "displayName": "Condensed label", "purpose": "칩, 언어, 분류, 내비게이션, 축." }
+    },
+    "shadows": [
+      { "name": "flap-texture", "value": "inset 0 1px 0 #2b2d32, 0 1px 2px rgba(0,0,0,.5)", "purpose": "판 칸이 판에 박힌 질감. 판(섹션)에는 그림자 없음." }
+    ],
+    "motion": [
+      { "name": "flap-tick", "value": "70ms ease-out; from { transform: scaleY(.25); filter: brightness(.6) }", "purpose": "숫자 칸 한 번 넘김." },
+      { "name": "flap-cascade", "value": "4-8 steps per digit, 18ms stagger per tile, max 900ms delay", "purpose": "로드 시 숫자 판이 오늘 값에 멈추는 서명 동작." },
+      { "name": "reduced-motion", "value": "@media (prefers-reduced-motion: reduce) { animation: none }", "purpose": "즉시 최종값." }
+    ],
+    "breakpoints": [
+      { "name": "md", "value": "1000px" },
+      { "name": "sm", "value": "640px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Flap Tile Counter",
+      "kind": "custom",
+      "refersTo": "flap-tile",
+      "description": "글자 하나당 칸 하나인 안내판 숫자. 모든 숫자 지표의 기본 표현.",
+      "html": "<span class=\"ds-flaps\"><span class=\"ds-f\">+</span><span class=\"ds-f\">9</span><span class=\"ds-f\">,</span><span class=\"ds-f\">3</span><span class=\"ds-f\">1</span><span class=\"ds-f\">8</span></span> <span class=\"ds-flaps ds-amber\"><span class=\"ds-f\">0</span><span class=\"ds-f\">1</span></span>",
+      "css": ".ds-flaps{display:inline-flex;gap:.09em;font-size:48px;font-family:'Barlow Condensed','Gothic A1',sans-serif;font-variant-numeric:tabular-nums;font-weight:600} .ds-f{position:relative;display:inline-grid;place-items:center;width:.78em;height:1.18em;line-height:1;border-radius:2px;overflow:hidden;color:#f2f2f2;background:linear-gradient(#1b1c20 0 50%,#0b0b0d 50%);box-shadow:inset 0 1px 0 #2b2d32,0 1px 2px rgba(0,0,0,.5);animation:ds-tick 70ms ease-out} .ds-f::after{content:'';position:absolute;left:0;right:0;top:calc(50% - 1px);height:2px;background:rgba(0,0,0,.7)} .ds-amber .ds-f{color:#ffb000} @keyframes ds-tick{from{transform:scaleY(.25);filter:brightness(.6)}to{transform:none;filter:none}} @media (prefers-reduced-motion:reduce){.ds-f{animation:none}}"
+    },
+    {
+      "name": "Board",
+      "kind": "card",
+      "refersTo": "board",
+      "description": "모든 섹션을 담는 무광 검정 판.",
+      "html": "<section class=\"ds-board\"><h2>이번 주 별 증가 순위 <small>GitHub Trending 주간</small></h2><div class=\"ds-row\"><a href=\"#\">owner/repo</a><span>+9,318</span></div><div class=\"ds-row\"><a href=\"#\">owner/other</a><span>+6,994</span></div></section>",
+      "css": ".ds-board{background:#141518;border:1px solid #4a4e55;border-radius:3px;padding:18px 20px 20px;color:#f2f2f2;font-family:'Gothic A1',system-ui,sans-serif;font-size:15px} .ds-board h2{margin:0 0 16px;font-size:19px;font-weight:800;letter-spacing:.02em;color:#a7aaaf} .ds-board h2 small{font-size:12px;font-weight:500} .ds-row{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #26282c} .ds-row:last-child{border-bottom:0} .ds-row a{color:inherit;text-decoration:none;font-family:'Barlow Condensed','Gothic A1',sans-serif;font-weight:700;font-size:18px;letter-spacing:.03em} .ds-row a:hover{text-decoration:underline;text-decoration-color:#ffb000;text-underline-offset:3px} .ds-row a:focus-visible{outline:2px solid #ffb000;outline-offset:2px}"
+    },
+    {
+      "name": "Move Chip",
+      "kind": "chip",
+      "refersTo": "move-chip-up",
+      "description": "어제 대비 순위 변동. 상승 흰 ▲, 하락 레드 ▼, NEW 앰버, 변동 없음 스틸.",
+      "html": "<span class=\"ds-mv\"><svg viewBox=\"0 0 10 10\"><path d=\"M5 1 9.5 9h-9z\" fill=\"currentColor\"/></svg>2</span> <span class=\"ds-mv ds-down\"><svg viewBox=\"0 0 10 10\"><path d=\"M5 9 .5 1h9z\" fill=\"currentColor\"/></svg>3</span> <span class=\"ds-mv ds-new\">NEW</span> <span class=\"ds-mv ds-same\">–</span>",
+      "css": ".ds-mv{display:inline-flex;align-items:center;gap:4px;font-family:'Barlow Condensed','Gothic A1',sans-serif;font-weight:700;font-size:16px;letter-spacing:.06em;padding:3px 8px;border-radius:2px;background:#0b0b0d;color:#f2f2f2} .ds-mv svg{width:9px;height:9px} .ds-down{color:#ff6b5e} .ds-new{background:#ffb000;color:#0b0b0d} .ds-same{color:#a7aaaf}"
+    },
+    {
+      "name": "Warn Note",
+      "kind": "custom",
+      "refersTo": "warn-note",
+      "description": "수집 실패·오래된 데이터 표시.",
+      "html": "<div class=\"ds-warn\">오늘 수집 실패 · 2일 전 데이터</div>",
+      "css": ".ds-warn{display:inline-block;font-family:'Gothic A1',system-ui,sans-serif;font-size:13px;font-weight:700;color:#0b0b0d;background:#ffb000;border-radius:2px;padding:6px 10px}"
+    },
+    {
+      "name": "Category Tag",
+      "kind": "chip",
+      "description": "arXiv 분류 태그.",
+      "html": "<span class=\"ds-cat\">cs.LG</span>",
+      "css": ".ds-cat{font-family:'Barlow Condensed','Gothic A1',sans-serif;font-weight:700;font-size:15px;letter-spacing:.06em;background:#0b0b0d;color:#ffb000;padding:3px 7px;border-radius:2px}"
+    },
+    {
+      "name": "Steel Bar Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "상단 sticky 스틸 바와 섹션 링크.",
+      "html": "<header class=\"ds-bar\"><strong>개발 트렌드</strong><nav><a href=\"#\">레포</a><a href=\"#\">키워드</a><a href=\"#\">HN</a><a href=\"#\">arXiv</a></nav><span class=\"ds-stamp\">2026-11-06 갱신</span></header>",
+      "css": ".ds-bar{display:flex;flex-wrap:wrap;align-items:center;gap:6px 24px;min-height:60px;padding:0 20px;background:linear-gradient(#34383d,#2a2d31);border-bottom:1px solid #4a4e55;color:#f2f2f2;font-family:'Gothic A1',system-ui,sans-serif} .ds-bar strong{margin-right:auto;font-size:20px;font-weight:800;letter-spacing:.04em} .ds-bar nav{display:flex;gap:2px} .ds-bar nav a{font-family:'Barlow Condensed','Gothic A1',sans-serif;font-size:17px;font-weight:600;letter-spacing:.12em;color:#a7aaaf;text-decoration:none;padding:10px 12px;min-height:44px;display:inline-flex;align-items:center} .ds-bar nav a:hover{color:#f2f2f2} .ds-bar nav a:focus-visible{outline:2px solid #ffb000;outline-offset:2px} .ds-stamp{font-size:13px;color:#a7aaaf}"
+    }
+  ],
+  "narrative": {
+    "northStar": "역 출발 안내판 (The Split-Flap Concourse)",
+    "overview": "이 시스템은 기차역 대합실의 출발 안내판이다. 브러시드 스틸 프레임(여기서는 평평한 스틸 면) 위에 무광 검정 판(board)이 박혀 있고, 숫자는 글자마다 고정된 판 칸(flap tile)에 흰 페인트로 칠해져 있으며 가운데를 가는 분할선이 가로지른다. 순위표 자체가 페이지의 주인공이고, 다른 모든 것은 그 판을 받치는 프레임이다.\n\n밀도는 높지만 차분하다. 강조는 안내판 문법을 따른다: 지연 앰버는 NEW·주목, 취소 레드는 하락·실패, 상승은 별도 색 없이 흰 굵은 삼각형. 발광, 형광, 네온, 그라디언트 강조는 없다. 깊이는 그림자가 아니라 스틸 → 판 → 칸의 명도 단계로 만든다.\n\n움직임은 하루 한 번의 사건이다. 데이터가 로드되면 숫자 칸이 문자 단위로 위에서 아래로 넘어가며(행마다 시차) 오늘 값에 멈춘다. 그 외에는 정지 상태이며, `prefers-reduced-motion`에서는 즉시 최종값을 보여준다.",
+    "keyCharacteristics": [
+      "스틸 프레임 위 무광 검정 판, 판 안에 글자 단위 칸",
+      "응축된 라틴·숫자(Barlow Condensed) + 한글(Gothic A1) 이중 서체",
+      "앰버 = 주목/NEW, 레드 = 하락/실패, 흰 ▲ = 상승; 색만으로 구분하지 않음",
+      "모서리 3px 이하, 발광 없음, 그림자는 칸의 물성에만",
+      "숫자 판 캐스케이드가 유일한 장식적 움직임"
+    ],
+    "rules": [
+      { "name": "The Two Signals Rule", "body": "신호색은 앰버와 레드 둘뿐이다. 세 번째 강조색(초록 상승, 파랑 링크 등)을 들이지 않는다.", "section": "colors" },
+      { "name": "The No Glow Rule", "body": "어떤 색도 빛나지 않는다. 형광, 네온, text-shadow 발광, 검정+형광 \"해커\" 조합은 이 세계에 없다.", "section": "colors" },
+      { "name": "The Two Scripts Rule", "body": "라틴 문자와 숫자는 Barlow Condensed, 한글은 Gothic A1. 응축 스택은 언제나 Gothic A1을 폴백으로 둬서 한글이 섞여도 무너지지 않게 한다.", "section": "typography" },
+      { "name": "The Tabular Rule", "body": "숫자는 전부 `tabular-nums`. 판 칸이든 아니든 자릿수가 흔들리지 않는다.", "section": "typography" },
+      { "name": "The Flat Board Rule", "body": "판(섹션)은 그림자 없이 `steel-3` 1px 테두리로만 프레임에서 분리된다. 떠 있는 카드는 없다.", "section": "elevation" }
+    ],
+    "dos": [
+      "**Do** 새 숫자 지표는 판 칸(flap tile)으로 그리고 `tabular-nums`를 유지한다.",
+      "**Do** 새 섹션은 `board` 바탕 + 1px `steel-3` 테두리 + 3px 모서리의 판으로 만든다.",
+      "**Do** 상승·하락은 삼각형 기호와 색을 함께 써서 색만으로 구분하지 않는다.",
+      "**Do** 작은 글자 위 신호색은 판 바탕에서 4.5:1 이상을 확인한다(레드를 #FF6B5E로 밝힌 이유).",
+      "**Do** 라틴·숫자는 Barlow Condensed, 한글은 Gothic A1로 나눈다.",
+      "**Do** 움직임을 추가하면 `prefers-reduced-motion`에서 즉시 최종 상태가 되게 한다."
+    ],
+    "donts": [
+      "**Don't** 흰 카드 그리드나 지표 카드 템플릿을 쓴다. 이 세계는 검정 판 위의 안내판이다.",
+      "**Don't** 검정 바탕에 형광·네온 글자를 쓰거나 발광 효과를 넣는다.",
+      "**Don't** 앰버·레드 외의 강조색(초록 상승 등)을 들인다.",
+      "**Don't** 모서리를 3px보다 둥글게 하거나 판에 떠 있는 그림자를 준다.",
+      "**Don't** 스틸 프레임에 반복 줄무늬 텍스처를 다시 넣는다. 평평한 스틸로 둔다."
+    ]
+  }
+}
