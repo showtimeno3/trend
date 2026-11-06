@@ -33,6 +33,7 @@ jobs:
         if: github.event_name != 'push'
         run: python collect.py
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
       - name: 스냅샷 커밋
         if: github.event_name != 'push'

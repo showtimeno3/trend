@@ -22,7 +22,8 @@ Actions 탭에서 수동 실행(workflow_dispatch)도 된다. 코드만 push 하
 ## 설정
 
 - arXiv 분야, 개수: `collect.py` 상단 `ARXIV_CATEGORY`, `HN_COUNT`, `ARXIV_COUNT`
-- 한국어 번역: 레포 Settings › Secrets and variables › Actions 에 `DEEPL_API_KEY` 추가. 없거나 실패하면 원문만 표시.
+- 한국어 번역: 레포 Settings › Secrets and variables › Actions 에 `GEMINI_API_KEY`(기본)와 `DEEPL_API_KEY`(예비) 추가.
+  Gemini가 실패·누락한 문구만 DeepL로 보낸다. 둘 다 없거나 실패하면 원문만 표시. 모델 순서는 `collect.py` 의 `GEMINI_MODELS`.
   최근 30일 스냅샷에 이미 있는 문구는 다시 번역하지 않고 재사용한다 (DeepL 한도 절약).
   로컬: `DEEPL_API_KEY=... python collect.py`
 - 키워드 불용어: `build.py` 의 `STOPWORDS`

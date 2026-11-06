@@ -1,7 +1,7 @@
 import unittest
 from pathlib import Path
 
-from collect import add_korean, fetch_hn, hn_item, parse_arxiv, parse_trending, run_source, translation_cache
+from collect import add_korean, fetch_hn, gemini_translate, translate_chain, hn_item, parse_arxiv, parse_trending, run_source, translation_cache
 
 FIX = Path(__file__).parent / "fixtures"
 
@@ -65,6 +65,29 @@ class SourcesTest(unittest.TestCase):
                 {"github": {"repos": [{"desc": "a", "desc_ko": "가"}]}, "hn": {"items": [{"title": "b", "title_ko": "나"}]},
                  "arxiv": {"error": "x"}}), encoding="utf-8")
             self.assertEqual(translation_cache(Path(d)), {"a": "가", "b": "나"})
+
+    def test_gemini_translate_maps_ids_and_falls_back(self):
+        import urllib.error
+        calls = []
+        def fake_post(url, body, key):
+            calls.append(url.split("/models/")[1].split(":")[0])
+            if len(calls) == 1:
+                raise urllib.error.HTTPError(url, 503, "busy", {}, None)
+            text = '```json\n[{"id": 1, "ko": "둘"}, {"id": 0, "ko": "하나"}]\n```'
+            return {"candidates": [{"content": {"parts": [{"text": text}]}}]}
+        out = gemini_translate(["one", "two", "three"], "k", ["m1", "m2"], fake_post, wait=0)
+        self.assertEqual(calls, ["m1", "m2"])
+        self.assertEqual(out, ["하나", "둘", None])        # 빠진 id는 None
+
+    def test_translate_chain_fills_gaps_with_next(self):
+        out = translate_chain(["a", "b"], [lambda t: ["가", None], lambda t: [f"D:{x}" for x in t]])
+        self.assertEqual(out, ["가", "D:b"])
+        self.assertEqual(translate_chain(["a"], [lambda t: 1 / 0, lambda t: ["D:a"]]), ["D:a"])
+
+    def test_add_korean_skips_none(self):
+        snap = {"github": {"repos": [{"desc": "a"}]}, "hn": {"error": "x"}, "arxiv": {"error": "x"}}
+        add_korean(snap, lambda t: [None])
+        self.assertNotIn("desc_ko", snap["github"]["repos"][0])
 
     def test_add_korean_failure_keeps_original(self):
         snap = {"github": {"repos": [{"desc": "fast db"}]}, "hn": {"error": "x"}, "arxiv": {"error": "x"}}

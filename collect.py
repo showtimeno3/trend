@@ -4,6 +4,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime
@@ -12,6 +13,9 @@ from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 
 ARXIV_CATEGORY = "cs.AI"
+# 앞에서부터 시도. 무료 키는 최신 Flash가 자주 503(과부하). -latest 별칭은 모델 폐기에 버팀.
+GEMINI_MODELS = ["gemini-3.6-flash", "gemini-3.5-flash-lite", "gemini-flash-lite-latest"]
+GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 HN_COUNT = 10
 ARXIV_COUNT = 10
 UA = {"User-Agent": "trend-dashboard (+https://github.com)"}
@@ -129,6 +133,59 @@ def fetch_arxiv() -> list[dict]:
         + f"&sortBy=submittedDate&sortOrder=descending&max_results={ARXIV_COUNT}"))
 
 
+GEMINI_PROMPT = """아래 JSON 배열의 각 text를 자연스러운 한국어로 번역하라.
+- 레포 이름(owner/repo), 제품·라이브러리 이름, 코드, 기술 약어는 원문 그대로 둔다.
+- 설명을 덧붙이거나 요약하지 말고 번역만 한다.
+출력은 JSON 배열 하나만: [{"id": 0, "ko": "..."}]. 입력의 모든 id를 포함한다.
+"""
+
+
+def _post_json(url: str, body: dict, key: str) -> dict:
+    req = urllib.request.Request(url, data=json.dumps(body, ensure_ascii=False).encode(),
+                                 headers={**UA, "Content-Type": "application/json", "x-goog-api-key": key})
+    with urllib.request.urlopen(req, timeout=120) as resp:
+        return json.loads(resp.read())
+
+
+def gemini_translate(texts: list[str], key: str, models=None, post=None, wait: float = 5) -> list:
+    """번역 결과를 texts 순서로. 모델이 빠뜨린 항목은 None. 모든 모델이 실패하면 예외."""
+    post = post or _post_json
+    body = {"contents": [{"parts": [{"text": GEMINI_PROMPT + json.dumps(
+                [{"id": i, "text": t} for i, t in enumerate(texts)], ensure_ascii=False)}]}],
+            "generationConfig": {"responseMimeType": "application/json"}}
+    last = None
+    for n, model in enumerate(models or GEMINI_MODELS):
+        if n:
+            time.sleep(wait)
+        try:
+            raw = post(GEMINI_URL.format(model=model), body, key)["candidates"][0]["content"]["parts"][0]["text"]
+            raw = raw.strip().removeprefix("```json").removeprefix("```").removesuffix("```")
+            got = {item["id"]: item["ko"] for item in json.loads(raw)
+                   if isinstance(item, dict) and isinstance(item.get("ko"), str)}
+        except Exception as exc:  # 503·폐기된 모델·형식 오류 모두 다음 모델로
+            print(f"[번역] {model} 실패: {exc!r}", file=sys.stderr)
+            last = exc
+            continue
+        print(f"[번역] Gemini {model}: {len(got)}/{len(texts)}개", file=sys.stderr)
+        return [got.get(i) for i in range(len(texts))]
+    raise RuntimeError(f"Gemini 모든 모델 실패: {last!r}")
+
+
+def translate_chain(texts: list[str], translators) -> list:
+    """앞 번역기가 실패하거나 빠뜨린 항목만 다음 번역기로 넘긴다."""
+    out = [None] * len(texts)
+    for tr in translators:
+        todo = [i for i, v in enumerate(out) if v is None]
+        if not todo:
+            break
+        try:
+            for i, v in zip(todo, tr([texts[i] for i in todo])):
+                out[i] = v
+        except Exception as exc:
+            print(f"[번역] 번역기 실패, 다음으로: {exc!r}", file=sys.stderr)
+    return out
+
+
 def deepl_translate(texts: list[str], key: str) -> list[str]:
     host = "api-free.deepl.com" if key.endswith(":fx") else "api.deepl.com"
     out = []
@@ -169,7 +226,7 @@ def add_korean(snap: dict, translate, cache: dict | None = None) -> None:
     new = list(dict.fromkeys(item[field] for item, field, ko in targets if item[field] not in cache))
     if new:
         try:
-            cache.update(zip(new, translate(new)))
+            cache.update((k, v) for k, v in zip(new, translate(new)) if v)
         except Exception as exc:  # 번역 실패해도 원문(과 캐시된 번역)만으로 저장
             print(f"[번역] 실패, 새 문구 {len(new)}개는 원문만 저장: {exc!r}", file=sys.stderr)
     print(f"[번역] 새로 번역 {len(new)}개, 재사용 {len(targets) - len(new)}개", file=sys.stderr)
@@ -185,9 +242,17 @@ def collect(today: str, out_dir: Path) -> Path:
         "hn": run_source("items", fetch_hn),
         "arxiv": run_source("papers", fetch_arxiv),
     }
-    key = os.environ.get("DEEPL_API_KEY")
-    if key:
-        add_korean(snap, lambda texts: deepl_translate(texts, key), translation_cache(out_dir))
+    gkey, dkey = os.environ.get("GEMINI_API_KEY"), os.environ.get("DEEPL_API_KEY")
+    translators = []
+    if gkey:
+        translators.append(lambda texts: gemini_translate(texts, gkey))
+    if dkey:  # 예비. 일회성 한도라 Gemini가 실패·누락한 것만 보낸다.
+        def deepl(texts):
+            print(f"[번역] DeepL 예비 사용: {len(texts)}개, {sum(map(len, texts))}자", file=sys.stderr)
+            return deepl_translate(texts, dkey)
+        translators.append(deepl)
+    if translators:
+        add_korean(snap, lambda texts: translate_chain(texts, translators), translation_cache(out_dir))
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / f"{today}.json"
     path.write_text(json.dumps(snap, ensure_ascii=False, indent=1), encoding="utf-8")
