@@ -22,5 +22,7 @@ Actions 탭에서 수동 실행(workflow_dispatch)도 된다. 코드만 push 하
 ## 설정
 
 - arXiv 분야, 개수: `collect.py` 상단 `ARXIV_CATEGORY`, `HN_COUNT`, `ARXIV_COUNT`
+- 한국어 번역: 레포 Settings › Secrets and variables › Actions 에 `DEEPL_API_KEY` 추가. 없거나 실패하면 원문만 표시.
+  로컬: `DEEPL_API_KEY=... python collect.py`
 - 키워드 불용어: `build.py` 의 `STOPWORDS`
 - 키워드 트렌드는 스냅샷이 8일치(오늘 + 직전 7일) 쌓여야 나온다.

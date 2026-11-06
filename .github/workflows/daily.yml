@@ -32,6 +32,8 @@ jobs:
       - name: 수집
         if: github.event_name != 'push'
         run: python collect.py
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
       - name: 스냅샷 커밋
         if: github.event_name != 'push'
         run: |

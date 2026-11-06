@@ -1,7 +1,7 @@
 import unittest
 from pathlib import Path
 
-from collect import fetch_hn, hn_item, parse_arxiv, parse_trending, run_source
+from collect import add_korean, fetch_hn, hn_item, parse_arxiv, parse_trending, run_source
 
 FIX = Path(__file__).parent / "fixtures"
 
@@ -38,6 +38,22 @@ class SourcesTest(unittest.TestCase):
             return '{"id": %s, "title": "t", "score": 1}' % url.rsplit("/", 1)[1][:-5]
         items = fetch_hn(fake_get)
         self.assertEqual([i["hn_url"][-1] for i in items], ["1", "4"])
+
+    def test_add_korean(self):
+        snap = {"github": {"repos": [{"desc": "fast db"}, {"desc": ""}]},
+                "hn": {"items": [{"title": "Show HN: x"}]},
+                "arxiv": {"error": "x"}}
+        seen = []
+        add_korean(snap, lambda texts: seen.extend(texts) or [f"KO:{t}" for t in texts])
+        self.assertEqual(seen, ["fast db", "Show HN: x"])          # 빈 설명·실패 소스는 안 보냄
+        self.assertEqual(snap["github"]["repos"][0]["desc_ko"], "KO:fast db")
+        self.assertNotIn("desc_ko", snap["github"]["repos"][1])
+        self.assertEqual(snap["hn"]["items"][0]["title_ko"], "KO:Show HN: x")
+
+    def test_add_korean_failure_keeps_original(self):
+        snap = {"github": {"repos": [{"desc": "fast db"}]}, "hn": {"error": "x"}, "arxiv": {"error": "x"}}
+        add_korean(snap, lambda texts: 1 / 0)
+        self.assertEqual(snap["github"]["repos"][0], {"desc": "fast db"})
 
     def test_run_source_isolates_errors(self):
         self.assertEqual(run_source("repos", lambda: [1]), {"repos": [1]})

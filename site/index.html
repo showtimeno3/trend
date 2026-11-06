@@ -52,6 +52,7 @@ th:first-child,td:first-child{padding-left:18px}th:last-child,td:last-child{padd
 .warn{font-size:13px;color:var(--down);background:#fff4ed;border-radius:6px;padding:8px 10px}
 .secthead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px}
 svg{display:block}
+.orig{font-size:12px;color:var(--muted);margin-top:2px;opacity:.85}
 </style>
 </head>
 <body>
@@ -115,6 +116,8 @@ const maxOf = (arrs) => Math.max(1, ...arrs.flat().filter((v) => v != null));
 function staleNote(src) {
   return src && src.stale_days > 0 ? el("div", { class: "warn" }, `오늘 수집 실패 · ${src.stale_days}일 전 데이터`) : null;
 }
+// 번역이 있으면 한국어를 주로, 원문은 작게 (lang 으로 읽기 도구에 언어 알림)
+function orig(text) { return el("div", { class: "orig", lang: "en" }, text); }
 function failNote() { return el("div", { class: "warn" }, "수집 실패"); }
 
 function moveCell(r) {
@@ -163,7 +166,7 @@ function renderRepos(h) {
     lines(sp, r.spark, 96, 28, maxOf([r.spark]), "#c2410c", 1.8);
     return el("tr", {},
       el("td", { class: "mono muted" }, r.rank), moveCell(r),
-      el("td", { class: "repo" }, link(`https://github.com/${r.name}`, r.name), r.desc ? el("div", {}, r.desc) : null),
+      el("td", { class: "repo" }, link(`https://github.com/${r.name}`, r.name), r.desc ? el("div", {}, r.desc_ko || r.desc) : null, r.desc_ko ? orig(r.desc) : null),
       el("td", { class: "muted", style: "white-space:nowrap" }, r.lang || "–"),
       el("td", {}, sp), el("td", { class: "mono gain" }, `+${fmt(r.stars_week)}`));
   });
@@ -187,7 +190,7 @@ function renderHN(src) {
   const note = staleNote(src); if (note) box.append(note);
   box.append(...src.items.map((i) => el("div", { class: "hn" },
     el("span", { class: "mono pts" }, fmt(i.points)),
-    el("div", { class: "item" }, link(i.url, i.title),
+    el("div", { class: "item" }, link(i.url, i.title_ko || i.title), i.title_ko ? orig(i.title) : null,
       el("span", {}, `${i.domain} · `, link(i.hn_url, `댓글 ${fmt(i.comments)}`, { style: "font-size:12px;font-weight:400;color:var(--muted)" }))))));
 }
 
@@ -195,7 +198,7 @@ function renderArxiv(src) {
   const box = $("arxiv");
   if (src.error) { box.append(failNote()); return; }
   const note = staleNote(src); if (note) box.append(note);
-  box.append(...src.papers.map((p) => el("div", { class: "item" }, link(p.url, p.title),
+  box.append(...src.papers.map((p) => el("div", { class: "item" }, link(p.url, p.title_ko || p.title), p.title_ko ? orig(p.title) : null,
     el("span", {}, `${p.first_author}${p.n_authors > 1 ? ` 외 ${p.n_authors - 1}명` : ""} · ${p.cat}`))));
 }
 

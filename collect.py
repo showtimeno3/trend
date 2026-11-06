@@ -1,6 +1,7 @@
 """GitHub Trending · Hacker News · arXiv 를 수집해 data/YYYY-MM-DD.json 으로 저장한다."""
 import html
 import json
+import os
 import re
 import sys
 import urllib.request
@@ -128,6 +129,37 @@ def fetch_arxiv() -> list[dict]:
         + f"&sortBy=submittedDate&sortOrder=descending&max_results={ARXIV_COUNT}"))
 
 
+def deepl_translate(texts: list[str], key: str) -> list[str]:
+    host = "api-free.deepl.com" if key.endswith(":fx") else "api.deepl.com"
+    out = []
+    for i in range(0, len(texts), 50):  # DeepL 요청당 최대 50개
+        req = urllib.request.Request(
+            f"https://{host}/v2/translate",
+            data=json.dumps({"text": texts[i:i + 50], "target_lang": "KO"}).encode(),
+            headers={**UA, "Authorization": f"DeepL-Auth-Key {key}", "Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            out += [t["text"] for t in json.loads(resp.read())["translations"]]
+    return out
+
+
+# (소스 키, 목록 키, 원문 필드, 번역 필드)
+KO_FIELDS = [("github", "repos", "desc", "desc_ko"), ("hn", "items", "title", "title_ko"),
+             ("arxiv", "papers", "title", "title_ko")]
+
+
+def add_korean(snap: dict, translate) -> None:
+    # shortcut: 매일 전체를 새로 번역함(하루 ~3천 자), DeepL 무료 한도가 빠듯해지면 전날 번역 재사용
+    targets = [(item, field, ko) for src, key, field, ko in KO_FIELDS
+               for item in snap[src].get(key, []) if item.get(field)]
+    try:
+        result = translate([item[field] for item, field, ko in targets])
+    except Exception as exc:  # 번역 실패해도 원문만으로 저장
+        print(f"[번역] 실패, 원문만 저장: {exc!r}", file=sys.stderr)
+        return
+    for (item, field, ko), text in zip(targets, result):
+        item[ko] = text
+
+
 def collect(today: str, out_dir: Path) -> Path:
     snap = {
         "date": today,
@@ -135,6 +167,9 @@ def collect(today: str, out_dir: Path) -> Path:
         "hn": run_source("items", fetch_hn),
         "arxiv": run_source("papers", fetch_arxiv),
     }
+    key = os.environ.get("DEEPL_API_KEY")
+    if key:
+        add_korean(snap, lambda texts: deepl_translate(texts, key))
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / f"{today}.json"
     path.write_text(json.dumps(snap, ensure_ascii=False, indent=1), encoding="utf-8")
