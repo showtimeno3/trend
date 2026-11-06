@@ -147,17 +147,35 @@ KO_FIELDS = [("github", "repos", "desc", "desc_ko"), ("hn", "items", "title", "t
              ("arxiv", "papers", "title", "title_ko")]
 
 
-def add_korean(snap: dict, translate) -> None:
-    # shortcut: 매일 전체를 새로 번역함(하루 ~3천 자), DeepL 무료 한도가 빠듯해지면 전날 번역 재사용
+def translation_cache(data_dir: Path, days: int = 30) -> dict[str, str]:
+    """최근 스냅샷들의 원문 → 번역 쌍. DeepL 한도(일회성)를 아끼려고 같은 문구는 재사용한다."""
+    cache = {}
+    for p in sorted(data_dir.glob("*.json"))[-days:]:
+        try:
+            snap = json.loads(p.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        for src, key, field, ko in KO_FIELDS:
+            for item in snap.get(src, {}).get(key, []):
+                if item.get(field) and item.get(ko):
+                    cache[item[field]] = item[ko]
+    return cache
+
+
+def add_korean(snap: dict, translate, cache: dict | None = None) -> None:
+    cache = dict(cache or {})
     targets = [(item, field, ko) for src, key, field, ko in KO_FIELDS
                for item in snap[src].get(key, []) if item.get(field)]
-    try:
-        result = translate([item[field] for item, field, ko in targets])
-    except Exception as exc:  # 번역 실패해도 원문만으로 저장
-        print(f"[번역] 실패, 원문만 저장: {exc!r}", file=sys.stderr)
-        return
-    for (item, field, ko), text in zip(targets, result):
-        item[ko] = text
+    new = list(dict.fromkeys(item[field] for item, field, ko in targets if item[field] not in cache))
+    if new:
+        try:
+            cache.update(zip(new, translate(new)))
+        except Exception as exc:  # 번역 실패해도 원문(과 캐시된 번역)만으로 저장
+            print(f"[번역] 실패, 새 문구 {len(new)}개는 원문만 저장: {exc!r}", file=sys.stderr)
+    print(f"[번역] 새로 번역 {len(new)}개, 재사용 {len(targets) - len(new)}개", file=sys.stderr)
+    for item, field, ko in targets:
+        if item[field] in cache:
+            item[ko] = cache[item[field]]
 
 
 def collect(today: str, out_dir: Path) -> Path:
@@ -169,7 +187,7 @@ def collect(today: str, out_dir: Path) -> Path:
     }
     key = os.environ.get("DEEPL_API_KEY")
     if key:
-        add_korean(snap, lambda texts: deepl_translate(texts, key))
+        add_korean(snap, lambda texts: deepl_translate(texts, key), translation_cache(out_dir))
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / f"{today}.json"
     path.write_text(json.dumps(snap, ensure_ascii=False, indent=1), encoding="utf-8")

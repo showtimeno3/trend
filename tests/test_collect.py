@@ -1,7 +1,7 @@
 import unittest
 from pathlib import Path
 
-from collect import add_korean, fetch_hn, hn_item, parse_arxiv, parse_trending, run_source
+from collect import add_korean, fetch_hn, hn_item, parse_arxiv, parse_trending, run_source, translation_cache
 
 FIX = Path(__file__).parent / "fixtures"
 
@@ -49,6 +49,22 @@ class SourcesTest(unittest.TestCase):
         self.assertEqual(snap["github"]["repos"][0]["desc_ko"], "KO:fast db")
         self.assertNotIn("desc_ko", snap["github"]["repos"][1])
         self.assertEqual(snap["hn"]["items"][0]["title_ko"], "KO:Show HN: x")
+
+    def test_add_korean_reuses_cache(self):
+        snap = {"github": {"repos": [{"desc": "fast db"}, {"desc": "new tool"}, {"desc": "new tool"}]},
+                "hn": {"error": "x"}, "arxiv": {"error": "x"}}
+        seen = []
+        add_korean(snap, lambda texts: seen.extend(texts) or [f"KO:{t}" for t in texts], {"fast db": "빠른 DB"})
+        self.assertEqual(seen, ["new tool"])                       # 캐시에 있는 문구·중복은 안 보냄
+        self.assertEqual([r["desc_ko"] for r in snap["github"]["repos"]], ["빠른 DB", "KO:new tool", "KO:new tool"])
+
+    def test_translation_cache_from_snapshots(self):
+        import json, tempfile
+        with tempfile.TemporaryDirectory() as d:
+            Path(d, "2026-11-05.json").write_text(json.dumps(
+                {"github": {"repos": [{"desc": "a", "desc_ko": "가"}]}, "hn": {"items": [{"title": "b", "title_ko": "나"}]},
+                 "arxiv": {"error": "x"}}), encoding="utf-8")
+            self.assertEqual(translation_cache(Path(d)), {"a": "가", "b": "나"})
 
     def test_add_korean_failure_keeps_original(self):
         snap = {"github": {"repos": [{"desc": "fast db"}]}, "hn": {"error": "x"}, "arxiv": {"error": "x"}}
