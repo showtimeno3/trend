@@ -1,0 +1,310 @@
+{
+ "date": "2026-11-10",
+ "github": {
+  "repos": [
+   {
+    "rank": 1,
+    "name": "NVIDIA/auto-ontology",
+    "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+    "lang": "Python",
+    "stars": 11107,
+    "stars_week": 10159,
+    "desc_ko": "Auto Ontology는 데이터 위에 시맨틱 및 그래프 기반 추론 레이어를 구축하기 위한 Python 프레임워크입니다. 결정론적 쿼리 생성, 더 나은 컨텍스트 검색, LLM 및 agent 워크플로를 위한 향상된 설명 가능 AI를 가능하게 합니다."
+   },
+   {
+    "rank": 2,
+    "name": "vercel-labs/agent-desktop",
+    "desc": "Computer use CLI for AI agents",
+    "lang": "Rust",
+    "stars": 20664,
+    "stars_week": 12120,
+    "desc_ko": "AI 에이전트를 위한 Computer use CLI"
+   },
+   {
+    "rank": 3,
+    "name": "anthropics/skills",
+    "desc": "Public repository for Agent Skills",
+    "lang": "Python",
+    "stars": 191263,
+    "stars_week": 3796,
+    "desc_ko": "에이전트 스킬용 공개 저장소"
+   },
+   {
+    "rank": 4,
+    "name": "max-sixty/worktrunk",
+    "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+    "lang": "Rust",
+    "stars": 12294,
+    "stars_week": 2395,
+    "desc_ko": "Worktrunk은 병렬 AI 에이전트 워크플로우를 위해 설계된 Git 작업 트리 관리용 CLI입니다."
+   },
+   {
+    "rank": 5,
+    "name": "milind-soni/OpenMausBot",
+    "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+    "lang": "TypeScript",
+    "stars": 19943,
+    "stars_week": 8325,
+    "desc_ko": "봇이 사용할 수 있는 가상 머신을 갖춘 오픈소스 Grok Bot 대체 솔루션"
+   },
+   {
+    "rank": 6,
+    "name": "thedotmack/claude-mem",
+    "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+    "lang": "TypeScript",
+    "stars": 115475,
+    "stars_week": 5130,
+    "desc_ko": "모든 에이전트를 위한 세션 간 지속적 컨텍스트 – 에이전트가 세션 중에 수행하는 모든 행동을 기록하고, AI를 통해 압축한 뒤, 향후 세션에 관련 컨텍스트를 다시 반영합니다. Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode 등 다양한 서비스와 연동됩니다."
+   },
+   {
+    "rank": 7,
+    "name": "Donchitos/Claude-Code-Game-Studios",
+    "desc": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+    "lang": "Shell",
+    "stars": 37661,
+    "stars_week": 4324,
+    "desc_ko": "Claude Code를 본격적인 게임 개발 스튜디오로 탈바꿈시키세요 — 49개의 AI 에이전트, 72개의 워크플로 스킬, 그리고 실제 스튜디오의 계층 구조를 그대로 반영한 완벽한 협업 시스템을 갖추고 있습니다."
+   },
+   {
+    "rank": 8,
+    "name": "vercel-labs/agent-browser",
+    "desc": "Browser automation CLI for AI agents",
+    "lang": "Rust",
+    "stars": 48629,
+    "stars_week": 2994,
+    "desc_ko": "AI 에이전트를 위한 브라우저 자동화 CLI"
+   },
+   {
+    "rank": 9,
+    "name": "pingdotgg/t3code",
+    "desc": "",
+    "lang": "TypeScript",
+    "stars": 54400,
+    "stars_week": 13448
+   },
+   {
+    "rank": 10,
+    "name": "D4Vinci/Scrapling",
+    "desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+    "lang": "Python",
+    "stars": 100665,
+    "stars_week": 8226,
+    "desc_ko": "🕷️ 단일 요청부터 본격적인 크롤링까지 모든 것을 처리해 주는 최고의 웹 스크래핑 프레임워크! 주저하지 마시고 여기에서 가입하세요: https://discord.gg/EMgGbDceNQ. 매일 유용한 팁과 요령을 받아보시려면 여기를 팔로우하세요: https://x.com/Scrapling_dev"
+   },
+   {
+    "rank": 11,
+    "name": "The-PR-Agent/pr-agent",
+    "desc": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+    "lang": "Python",
+    "stars": 15754,
+    "stars_week": 1822,
+    "desc_ko": "🚀 PR Agent: 최초의 오픈소스 PR 검토 도구. 이 프로젝트는 Qodo의 무료 버전이 아닙니다."
+   },
+   {
+    "rank": 12,
+    "name": "cloudflare/security-audit-skill",
+    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "lang": "JavaScript",
+    "stars": 68238,
+    "stars_week": 10695,
+    "desc_ko": "독립적으로 검증되고 기계가 읽을 수 있는 결과를 제공하는 다단계 보안 감사를 위한 코딩 에이전트 스킬"
+   },
+   {
+    "rank": 13,
+    "name": "Nutlope/hallmark",
+    "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "lang": "CSS",
+    "stars": 51909,
+    "stars_week": 5987,
+    "desc_ko": "Claude Code, Cursor, Codex를 위한 AI 슬롭 방지 설계 기술."
+   },
+   {
+    "rank": 14,
+    "name": "mattpocock/skills",
+    "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+    "lang": "Shell",
+    "stars": 319920,
+    "stars_week": 9800,
+    "desc_ko": "진짜 엔지니어를 위한 스킬. 내 .agents 디렉토리에서 바로 제공."
+   }
+  ]
+ },
+ "hn": {
+  "items": [
+   {
+    "title": "Claude Fable 5.2 and Mythos 5.2",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "domain": "anthropic.com",
+    "points": 329,
+    "comments": 672,
+    "hn_url": "https://news.ycombinator.com/item?id=50429068",
+    "title_ko": "Claude Fable 5.2 및 Mythos 5.2"
+   },
+   {
+    "title": "USPS now offers official ZIP Code boundary polygons",
+    "url": "https://postalpro.usps.com/zcb",
+    "domain": "postalpro.usps.com",
+    "points": 546,
+    "comments": 277,
+    "hn_url": "https://news.ycombinator.com/item?id=50431058",
+    "title_ko": "USPS, 이제 공식 ZIP Code 경계 폴리곤 제공"
+   },
+   {
+    "title": "E-means: Outperforming k-means in one-tenth the epochs",
+    "url": "https://e-means.github.io/",
+    "domain": "e-means.github.io",
+    "points": 314,
+    "comments": 28,
+    "hn_url": "https://news.ycombinator.com/item?id=50429734",
+    "title_ko": "E-means: 10분의 1 에포크만에 k-means 성능을 능가"
+   },
+   {
+    "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+    "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+    "domain": "payments.ca",
+    "points": 491,
+    "comments": 274,
+    "hn_url": "https://news.ycombinator.com/item?id=50427362",
+    "title_ko": "Payments Canada, 캐나다의 실시간 결제(RTR) 시스템 출시 발표"
+   },
+   {
+    "title": "Horible public key tricks",
+    "url": "https://maurycyz.com/projects/badcert/",
+    "domain": "maurycyz.com",
+    "points": 71,
+    "comments": 30,
+    "hn_url": "https://news.ycombinator.com/item?id=50434264",
+    "title_ko": "끔찍한 공개 키 트릭"
+   },
+   {
+    "title": "Foldable Flight: The Best Paper Airplanes",
+    "url": "https://www.foldableflight.com",
+    "domain": "foldableflight.com",
+    "points": 899,
+    "comments": 141,
+    "hn_url": "https://news.ycombinator.com/item?id=50424581",
+    "title_ko": "Foldable Flight: 최고의 종이비행기"
+   },
+   {
+    "title": "How Many People Work from Home?",
+    "url": "https://nicholasdecker.substack.com/p/how-many-people-work-from-home",
+    "domain": "nicholasdecker.substack.com",
+    "points": 12,
+    "comments": 4,
+    "hn_url": "https://news.ycombinator.com/item?id=50378118",
+    "title_ko": "얼마나 많은 사람이 재택근무를 하고 있을까?"
+   },
+   {
+    "title": "Locating the source of a mysterious beep",
+    "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+    "domain": "simonwillison.net",
+    "points": 54,
+    "comments": 30,
+    "hn_url": "https://news.ycombinator.com/item?id=50434310",
+    "title_ko": "의문의 삐 소리가 나는 발원지 찾기"
+   },
+   {
+    "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+    "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+    "domain": "cnbc.com",
+    "points": 46,
+    "comments": 11,
+    "hn_url": "https://news.ycombinator.com/item?id=50435660",
+    "title_ko": "AI 신용 스트레스 상승으로 CoreWeave 채권 수익률 16% 돌파"
+   },
+   {
+    "title": "Exact – a new cross platform UI framework",
+    "url": "https://github.com/expo/exact",
+    "domain": "github.com",
+    "points": 83,
+    "comments": 36,
+    "hn_url": "https://news.ycombinator.com/item?id=50433541",
+    "title_ko": "Exact – 새로운 크로스 플랫폼 UI 프레임워크"
+   }
+  ]
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "Hybrid Source Code Change Impact Analysis",
+    "first_author": "Katharina Stengg",
+    "n_authors": 3,
+    "cat": "cs.SE",
+    "url": "https://arxiv.org/abs/2611.10958v1",
+    "title_ko": "하이브리드 소스 코드 변경 영향 분석"
+   },
+   {
+    "title": "Interpretable Cyber-Physical Attack Detection in Smart Grids: A Leakage-Controlled Multi-Testbed Evaluation of Fusion, Robustness, and Observability Limits",
+    "first_author": "Muhammad Ridwanul Hoquea",
+    "n_authors": 4,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.10950v1",
+    "title_ko": "스마트 그리드에서의 설명 가능한 사이버-물리 공격 탐지: 융합, 견고성, 관찰 가능성 한계에 대한 누출 제어 다중 테스트베드 평가"
+   },
+   {
+    "title": "CoupledFlow: One-Step Neural Operators for Coupled Multi-Physics PDEs",
+    "first_author": "Trong Khiem Tran",
+    "n_authors": 7,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.10945v1",
+    "title_ko": "CoupledFlow: 결합된 다중 물리 PDE를 위한 원스텝 신경 연산자"
+   },
+   {
+    "title": "Semantic Synthesis over Brute-Force Search: LLM-Guided Transformation Design for Efficient Learning",
+    "first_author": "Usha Shrestha",
+    "n_authors": 3,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.10940v1",
+    "title_ko": "무차별 대입 탐색을 넘어선 의미적 합성: 효율적인 학습을 위한 LLM 가이드 변환 설계"
+   },
+   {
+    "title": "DeepFinance: Can AI Diligence a $100MM Deal?",
+    "first_author": "Drew Hahn",
+    "n_authors": 4,
+    "cat": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.10926v1",
+    "title_ko": "DeepFinance: AI가 1억 달러 규모의 딜을 실사할 수 있을까?"
+   },
+   {
+    "title": "How Short Is Too Short? Length-Conditional Calibration and Abstention for Detecting AI-Generated Text",
+    "first_author": "Ritesh Janga",
+    "n_authors": 2,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.10901v1",
+    "title_ko": "얼마나 짧아야 너무 짧은 것일까?: AI 생성 텍스트 탐지를 위한 길이 조건부 캘리브레이션 및 기권"
+   },
+   {
+    "title": "Robust Satisficing Ensemble: Scalable Model Aggregation Under Distribution Shifts",
+    "first_author": "Ahmet Faruk Cetinkaya",
+    "n_authors": 3,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.10895v1",
+    "title_ko": "로버스트 충족화 앙상블: 분포 변화 하에서의 확장 가능한 모델 결합"
+   },
+   {
+    "title": "Zero-Shot VLA Adaptation with Retrieved Guidance",
+    "first_author": "Subin Kim",
+    "n_authors": 3,
+    "cat": "cs.RO",
+    "url": "https://arxiv.org/abs/2611.10894v1",
+    "title_ko": "검색된 가이던스를 활용한 제로샷 VLA 적응"
+   },
+   {
+    "title": "Complementarity without ground truth?",
+    "first_author": "Andrea Ferrario",
+    "n_authors": 3,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.10893v1",
+    "title_ko": "ground truth 없이도 상보성이 가능할까?"
+   },
+   {
+    "title": "Approximate Recall, Approximate Forecasts: Recall as a Diagnostic for LLM Forecasting Errors",
+    "first_author": "Prashanth Bhaskara",
+    "n_authors": 3,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.10891v1",
+    "title_ko": "근사 회상, 근사 예측: LLM 예측 오류 진단 도구로서의 회상"
+   }
+  ]
+ }
+}
