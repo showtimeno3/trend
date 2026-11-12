@@ -1,0 +1,302 @@
+{
+ "date": "2026-11-12",
+ "github": {
+  "repos": [
+   {
+    "rank": 1,
+    "name": "NVIDIA/auto-ontology",
+    "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+    "lang": "Python",
+    "stars": 11913,
+    "stars_week": 7947,
+    "desc_ko": "Auto Ontology는 데이터 위에 시맨틱 및 그래프 기반 추론 레이어를 구축하기 위한 Python 프레임워크입니다. 결정론적 쿼리 생성, 더 나은 컨텍스트 검색, LLM 및 agent 워크플로를 위한 향상된 설명 가능 AI를 가능하게 합니다."
+   },
+   {
+    "rank": 2,
+    "name": "anthropics/skills",
+    "desc": "Public repository for Agent Skills",
+    "lang": "Python",
+    "stars": 193228,
+    "stars_week": 5738,
+    "desc_ko": "에이전트 스킬용 공개 저장소"
+   },
+   {
+    "rank": 3,
+    "name": "vercel-labs/agent-desktop",
+    "desc": "Computer use CLI for AI agents",
+    "lang": "Rust",
+    "stars": 22209,
+    "stars_week": 7772,
+    "desc_ko": "AI 에이전트를 위한 Computer use CLI"
+   },
+   {
+    "rank": 4,
+    "name": "milind-soni/OpenMausBot",
+    "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+    "lang": "TypeScript",
+    "stars": 21328,
+    "stars_week": 9257,
+    "desc_ko": "봇이 사용할 수 있는 가상 머신을 갖춘 오픈소스 Grok Bot 대체 솔루션"
+   },
+   {
+    "rank": 5,
+    "name": "vercel-labs/agent-browser",
+    "desc": "Browser automation CLI for AI agents",
+    "lang": "Rust",
+    "stars": 49964,
+    "stars_week": 4183,
+    "desc_ko": "AI 에이전트를 위한 브라우저 자동화 CLI"
+   },
+   {
+    "rank": 6,
+    "name": "cloudflare/security-audit-skill",
+    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "lang": "JavaScript",
+    "stars": 70459,
+    "stars_week": 11507,
+    "desc_ko": "독립적으로 검증되고 기계가 읽을 수 있는 결과를 제공하는 다단계 보안 감사를 위한 코딩 에이전트 스킬"
+   },
+   {
+    "rank": 7,
+    "name": "mattpocock/skills",
+    "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+    "lang": "Shell",
+    "stars": 322158,
+    "stars_week": 9575,
+    "desc_ko": "진짜 엔지니어를 위한 스킬. 내 .agents 디렉토리에서 바로 제공."
+   },
+   {
+    "rank": 8,
+    "name": "D4Vinci/Scrapling",
+    "desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+    "lang": "Python",
+    "stars": 101715,
+    "stars_week": 5814,
+    "desc_ko": "🕷️ 단일 요청부터 본격적인 크롤링까지 모든 것을 처리해 주는 최고의 웹 스크래핑 프레임워크! 주저하지 마시고 여기에서 가입하세요: https://discord.gg/EMgGbDceNQ. 매일 유용한 팁과 요령을 받아보시려면 여기를 팔로우하세요: https://x.com/Scrapling_dev"
+   },
+   {
+    "rank": 9,
+    "name": "zed-industries/zed",
+    "desc": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+    "lang": "Rust",
+    "stars": 94735,
+    "stars_week": 2310,
+    "desc_ko": "생각의 속도로 코딩하세요 – Zed는 Atom과 Tree-sitter의 제작자들이 만든 고성능 멀티플레이어 코드 에디터입니다."
+   },
+   {
+    "rank": 10,
+    "name": "Donchitos/Claude-Code-Game-Studios",
+    "desc": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+    "lang": "Shell",
+    "stars": 38530,
+    "stars_week": 3150,
+    "desc_ko": "Claude Code를 본격적인 게임 개발 스튜디오로 탈바꿈시키세요 — 49개의 AI 에이전트, 72개의 워크플로 스킬, 그리고 실제 스튜디오의 계층 구조를 그대로 반영한 완벽한 협업 시스템을 갖추고 있습니다."
+   },
+   {
+    "rank": 11,
+    "name": "google/skills",
+    "desc": "Agent Skills for Google products and technologies",
+    "lang": "Python",
+    "stars": 23955,
+    "stars_week": 2013,
+    "desc_ko": "Google 제품 및 기술을 위한 Agent Skills"
+   },
+   {
+    "rank": 12,
+    "name": "google-deepmind/mujoco",
+    "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+    "lang": "C++",
+    "stars": 17667,
+    "stars_week": 1535,
+    "desc_ko": "Contact가 포함된 Multi-Joint dynamics. 범용 물리 시뮬레이터."
+   },
+   {
+    "rank": 13,
+    "name": "herdrdev/herdr",
+    "desc": "the runtime your coding agents live on",
+    "lang": "Rust",
+    "stars": 50386,
+    "stars_week": 2213,
+    "desc_ko": "당신의 코딩 에이전트가 동작하는 런타임"
+   }
+  ]
+ },
+ "hn": {
+  "items": [
+   {
+    "title": "93% of paint splatters are valid Perl programs (2019)",
+    "url": "https://www.mcmillen.dev/sigbovik/",
+    "domain": "mcmillen.dev",
+    "points": 224,
+    "comments": 32,
+    "hn_url": "https://news.ycombinator.com/item?id=50459745",
+    "title_ko": "페인트 튀긴 자국의 93%는 유효한 Perl 프로그램입니다 (2019)"
+   },
+   {
+    "title": "Tim Peters has died",
+    "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+    "domain": "discuss.python.org",
+    "points": 944,
+    "comments": 101,
+    "hn_url": "https://news.ycombinator.com/item?id=50450488",
+    "title_ko": "Tim Peters 별세"
+   },
+   {
+    "title": "AWS emulator",
+    "url": "https://github.com/aws/aws-emulator",
+    "domain": "github.com",
+    "points": 734,
+    "comments": 222,
+    "hn_url": "https://news.ycombinator.com/item?id=50456631",
+    "title_ko": "AWS 에뮬레이터"
+   },
+   {
+    "title": "Critical RCE Vulnerability in Apache HTTP Server",
+    "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+    "domain": "wiz.io",
+    "points": 26,
+    "comments": 15,
+    "hn_url": "https://news.ycombinator.com/item?id=50462177",
+    "title_ko": "Apache HTTP Server의 치명적인 RCE 취약점"
+   },
+   {
+    "title": "Nvidia is preparing to oust Jensen Huang",
+    "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+    "domain": "wsj.com",
+    "points": 651,
+    "comments": 920,
+    "hn_url": "https://news.ycombinator.com/item?id=50459703",
+    "title_ko": "Nvidia가 Jensen Huang 축출을 준비 중입니다"
+   },
+   {
+    "title": "Lock Your GitHub Actions",
+    "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+    "domain": "hugovk.dev",
+    "points": 165,
+    "comments": 28,
+    "hn_url": "https://news.ycombinator.com/item?id=50459485",
+    "title_ko": "GitHub Actions를 잠그세요"
+   },
+   {
+    "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+    "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+    "domain": "cbsnews.com",
+    "points": 446,
+    "comments": 429,
+    "hn_url": "https://news.ycombinator.com/item?id=50458900",
+    "title_ko": "United Airlines, 여행자를 대리한 AI 에이전트의 항공권 예약 금지"
+   },
+   {
+    "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+    "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+    "domain": "michael.bacarella.com",
+    "points": 435,
+    "comments": 222,
+    "hn_url": "https://news.ycombinator.com/item?id=50455394",
+    "title_ko": "오작동한 연기 감지기로 인해 Jane Street의 유일한 NYC 데이터센터가 잠길 뻔했습니다"
+   },
+   {
+    "title": "Gemini Decisions API",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+    "domain": "blog.google",
+    "points": 309,
+    "comments": 99,
+    "hn_url": "https://news.ycombinator.com/item?id=50456791",
+    "title_ko": "Gemini Decisions API"
+   },
+   {
+    "title": "Did Life Begin in an RNA World?",
+    "url": "https://www.quantamagazine.org/did-life-begin-in-an-rna-world-20261109/",
+    "domain": "quantamagazine.org",
+    "points": 16,
+    "comments": 3,
+    "hn_url": "https://news.ycombinator.com/item?id=50428619",
+    "title_ko": "생명은 RNA 세계에서 시작되었는가?"
+   }
+  ]
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+    "first_author": "Emre Kutlusan",
+    "n_authors": 2,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.14519v1",
+    "title_ko": "의료 이미지 세그멘테이션: 파운데이션 모델 적응 대 작업 특화 훈련"
+   },
+   {
+    "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+    "first_author": "Sheethal Bhat",
+    "n_authors": 6,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.14518v1",
+    "title_ko": "EM-DETR의 예시 기반 그라운딩을 통한 파운데이션 탐지 모델을 향하여"
+   },
+   {
+    "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+    "first_author": "Ziang Liu",
+    "n_authors": 4,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.14514v1",
+    "title_ko": "대조적 발견: 경합하는 설명에 대한 개방형 과학적 발견"
+   },
+   {
+    "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
+    "first_author": "Howard Zhang",
+    "n_authors": 6,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.14493v1",
+    "title_ko": "에이전트 평가 프레임워크 비교 분석: 엔터프라이즈 분석 에이전트에서의 안정성, 탐지 및 발견"
+   },
+   {
+    "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
+    "first_author": "Kaiyuan Hou",
+    "n_authors": 9,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.14492v1",
+    "title_ko": "ReTrace: 도구 활용 에이전트를 플래너 없는 워크플로로 증류하기"
+   },
+   {
+    "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game",
+    "first_author": "Muhan Gao",
+    "n_authors": 6,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.14487v1",
+    "title_ko": "Re-Search: 2인 질문 게임을 통한 LLM 아이디어 발상 해부"
+   },
+   {
+    "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
+    "first_author": "Ilia Larchenko",
+    "n_authors": 7,
+    "cat": "cs.RO",
+    "url": "https://arxiv.org/abs/2611.14432v1",
+    "title_ko": "100가지 가사 작업을 위한 하나의 정책: 2026 BEHAVIOR Challenge를 위한 우리의 솔루션"
+   },
+   {
+    "title": "Two Communities, One Problem: Branch-and-Bound vs. A* for Resource-Constrained Project Scheduling",
+    "first_author": "Izack Cohen",
+    "n_authors": 5,
+    "cat": "math.OC",
+    "url": "https://arxiv.org/abs/2611.14426v1",
+    "title_ko": "두 커뮤니티, 하나의 문제: 자원 제약 프로젝트 스케줄링을 위한 Branch-and-Bound 대 A*"
+   },
+   {
+    "title": "Quantifying the Sampling Frequency Invariance of Time-Series Foundation Models for Sensor Data Applications",
+    "first_author": "Sourish Gunesh Dhekane",
+    "n_authors": 6,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.14425v1",
+    "title_ko": "센서 데이터 애플리케이션을 위한 시계열 파운데이션 모델의 샘플링 주파수 불변성 정량화"
+   },
+   {
+    "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+    "first_author": "Souhaila Djaffal",
+    "n_authors": 5,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.14419v1",
+    "title_ko": "뉴로-심볼릭 추론을 위한 LLM 생성 세계 모델 평가"
+   }
+  ]
+ }
+}
