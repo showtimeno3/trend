@@ -1,0 +1,284 @@
+{
+ "date": "2026-11-13",
+ "github": {
+  "repos": [
+   {
+    "rank": 1,
+    "name": "anthropics/skills",
+    "desc": "Public repository for Agent Skills",
+    "lang": "Python",
+    "stars": 193747,
+    "stars_week": 6055,
+    "desc_ko": "에이전트 스킬용 공개 저장소"
+   },
+   {
+    "rank": 2,
+    "name": "milind-soni/OpenMausBot",
+    "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+    "lang": "TypeScript",
+    "stars": 21776,
+    "stars_week": 9104,
+    "desc_ko": "봇이 사용할 수 있는 가상 머신을 갖춘 오픈소스 Grok Bot 대체 솔루션"
+   },
+   {
+    "rank": 3,
+    "name": "vercel-labs/agent-browser",
+    "desc": "Browser automation CLI for AI agents",
+    "lang": "Rust",
+    "stars": 50372,
+    "stars_week": 4601,
+    "desc_ko": "AI 에이전트를 위한 브라우저 자동화 CLI"
+   },
+   {
+    "rank": 4,
+    "name": "NVIDIA/auto-ontology",
+    "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+    "lang": "Python",
+    "stars": 12288,
+    "stars_week": 5802,
+    "desc_ko": "Auto Ontology는 데이터 위에 시맨틱 및 그래프 기반 추론 레이어를 구축하기 위한 Python 프레임워크입니다. 결정론적 쿼리 생성, 더 나은 컨텍스트 검색, LLM 및 agent 워크플로를 위한 향상된 설명 가능 AI를 가능하게 합니다."
+   },
+   {
+    "rank": 5,
+    "name": "cloudflare/security-audit-skill",
+    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "lang": "JavaScript",
+    "stars": 71285,
+    "stars_week": 10700,
+    "desc_ko": "독립적으로 검증되고 기계가 읽을 수 있는 결과를 제공하는 다단계 보안 감사를 위한 코딩 에이전트 스킬"
+   },
+   {
+    "rank": 6,
+    "name": "vercel-labs/agent-desktop",
+    "desc": "Computer use CLI for AI agents",
+    "lang": "Rust",
+    "stars": 22803,
+    "stars_week": 6414,
+    "desc_ko": "AI 에이전트를 위한 Computer use CLI"
+   },
+   {
+    "rank": 7,
+    "name": "mattpocock/skills",
+    "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+    "lang": "Shell",
+    "stars": 323099,
+    "stars_week": 8731,
+    "desc_ko": "진짜 엔지니어를 위한 스킬. 내 .agents 디렉토리에서 바로 제공."
+   },
+   {
+    "rank": 8,
+    "name": "zed-industries/zed",
+    "desc": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+    "lang": "Rust",
+    "stars": 94864,
+    "stars_week": 2339,
+    "desc_ko": "생각의 속도로 코딩하세요 – Zed는 Atom과 Tree-sitter의 제작자들이 만든 고성능 멀티플레이어 코드 에디터입니다."
+   },
+   {
+    "rank": 9,
+    "name": "google-deepmind/mujoco",
+    "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+    "lang": "C++",
+    "stars": 17781,
+    "stars_week": 1671,
+    "desc_ko": "Contact가 포함된 Multi-Joint dynamics. 범용 물리 시뮬레이터."
+   },
+   {
+    "rank": 10,
+    "name": "google/skills",
+    "desc": "Agent Skills for Google products and technologies",
+    "lang": "Python",
+    "stars": 24084,
+    "stars_week": 1933,
+    "desc_ko": "Google 제품 및 기술을 위한 Agent Skills"
+   },
+   {
+    "rank": 11,
+    "name": "D4Vinci/Scrapling",
+    "desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+    "lang": "Python",
+    "stars": 102210,
+    "stars_week": 4743,
+    "desc_ko": "🕷️ 단일 요청부터 본격적인 크롤링까지 모든 것을 처리해 주는 최고의 웹 스크래핑 프레임워크! 주저하지 마시고 여기에서 가입하세요: https://discord.gg/EMgGbDceNQ. 매일 유용한 팁과 요령을 받아보시려면 여기를 팔로우하세요: https://x.com/Scrapling_dev"
+   }
+  ]
+ },
+ "hn": {
+  "items": [
+   {
+    "title": "Africa's solar revolution is vast and speedy",
+    "url": "https://www.economist.com/middle-east-and-africa/2026/11/12/africas-solar-revolution-is-vast-and-speedy",
+    "domain": "economist.com",
+    "points": 58,
+    "comments": 7,
+    "hn_url": "https://news.ycombinator.com/item?id=50477331",
+    "title_ko": "아프리카의 태양광 혁명은 방대하고 신속합니다"
+   },
+   {
+    "title": "Jensen Huang resigns",
+    "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+    "domain": "apnews.com",
+    "points": 3084,
+    "comments": 2891,
+    "hn_url": "https://news.ycombinator.com/item?id=50467087",
+    "title_ko": "Jensen Huang 사임"
+   },
+   {
+    "title": "Rust 1.100",
+    "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+    "domain": "blog.rust-lang.org",
+    "points": 475,
+    "comments": 206,
+    "hn_url": "https://news.ycombinator.com/item?id=50472038",
+    "title_ko": "Rust 1.100"
+   },
+   {
+    "title": "Nvidia employees petition to bring back Jensen Huang",
+    "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+    "domain": "wired.com",
+    "points": 104,
+    "comments": 66,
+    "hn_url": "https://news.ycombinator.com/item?id=50477231",
+    "title_ko": "Nvidia 직원들, Jensen Huang 복귀를 위한 청원 운동 진행"
+   },
+   {
+    "title": "Gemini 4 Hydrogen and Orchestrator",
+    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+    "domain": "antigravity.google",
+    "points": 333,
+    "comments": 82,
+    "hn_url": "https://news.ycombinator.com/item?id=50472260",
+    "title_ko": "Gemini 4 Hydrogen 및 Orchestrator"
+   },
+   {
+    "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+    "url": "https://github.com/simpsoka/zigzag",
+    "domain": "github.com",
+    "points": 372,
+    "comments": 146,
+    "hn_url": "https://news.ycombinator.com/item?id=50470488",
+    "title_ko": "Show HN: 300달러짜리 자수기에 구독이 필요해서 직접 앱을 만들었습니다"
+   },
+   {
+    "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
+    "url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/",
+    "domain": "smithsonianmag.com",
+    "points": 220,
+    "comments": 102,
+    "hn_url": "https://news.ycombinator.com/item?id=50472490",
+    "title_ko": "태양을 공전하는 데 약 280년이 걸리는 왜소행성 후보 발견"
+   },
+   {
+    "title": "Foundation Models framework",
+    "url": "https://developer.apple.com/foundation-models-framework/",
+    "domain": "developer.apple.com",
+    "points": 148,
+    "comments": 18,
+    "hn_url": "https://news.ycombinator.com/item?id=50474361",
+    "title_ko": "Foundation Models 프레임워크"
+   },
+   {
+    "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+    "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+    "domain": "edge0.ai",
+    "points": 85,
+    "comments": 19,
+    "hn_url": "https://news.ycombinator.com/item?id=50475713",
+    "title_ko": "Edge0-145B: 개인 컴퓨터에서 구현하는 프론티어 AI 성능"
+   },
+   {
+    "title": "Service degradation on Microsoft 365",
+    "url": "https://status.cloud.microsoft/",
+    "domain": "status.cloud.microsoft",
+    "points": 576,
+    "comments": 534,
+    "hn_url": "https://news.ycombinator.com/item?id=50471731",
+    "title_ko": "Microsoft 365 서비스 저하 현상 발생"
+   }
+  ]
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "Estimating Image Creativity",
+    "first_author": "Nisan Chhetri",
+    "n_authors": 3,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.15044v1",
+    "title_ko": "이미지 창의성 추정"
+   },
+   {
+    "title": "Moving Beyond the DRW Model: Learning Quasar Variability with Generative Models",
+    "first_author": "Nadav Bojan Sellam",
+    "n_authors": 4,
+    "cat": "astro-ph.GA",
+    "url": "https://arxiv.org/abs/2611.15040v1",
+    "title_ko": "DRW 모델을 넘어: 생성 모델을 통한 퀘이사 변광성 학습"
+   },
+   {
+    "title": "SkinAdvisor: An AI-Driven Decision Framework for Skin Production Planning via Multi-Modal Transformer Sales Forecasting",
+    "first_author": "Ge Fan",
+    "n_authors": 6,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.15023v1",
+    "title_ko": "SkinAdvisor: 다중 모달 Transformer 매출 예측을 통한 스킨 생산 계획용 AI 기반 의사결정 프레임워크"
+   },
+   {
+    "title": "Beyond Named Mechanisms: Economic Institutions as a Design Space for Artificial Agents",
+    "first_author": "Nikolos Gurney",
+    "n_authors": 2,
+    "cat": "cs.MA",
+    "url": "https://arxiv.org/abs/2611.15017v1",
+    "title_ko": "명시된 메커니즘을 넘어: 인공 에이전트를 위한 설계 공간으로서의 경제 제도"
+   },
+   {
+    "title": "EvoX: Rethinking the Agent Harness as a Runtime Policy",
+    "first_author": "Haoyang Zhang",
+    "n_authors": 6,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.15006v1",
+    "title_ko": "EvoX: 에이전트 하네스를 런타임 정책으로 재고하기"
+   },
+   {
+    "title": "A Cardiorespiratory Foundation Model Pretrained on Ten Physiological Signals for Perioperative and Critical Care",
+    "first_author": "Cheol-Hui Lee",
+    "n_authors": 6,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.15004v1",
+    "title_ko": "수술 전후 및 중환자 치료를 위해 10가지 생체 신호로 사전 학습된 심폐 Foundation Model"
+   },
+   {
+    "title": "LLM-Enhanced Deep Reinforcement Learning with Human-in-the-Loop Calibration for Real-Time Optimal Power Flow",
+    "first_author": "Jiayang Tu",
+    "n_authors": 6,
+    "cat": "eess.SY",
+    "url": "https://arxiv.org/abs/2611.15003v1",
+    "title_ko": "실시간 최적 전력 흐름을 위한 Human-in-the-Loop 보정이 포함된 LLM 향상 심층 강화 학습"
+   },
+   {
+    "title": "QSim-Arena: an evolving developer for quantum simulation advantage",
+    "first_author": "Jue Xu",
+    "n_authors": 3,
+    "cat": "quant-ph",
+    "url": "https://arxiv.org/abs/2611.15000v1",
+    "title_ko": "QSim-Arena: 양자 시뮬레이션 우위를 위해 진화하는 개발자"
+   },
+   {
+    "title": "Same Task, Different Statement: When and How Reformulation Helps LLM Problem Solving",
+    "first_author": "Wentao Zhang",
+    "n_authors": 8,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.14997v1",
+    "title_ko": "같은 작업, 다른 서술: 재구성이 LLM 문제 해결에 도움이 되는 시점과 방법"
+   },
+   {
+    "title": "Breaking Bad: \"Going Badly\" Activations Drive Reward Hacking",
+    "first_author": "Natalia Fischl-Lanzoni",
+    "n_authors": 4,
+    "cat": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.14996v1",
+    "title_ko": "Breaking Bad: \"Going Badly\" 활성화가 보상 해킹을 유발한다"
+   }
+  ]
+ }
+}
