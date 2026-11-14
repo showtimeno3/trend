@@ -1,0 +1,320 @@
+{
+ "date": "2026-11-14",
+ "github": {
+  "repos": [
+   {
+    "rank": 1,
+    "name": "sherlock-project/sherlock",
+    "desc": "Hunt down social media accounts by username across social networks",
+    "lang": "Python",
+    "stars": 111212,
+    "stars_week": 13364,
+    "desc_ko": "소셜 네트워크 전반에서 사용자 이름으로 소셜 미디어 계정 추적하기"
+   },
+   {
+    "rank": 2,
+    "name": "anthropics/skills",
+    "desc": "Public repository for Agent Skills",
+    "lang": "Python",
+    "stars": 194177,
+    "stars_week": 6169,
+    "desc_ko": "에이전트 스킬용 공개 저장소"
+   },
+   {
+    "rank": 3,
+    "name": "milind-soni/OpenMausBot",
+    "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+    "lang": "TypeScript",
+    "stars": 22232,
+    "stars_week": 7763,
+    "desc_ko": "봇이 사용할 수 있는 가상 머신을 갖춘 오픈소스 Grok Bot 대체 솔루션"
+   },
+   {
+    "rank": 4,
+    "name": "vercel-labs/agent-browser",
+    "desc": "Browser automation CLI for AI agents",
+    "lang": "Rust",
+    "stars": 50764,
+    "stars_week": 4360,
+    "desc_ko": "AI 에이전트를 위한 브라우저 자동화 CLI"
+   },
+   {
+    "rank": 5,
+    "name": "google/elephant-goldfish-model",
+    "desc": "Open-source plugin for designing and reviewing software with agents",
+    "lang": "Python",
+    "stars": 18668,
+    "stars_week": 5560,
+    "desc_ko": "에이전트와 함께 소프트웨어를 설계하고 검토하기 위한 오픈소스 플러그인"
+   },
+   {
+    "rank": 6,
+    "name": "ZhuLinsen/daily_stock_analysis",
+    "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "lang": "Python",
+    "stars": 71708,
+    "stars_week": 3778,
+    "desc_ko": "LLM 기반 다중 시장 주식 지능형 분석 시스템: 다중 소스 시세, 실시간 뉴스, 의사결정 대시보드 및 자동 푸시, 비용 제로 정기 실행 지원. LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+   },
+   {
+    "rank": 7,
+    "name": "NVIDIA/auto-ontology",
+    "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+    "lang": "Python",
+    "stars": 12587,
+    "stars_week": 4108,
+    "desc_ko": "Auto Ontology는 데이터 위에 시맨틱 및 그래프 기반 추론 레이어를 구축하기 위한 Python 프레임워크입니다. 결정론적 쿼리 생성, 더 나은 컨텍스트 검색, LLM 및 agent 워크플로를 위한 향상된 설명 가능 AI를 가능하게 합니다."
+   },
+   {
+    "rank": 8,
+    "name": "google-deepmind/mujoco",
+    "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+    "lang": "C++",
+    "stars": 17880,
+    "stars_week": 1764,
+    "desc_ko": "Contact가 포함된 Multi-Joint dynamics. 범용 물리 시뮬레이터."
+   },
+   {
+    "rank": 9,
+    "name": "mattpocock/skills",
+    "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+    "lang": "Shell",
+    "stars": 323882,
+    "stars_week": 7599,
+    "desc_ko": "진짜 엔지니어를 위한 스킬. 내 .agents 디렉토리에서 바로 제공."
+   },
+   {
+    "rank": 10,
+    "name": "addyosmani/agent-skills",
+    "desc": "Production-grade engineering skills for AI coding agents.",
+    "lang": "JavaScript",
+    "stars": 117184,
+    "stars_week": 3502,
+    "desc_ko": "AI 코딩 에이전트를 위한 프로덕션급 엔지니어링 기술."
+   },
+   {
+    "rank": 11,
+    "name": "cloudflare/security-audit-skill",
+    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "lang": "JavaScript",
+    "stars": 71982,
+    "stars_week": 8829,
+    "desc_ko": "독립적으로 검증되고 기계가 읽을 수 있는 결과를 제공하는 다단계 보안 감사를 위한 코딩 에이전트 스킬"
+   },
+   {
+    "rank": 12,
+    "name": "zed-industries/zed",
+    "desc": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+    "lang": "Rust",
+    "stars": 94972,
+    "stars_week": 2117,
+    "desc_ko": "생각의 속도로 코딩하세요 – Zed는 Atom과 Tree-sitter의 제작자들이 만든 고성능 멀티플레이어 코드 에디터입니다."
+   },
+   {
+    "rank": 13,
+    "name": "anthropics/claude-quickstarts",
+    "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+    "lang": "Python",
+    "stars": 20879,
+    "stars_week": 1731,
+    "desc_ko": "개발자가 Claude API를 사용해 배포 가능한 애플리케이션을 빠르게 구축할 수 있도록 돕기 위해 설계된 프로젝트 모음"
+   },
+   {
+    "rank": 14,
+    "name": "vercel-labs/agent-desktop",
+    "desc": "Computer use CLI for AI agents",
+    "lang": "Rust",
+    "stars": 23346,
+    "stars_week": 5408,
+    "desc_ko": "AI 에이전트를 위한 Computer use CLI"
+   },
+   {
+    "rank": 15,
+    "name": "lobehub/lobehub",
+    "desc": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
+    "lang": "TypeScript",
+    "stars": 85417,
+    "stars_week": 1126,
+    "desc_ko": "🤯 LobeHub - 팀을 위한 슈퍼 에이전트. 팀이 이미 사용하는 채팅에 슈퍼 에이전트를 추가하세요. 스스로 업무를 수행하며 매주 더 발전합니다."
+   }
+  ]
+ },
+ "hn": {
+  "items": [
+   {
+    "title": "FAA lifted National Ground Stop at 0119Z",
+    "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5",
+    "domain": "fly.faa.gov",
+    "points": 175,
+    "comments": 159,
+    "hn_url": "https://news.ycombinator.com/item?id=50492601",
+    "title_ko": "FAA, 0119Z에 전국 지상 정지 조치 해제"
+   },
+   {
+    "title": "Elephants Found to Be Increasingly Isolated Leading to Fractured Social Networks",
+    "url": "https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks",
+    "domain": "today.ucsd.edu",
+    "points": 20,
+    "comments": 2,
+    "hn_url": "https://news.ycombinator.com/item?id=50492860",
+    "title_ko": "코끼리가 점점 고립되어 사회적 네트워크가 분열되는 것으로 밝혀짐"
+   },
+   {
+    "title": "FAA issues national ground stop",
+    "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+    "domain": "nbcnews.com",
+    "points": 1370,
+    "comments": 846,
+    "hn_url": "https://news.ycombinator.com/item?id=50489641",
+    "title_ko": "FAA, 전국 지상 정지 조치 발령"
+   },
+   {
+    "title": "Terminal borders that don't cost a cell",
+    "url": "https://www.joshka.net/cell-borders/",
+    "domain": "joshka.net",
+    "points": 99,
+    "comments": 55,
+    "hn_url": "https://news.ycombinator.com/item?id=50491423",
+    "title_ko": "셀 공간을 차지하지 않는 터미널 테두리"
+   },
+   {
+    "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+    "url": "https://orcasairband.com/",
+    "domain": "orcasairband.com",
+    "points": 223,
+    "comments": 52,
+    "hn_url": "https://news.ycombinator.com/item?id=50490593",
+    "title_ko": "KORS의 모든 주파수에서 실시간 에어밴드 방송 중. 캐나다 빅토리아도 지상 정지 조치됨"
+   },
+   {
+    "title": "What Happened to 3Com?",
+    "url": "https://dfarq.homeip.net/what-happened-to-3com/",
+    "domain": "dfarq.homeip.net",
+    "points": 64,
+    "comments": 32,
+    "hn_url": "https://news.ycombinator.com/item?id=50491830",
+    "title_ko": "3Com에는 무슨 일이 일어났는가?"
+   },
+   {
+    "title": "Anthropic Upgrades Claude Code Projects to Run Parallel AI Workers Hands-Free",
+    "url": "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free",
+    "domain": "alphasignal.ai",
+    "points": 47,
+    "comments": 30,
+    "hn_url": "https://news.ycombinator.com/item?id=50492141",
+    "title_ko": "Anthropic, 병렬 AI 워커를 자동으로 실행할 수 있도록 Claude Code Projects 업그레이드"
+   },
+   {
+    "title": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
+    "url": "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026",
+    "domain": "fox5dc.com",
+    "points": 127,
+    "comments": 39,
+    "hn_url": "https://news.ycombinator.com/item?id=50492315",
+    "title_ko": "전국적인 FAA 지상 정지 조치 속에 Amtrak 예약 시스템에 대형 장애 발생"
+   },
+   {
+    "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+    "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+    "domain": "scottjg.com",
+    "points": 691,
+    "comments": 201,
+    "hn_url": "https://news.ycombinator.com/item?id=50474959",
+    "title_ko": "클라우드 연결을 끊기 위해 내 코웨이 공기청정기 리버스 엔지니어링하기"
+   },
+   {
+    "title": "Ukraine knocks out 36% of Russia's oil refining capacity in under two weeks",
+    "url": "https://english.nv.ua/nation/thirteen-day-drone-blitz-paralyzes-36-of-moscow-s-oil-50658616.html",
+    "domain": "english.nv.ua",
+    "points": 171,
+    "comments": 60,
+    "hn_url": "https://news.ycombinator.com/item?id=50492456",
+    "title_ko": "우크라이나, 2주도 안 되어 러시아 정유 능력의 36% 무력화"
+   }
+  ]
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+    "first_author": "Ethan Lin",
+    "n_authors": 5,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.17323v1",
+    "title_ko": "AgentSSL: MLE 에이전트가 라벨링되지 않은 데이터를 활용할 수 있을까?"
+   },
+   {
+    "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+    "first_author": "Peiwen Li",
+    "n_authors": 9,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.17316v1",
+    "title_ko": "CoReMem: 미래 가치 평가를 통한 연속적 코딩 작업을 위한 비용 내재화 메모리"
+   },
+   {
+    "title": "Sketching Language Models for Context Attribution",
+    "first_author": "Christopher Liaw",
+    "n_authors": 4,
+    "cat": "cs.DS",
+    "url": "https://arxiv.org/abs/2611.17313v1",
+    "title_ko": "컨텍스트 귀인을 위한 스케칭 언어 모델"
+   },
+   {
+    "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+    "first_author": "Benjamin Hoover",
+    "n_authors": 3,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.17309v1",
+    "title_ko": "고전적 에너지가 루프형 모델보다 1,000배 빠르게 추론하는 법을 학습하다"
+   },
+   {
+    "title": "Consistent Video-to-Video Translation via Explicit Correspondences",
+    "first_author": "Gaurav Parmar",
+    "n_authors": 7,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.17298v1",
+    "title_ko": "명시적 대응관계를 통한 일관된 비디오 대 비디오 변환"
+   },
+   {
+    "title": "Goal Encoding in LLMs",
+    "first_author": "Arnab Sen Sharma",
+    "n_authors": 10,
+    "cat": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.17297v1",
+    "title_ko": "LLM에서의 목표 인코딩"
+   },
+   {
+    "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
+    "first_author": "Haozhe Wang",
+    "n_authors": 8,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.17294v1",
+    "title_ko": "Metal Sandbox: Apple Silicon 기반 GPU 코딩 에이전트를 위한 격리된 실행 및 명령 스케줄링"
+   },
+   {
+    "title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
+    "first_author": "Gautam Galada",
+    "n_authors": 3,
+    "cat": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.17280v1",
+    "title_ko": "Synthesis Smuggling: LLM 출력에 추론된 개인 속성을 악의적으로 숨기기"
+   },
+   {
+    "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+    "first_author": "Pengcheng Zhou",
+    "n_authors": 9,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.17267v1",
+    "title_ko": "LiveGeo: 지속적으로 진화하는 환경에서 지리 에이전트 벤치마킹"
+   },
+   {
+    "title": "Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery",
+    "first_author": "Samidha Verma",
+    "n_authors": 3,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.17241v1",
+    "title_ko": "Ballad: 자동화된 휴리스틱 발견을 위한 밴딧 기반 LLM 라우팅"
+   }
+  ]
+ }
+}
