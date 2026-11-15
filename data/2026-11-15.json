@@ -1,0 +1,284 @@
+{
+ "date": "2026-11-15",
+ "github": {
+  "repos": [
+   {
+    "rank": 1,
+    "name": "meta/astryx",
+    "desc": "An open source design system that's fully customizable and agent ready",
+    "lang": "TypeScript",
+    "stars": 28202,
+    "stars_week": 13660,
+    "desc_ko": "완전히 커스텀할 수 있으며 agent 적용이 준비된 오픈소스 디자인 시스템"
+   },
+   {
+    "rank": 2,
+    "name": "sherlock-project/sherlock",
+    "desc": "Hunt down social media accounts by username across social networks",
+    "lang": "Python",
+    "stars": 111827,
+    "stars_week": 12401,
+    "desc_ko": "소셜 네트워크 전반에서 사용자 이름으로 소셜 미디어 계정 추적하기"
+   },
+   {
+    "rank": 3,
+    "name": "anthropics/skills",
+    "desc": "Public repository for Agent Skills",
+    "lang": "Python",
+    "stars": 194657,
+    "stars_week": 6220,
+    "desc_ko": "에이전트 스킬용 공개 저장소"
+   },
+   {
+    "rank": 4,
+    "name": "vercel-labs/agent-browser",
+    "desc": "Browser automation CLI for AI agents",
+    "lang": "Rust",
+    "stars": 51241,
+    "stars_week": 4601,
+    "desc_ko": "AI 에이전트를 위한 브라우저 자동화 CLI"
+   },
+   {
+    "rank": 5,
+    "name": "google/elephant-goldfish-model",
+    "desc": "Open-source plugin for designing and reviewing software with agents",
+    "lang": "Python",
+    "stars": 19233,
+    "stars_week": 5539,
+    "desc_ko": "에이전트와 함께 소프트웨어를 설계하고 검토하기 위한 오픈소스 플러그인"
+   },
+   {
+    "rank": 6,
+    "name": "milind-soni/OpenMausBot",
+    "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+    "lang": "TypeScript",
+    "stars": 22811,
+    "stars_week": 6413,
+    "desc_ko": "봇이 사용할 수 있는 가상 머신을 갖춘 오픈소스 Grok Bot 대체 솔루션"
+   },
+   {
+    "rank": 7,
+    "name": "ZhuLinsen/daily_stock_analysis",
+    "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "lang": "Python",
+    "stars": 72276,
+    "stars_week": 4526,
+    "desc_ko": "LLM 기반 다중 시장 주식 지능형 분석 시스템: 다중 소스 시세, 실시간 뉴스, 의사결정 대시보드 및 자동 푸시, 비용 제로 정기 실행 지원. LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+   },
+   {
+    "rank": 8,
+    "name": "google-deepmind/mujoco",
+    "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+    "lang": "C++",
+    "stars": 17988,
+    "stars_week": 1859,
+    "desc_ko": "Contact가 포함된 Multi-Joint dynamics. 범용 물리 시뮬레이터."
+   },
+   {
+    "rank": 9,
+    "name": "backnotprop/plannotator",
+    "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "lang": "TypeScript",
+    "stars": 11191,
+    "stars_week": 818,
+    "desc_ko": "상황을 지속적으로 파악하고 agent를 완벽히 관리할 수 있는 워크스페이스 - 구상, 결정, 계획, 주석 달기, 코드 리뷰, 팀 공유 및 클릭 한 번으로 모든 피드백을 agent에 전송까지 가능합니다."
+   },
+   {
+    "rank": 10,
+    "name": "addyosmani/agent-skills",
+    "desc": "Production-grade engineering skills for AI coding agents.",
+    "lang": "JavaScript",
+    "stars": 117603,
+    "stars_week": 3670,
+    "desc_ko": "AI 코딩 에이전트를 위한 프로덕션급 엔지니어링 기술."
+   },
+   {
+    "rank": 11,
+    "name": "anthropics/claude-quickstarts",
+    "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+    "lang": "Python",
+    "stars": 20991,
+    "stars_week": 1794,
+    "desc_ko": "개발자가 Claude API를 사용해 배포 가능한 애플리케이션을 빠르게 구축할 수 있도록 돕기 위해 설계된 프로젝트 모음"
+   }
+  ]
+ },
+ "hn": {
+  "items": [
+   {
+    "title": "SpaceX catches the Starship to end Flight 15",
+    "url": "https://www.spacex.com/launches/starship-flight-15",
+    "domain": "spacex.com",
+    "points": 768,
+    "comments": 522,
+    "hn_url": "https://news.ycombinator.com/item?id=50500963",
+    "title_ko": "SpaceX, Starship을 포착하며 Flight 15 종료"
+   },
+   {
+    "title": "Lovable apps expose passport details and more than 200K private messages",
+    "url": "https://www.crissyfield.de/research/lovable-en/",
+    "domain": "crissyfield.de",
+    "points": 671,
+    "comments": 279,
+    "hn_url": "https://news.ycombinator.com/item?id=50499017",
+    "title_ko": "Lovable 앱에서 여권 정보 및 20만 개 이상의 비공개 메시지 유출"
+   },
+   {
+    "title": "How did Woz write the Apple 1 BASIC before building the computer?",
+    "url": "https://retrocomputing.stackexchange.com/questions/17957",
+    "domain": "retrocomputing.stackexchange.com",
+    "points": 107,
+    "comments": 35,
+    "hn_url": "https://news.ycombinator.com/item?id=50501594",
+    "title_ko": "Woz는 컴퓨터를 만들기 전에 어떻게 Apple 1 BASIC을 작성했을까?"
+   },
+   {
+    "title": "A family tree of software job titles",
+    "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+    "domain": "zwischenzugs.com",
+    "points": 221,
+    "comments": 107,
+    "hn_url": "https://news.ycombinator.com/item?id=50499038",
+    "title_ko": "소프트웨어 직함의 족보"
+   },
+   {
+    "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+    "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+    "domain": "techspot.com",
+    "points": 219,
+    "comments": 123,
+    "hn_url": "https://news.ycombinator.com/item?id=50501631",
+    "title_ko": "Nvidia가 순환 금융 거래를 통해 의도적으로 GPU 가격을 높게 유지했다"
+   },
+   {
+    "title": "KDE: The documentary [video]",
+    "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
+    "domain": "tube.kockatoo.org",
+    "points": 393,
+    "comments": 85,
+    "hn_url": "https://news.ycombinator.com/item?id=50496976",
+    "title_ko": "KDE: 다큐멘터리 [비디오]"
+   },
+   {
+    "title": "500 Lines or Less A 3D Modeller",
+    "url": "https://aosabook.org/en/500L/a-3d-modeller.html",
+    "domain": "aosabook.org",
+    "points": 14,
+    "comments": 0,
+    "hn_url": "https://news.ycombinator.com/item?id=50483431",
+    "title_ko": "500 Lines or Less: 3D 모델러"
+   },
+   {
+    "title": "PyPI's redesigned project pages with clearer security signals are now live",
+    "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+    "domain": "blog.pypi.org",
+    "points": 213,
+    "comments": 93,
+    "hn_url": "https://news.ycombinator.com/item?id=50497892",
+    "title_ko": "더 명확한 보안 신호를 포함해 새롭게 단장한 PyPI의 프로젝트 페이지가 정식 오픈되었습니다"
+   },
+   {
+    "title": "Why get an expensive Pi when I have an old phone?",
+    "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
+    "domain": "so.long.thanks.fish",
+    "points": 518,
+    "comments": 284,
+    "hn_url": "https://news.ycombinator.com/item?id=50440709",
+    "title_ko": "오래된 스마트폰이 있는데 왜 비싼 Pi를 살까?"
+   },
+   {
+    "title": "'Grey Rocking': The Life-Improving Power of Being Really, Really Boring (2021)",
+    "url": "https://www.esquire.com/uk/life/a38473153/grey-rock-technique-being-boring/",
+    "domain": "esquire.com",
+    "points": 109,
+    "comments": 59,
+    "hn_url": "https://news.ycombinator.com/item?id=50471874",
+    "title_ko": "'Grey Rocking': 진정으로 지루한 사람이 되는 것이 삶을 개선하는 힘 (2021)"
+   }
+  ]
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+    "first_author": "Ethan Lin",
+    "n_authors": 5,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.17323v1",
+    "title_ko": "AgentSSL: MLE 에이전트가 라벨링되지 않은 데이터를 활용할 수 있을까?"
+   },
+   {
+    "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+    "first_author": "Peiwen Li",
+    "n_authors": 9,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.17316v1",
+    "title_ko": "CoReMem: 미래 가치 평가를 통한 연속적 코딩 작업을 위한 비용 내재화 메모리"
+   },
+   {
+    "title": "Sketching Language Models for Context Attribution",
+    "first_author": "Christopher Liaw",
+    "n_authors": 4,
+    "cat": "cs.DS",
+    "url": "https://arxiv.org/abs/2611.17313v1",
+    "title_ko": "컨텍스트 귀인을 위한 스케칭 언어 모델"
+   },
+   {
+    "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+    "first_author": "Benjamin Hoover",
+    "n_authors": 3,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.17309v1",
+    "title_ko": "고전적 에너지가 루프형 모델보다 1,000배 빠르게 추론하는 법을 학습하다"
+   },
+   {
+    "title": "Consistent Video-to-Video Translation via Explicit Correspondences",
+    "first_author": "Gaurav Parmar",
+    "n_authors": 7,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.17298v1",
+    "title_ko": "명시적 대응관계를 통한 일관된 비디오 대 비디오 변환"
+   },
+   {
+    "title": "Goal Encoding in LLMs",
+    "first_author": "Arnab Sen Sharma",
+    "n_authors": 10,
+    "cat": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.17297v1",
+    "title_ko": "LLM에서의 목표 인코딩"
+   },
+   {
+    "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
+    "first_author": "Haozhe Wang",
+    "n_authors": 8,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.17294v1",
+    "title_ko": "Metal Sandbox: Apple Silicon 기반 GPU 코딩 에이전트를 위한 격리된 실행 및 명령 스케줄링"
+   },
+   {
+    "title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
+    "first_author": "Gautam Galada",
+    "n_authors": 3,
+    "cat": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.17280v1",
+    "title_ko": "Synthesis Smuggling: LLM 출력에 추론된 개인 속성을 악의적으로 숨기기"
+   },
+   {
+    "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+    "first_author": "Pengcheng Zhou",
+    "n_authors": 9,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.17267v1",
+    "title_ko": "LiveGeo: 지속적으로 진화하는 환경에서 지리 에이전트 벤치마킹"
+   },
+   {
+    "title": "Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery",
+    "first_author": "Samidha Verma",
+    "n_authors": 3,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.17241v1",
+    "title_ko": "Ballad: 자동화된 휴리스틱 발견을 위한 밴딧 기반 LLM 라우팅"
+   }
+  ]
+ }
+}
