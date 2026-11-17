@@ -1,0 +1,311 @@
+{
+ "date": "2026-11-17",
+ "github": {
+  "repos": [
+   {
+    "rank": 1,
+    "name": "GoogleChrome/modern-web-guidance-src",
+    "desc": "Keep your coding agent up to date with the latest web best practices",
+    "lang": "TypeScript",
+    "stars": 8096,
+    "stars_week": 6542,
+    "desc_ko": "코딩 에이전트를 최신 웹 모범 사례로 최신 상태로 유지하세요"
+   },
+   {
+    "rank": 2,
+    "name": "meta/astryx",
+    "desc": "An open source design system that's fully customizable and agent ready",
+    "lang": "TypeScript",
+    "stars": 29728,
+    "stars_week": 10939,
+    "desc_ko": "완전히 커스텀할 수 있으며 agent 적용이 준비된 오픈소스 디자인 시스템"
+   },
+   {
+    "rank": 3,
+    "name": "backnotprop/plannotator",
+    "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "lang": "TypeScript",
+    "stars": 12707,
+    "stars_week": 2325,
+    "desc_ko": "상황을 지속적으로 파악하고 agent를 완벽히 관리할 수 있는 워크스페이스 - 구상, 결정, 계획, 주석 달기, 코드 리뷰, 팀 공유 및 클릭 한 번으로 모든 피드백을 agent에 전송까지 가능합니다."
+   },
+   {
+    "rank": 4,
+    "name": "anthropics/skills",
+    "desc": "Public repository for Agent Skills",
+    "lang": "Python",
+    "stars": 196178,
+    "stars_week": 5666,
+    "desc_ko": "에이전트 스킬용 공개 저장소"
+   },
+   {
+    "rank": 5,
+    "name": "vercel-labs/agent-browser",
+    "desc": "Browser automation CLI for AI agents",
+    "lang": "Rust",
+    "stars": 52096,
+    "stars_week": 3760,
+    "desc_ko": "AI 에이전트를 위한 브라우저 자동화 CLI"
+   },
+   {
+    "rank": 6,
+    "name": "we-promise/sure",
+    "desc": "The personal finance app for everyone (by everyone)",
+    "lang": "Ruby",
+    "stars": 16057,
+    "stars_week": 4679,
+    "desc_ko": "모두를 위한 (모두에 의한) 개인 자산 관리 앱"
+   },
+   {
+    "rank": 7,
+    "name": "ZhuLinsen/daily_stock_analysis",
+    "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "lang": "Python",
+    "stars": 72876,
+    "stars_week": 4355,
+    "desc_ko": "LLM 기반 다중 시장 주식 지능형 분석 시스템: 다중 소스 시세, 실시간 뉴스, 의사결정 대시보드 및 자동 푸시, 비용 제로 정기 실행 지원. LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+   },
+   {
+    "rank": 8,
+    "name": "sherlock-project/sherlock",
+    "desc": "Hunt down social media accounts by username across social networks",
+    "lang": "Python",
+    "stars": 113285,
+    "stars_week": 7067,
+    "desc_ko": "소셜 네트워크 전반에서 사용자 이름으로 소셜 미디어 계정 추적하기"
+   },
+   {
+    "rank": 9,
+    "name": "google/elephant-goldfish-model",
+    "desc": "Open-source plugin for designing and reviewing software with agents",
+    "lang": "Python",
+    "stars": 20458,
+    "stars_week": 4249,
+    "desc_ko": "에이전트와 함께 소프트웨어를 설계하고 검토하기 위한 오픈소스 플러그인"
+   },
+   {
+    "rank": 10,
+    "name": "google-deepmind/mujoco",
+    "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+    "lang": "C++",
+    "stars": 18204,
+    "stars_week": 1448,
+    "desc_ko": "Contact가 포함된 Multi-Joint dynamics. 범용 물리 시뮬레이터."
+   },
+   {
+    "rank": 11,
+    "name": "alibaba/open-code-review",
+    "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "lang": "Go",
+    "stars": 53098,
+    "stars_week": 3056,
+    "desc_ko": "Alibaba 규모에서 검증된 안전하고 빠르고 효율적인 도구. 하이브리드 아키텍처 코드 리뷰 도구: 결정론적 파이프라인 + LLM Agent, 정확한 줄 단위 주석, 내장 다국어 규칙 세트 (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic 호환."
+   },
+   {
+    "rank": 12,
+    "name": "addyosmani/agent-skills",
+    "desc": "Production-grade engineering skills for AI coding agents.",
+    "lang": "JavaScript",
+    "stars": 118393,
+    "stars_week": 3960,
+    "desc_ko": "AI 코딩 에이전트를 위한 프로덕션급 엔지니어링 기술."
+   },
+   {
+    "rank": 13,
+    "name": "openai/codex-security",
+    "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+    "lang": "TypeScript",
+    "stars": 13805,
+    "stars_week": 2352,
+    "desc_ko": "보안 취약점을 찾고, 검증하고, 수정하기 위한 OpenAI의 Codex Security CLI 및 TypeScript SDK. npm: https://www.npmjs.com/package/@openai/codex-security"
+   },
+   {
+    "rank": 14,
+    "name": "QwenLM/qwen-code",
+    "desc": "An open-source AI coding agent that lives in your terminal.",
+    "lang": "TypeScript",
+    "stars": 30673,
+    "stars_week": 1497,
+    "desc_ko": "터미널에서 작동하는 오픈 소스 AI 코딩 에이전트."
+   }
+  ]
+ },
+ "hn": {
+  "items": [
+   {
+    "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+    "url": "https://www.cs.cmu.edu/learn/",
+    "domain": "cs.cmu.edu",
+    "points": 1018,
+    "comments": 157,
+    "hn_url": "https://news.ycombinator.com/item?id=50522980",
+    "title_ko": "카네기 멜론 대학교가 컴퓨터 과학 강의를 YouTube에 무료로 공개하고 있습니다"
+   },
+   {
+    "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+    "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+    "domain": "xusheng.dev",
+    "points": 386,
+    "comments": 243,
+    "hn_url": "https://news.ycombinator.com/item?id=50524736",
+    "title_ko": "Windows 11이 사용자가 사용하는 코딩 에이전트 및 개발자 도구에 대한 데이터를 수집하고 있습니다"
+   },
+   {
+    "title": "BugMeNot has closed",
+    "url": "https://www.bugmenot.com/",
+    "domain": "bugmenot.com",
+    "points": 415,
+    "comments": 200,
+    "hn_url": "https://news.ycombinator.com/item?id=50523601",
+    "title_ko": "BugMeNot이 서비스를 종료했습니다"
+   },
+   {
+    "title": "Optimizely compromised, served malware on Zoom, GitLab",
+    "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+    "domain": "blog.report-uri.com",
+    "points": 193,
+    "comments": 93,
+    "hn_url": "https://news.ycombinator.com/item?id=50524767",
+    "title_ko": "Optimizely 보안 침해, Zoom 및 GitLab에 악성코드 유포"
+   },
+   {
+    "title": "Running coding agents without handing them my credentials",
+    "url": "https://blog.antonio.cx/running-agents-with-lend",
+    "domain": "blog.antonio.cx",
+    "points": 71,
+    "comments": 28,
+    "hn_url": "https://news.ycombinator.com/item?id=50526152",
+    "title_ko": "자격 증명을 전달하지 않고 코딩 에이전트 실행하기"
+   },
+   {
+    "title": "If an App Asks for Full Disk Access or System and App Protection Override",
+    "url": "https://support.apple.com/en-us/149699",
+    "domain": "support.apple.com",
+    "points": 52,
+    "comments": 30,
+    "hn_url": "https://news.ycombinator.com/item?id=50526560",
+    "title_ko": "앱이 전체 디스크 접근 권한이나 시스템 및 앱 보호 재정의를 요청하는 경우"
+   },
+   {
+    "title": "OpenCode Browse",
+    "url": "https://opencode.ai/product/browse",
+    "domain": "opencode.ai",
+    "points": 177,
+    "comments": 82,
+    "hn_url": "https://news.ycombinator.com/item?id=50523459",
+    "title_ko": "OpenCode Browse"
+   },
+   {
+    "title": "Mem Is Shutting Down",
+    "url": "https://get.mem.ai/blog/mem-is-shutting-down",
+    "domain": "get.mem.ai",
+    "points": 36,
+    "comments": 39,
+    "hn_url": "https://news.ycombinator.com/item?id=50526537",
+    "title_ko": "Mem이 서비스를 종료합니다"
+   },
+   {
+    "title": "Chemistry is Actually Geometry",
+    "url": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
+    "domain": "chillphysicsenjoyer.substack.com",
+    "points": 166,
+    "comments": 81,
+    "hn_url": "https://news.ycombinator.com/item?id=50522643",
+    "title_ko": "화학은 사실 기하학입니다"
+   },
+   {
+    "title": "Frame – 31.5\" color ePaper display",
+    "url": "https://trmnl.com/blog/introducing-frame",
+    "domain": "trmnl.com",
+    "points": 347,
+    "comments": 242,
+    "hn_url": "https://news.ycombinator.com/item?id=50519354",
+    "title_ko": "Frame – 31.5인치 컬러 ePaper 디스플레이"
+   }
+  ]
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "A Matrix with Steps: An Episodic and Procedural Memory Method for Tool-Using Agents and Robots",
+    "first_author": "Jürgen Paulhart",
+    "n_authors": 2,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.20230v1",
+    "title_ko": "단계가 있는 행렬: 도구 사용 에이전트 및 로봇을 위한 에피소드 및 절차적 기억 방법"
+   },
+   {
+    "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
+    "first_author": "Xinping Lei",
+    "n_authors": 26,
+    "cat": "cs.SE",
+    "url": "https://arxiv.org/abs/2611.20218v1",
+    "title_ko": "SWE-CoWork: 조직 내 디지털 직원으로서의 코딩 에이전트 벤치마킹"
+   },
+   {
+    "title": "Paying Creators for Training Data Can Increase AI Displacement",
+    "first_author": "Lijuan Luo",
+    "n_authors": 4,
+    "cat": "cs.GT",
+    "url": "https://arxiv.org/abs/2611.20204v1",
+    "title_ko": "학습 데이터에 대해 크리에이터에게 비용을 지불하면 AI 일자리 대체 현상이 증가할 수 있습니다"
+   },
+   {
+    "title": "How Specification Explicitness Shapes Failure in LLM-Generated Code",
+    "first_author": "Elmira Onagh",
+    "n_authors": 2,
+    "cat": "cs.SE",
+    "url": "https://arxiv.org/abs/2611.20195v1",
+    "title_ko": "명세서의 명확성이 LLM 생성 코드의 실패에 미치는 영향"
+   },
+   {
+    "title": "Cyber-Secure Wearable, Ultra-Low-Power Networked Sensors for Soldier Health Monitoring: Insights from the CAPSARII project",
+    "first_author": "Luciano Bozzi",
+    "n_authors": 22,
+    "cat": "cs.ET",
+    "url": "https://arxiv.org/abs/2611.20187v1",
+    "title_ko": "군인 건강 모니터링을 위한 사이버 보안 착용형 초저전력 네트워크 센서: CAPSARII 프로젝트의 인사이트"
+   },
+   {
+    "title": "RoboKit: Accelerating Parallel Differentiable Optimization for Robot Learning",
+    "first_author": "Jianglong Ye",
+    "n_authors": 8,
+    "cat": "cs.RO",
+    "url": "https://arxiv.org/abs/2611.20185v1",
+    "title_ko": "RoboKit: 로봇 학습을 위한 병렬 미분 가능 최적화 가속화"
+   },
+   {
+    "title": "HEAMS: Holistic Evaluation of Agent Memory Systems",
+    "first_author": "Chirag Goel",
+    "n_authors": 10,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.20144v1",
+    "title_ko": "HEAMS: 에이전트 메모리 시스템의 종합적 평가"
+   },
+   {
+    "title": "Can AI Judge You? An Empirical Audit of Deployment Readiness in LLM-assisted Hiring Systems",
+    "first_author": "Spandan Roy",
+    "n_authors": 3,
+    "cat": "cs.CY",
+    "url": "https://arxiv.org/abs/2611.20140v1",
+    "title_ko": "AI가 당신을 평가할 수 있을까? LLM 지원 채용 시스템의 배포 준비 상태에 대한 실증적 감사"
+   },
+   {
+    "title": "CapCover Filter: Semantic Approximate Membership Queries over Embeddings",
+    "first_author": "Dvir David Biton",
+    "n_authors": 5,
+    "cat": "cs.DB",
+    "url": "https://arxiv.org/abs/2611.20132v1",
+    "title_ko": "CapCover Filter: 임베딩 상의 시맨틱 근사 소속 조회"
+   },
+   {
+    "title": "Can decision models extract clinical data from cancer pathology reports? An evaluation of accuracy, calibration, and failure modes",
+    "first_author": "Indranil Mallick",
+    "n_authors": 2,
+    "cat": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.20129v1",
+    "title_ko": "의사결정 모델이 암 병리 보고서에서 임상 데이터를 추출할 수 있을까? 정확도, 캘리브레이션 및 실패 모드 평가"
+   }
+  ]
+ }
+}
