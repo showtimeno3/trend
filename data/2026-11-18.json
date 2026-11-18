@@ -1,0 +1,311 @@
+{
+ "date": "2026-11-18",
+ "github": {
+  "repos": [
+   {
+    "rank": 1,
+    "name": "GoogleChrome/modern-web-guidance-src",
+    "desc": "Keep your coding agent up to date with the latest web best practices",
+    "lang": "TypeScript",
+    "stars": 8506,
+    "stars_week": 7015,
+    "desc_ko": "코딩 에이전트를 최신 웹 모범 사례로 최신 상태로 유지하세요"
+   },
+   {
+    "rank": 2,
+    "name": "backnotprop/plannotator",
+    "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "lang": "TypeScript",
+    "stars": 13129,
+    "stars_week": 2926,
+    "desc_ko": "상황을 지속적으로 파악하고 agent를 완벽히 관리할 수 있는 워크스페이스 - 구상, 결정, 계획, 주석 달기, 코드 리뷰, 팀 공유 및 클릭 한 번으로 모든 피드백을 agent에 전송까지 가능합니다."
+   },
+   {
+    "rank": 3,
+    "name": "meta/astryx",
+    "desc": "An open source design system that's fully customizable and agent ready",
+    "lang": "TypeScript",
+    "stars": 30241,
+    "stars_week": 8700,
+    "desc_ko": "완전히 커스텀할 수 있으며 agent 적용이 준비된 오픈소스 디자인 시스템"
+   },
+   {
+    "rank": 4,
+    "name": "we-promise/sure",
+    "desc": "The personal finance app for everyone (by everyone)",
+    "lang": "Ruby",
+    "stars": 16300,
+    "stars_week": 4786,
+    "desc_ko": "모두를 위한 (모두에 의한) 개인 자산 관리 앱"
+   },
+   {
+    "rank": 5,
+    "name": "ZhuLinsen/daily_stock_analysis",
+    "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "lang": "Python",
+    "stars": 73135,
+    "stars_week": 3653,
+    "desc_ko": "LLM 기반 다중 시장 주식 지능형 분석 시스템: 다중 소스 시세, 실시간 뉴스, 의사결정 대시보드 및 자동 푸시, 비용 제로 정기 실행 지원. LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+   },
+   {
+    "rank": 6,
+    "name": "anthropics/skills",
+    "desc": "Public repository for Agent Skills",
+    "lang": "Python",
+    "stars": 196813,
+    "stars_week": 4847,
+    "desc_ko": "에이전트 스킬용 공개 저장소"
+   },
+   {
+    "rank": 7,
+    "name": "elementalsouls/Claude-BugHunter",
+    "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+    "lang": "Python",
+    "stars": 9610,
+    "stars_week": 2508,
+    "desc_ko": "버그 헌팅 및 외부 레드팀 작업을 위한 Claude Code 스킬 번들 - 24개 핵심 취약점 클래스에 걸쳐 엄선된 82개 스킬, 15개 슬래시 명령어, 681개 공개 리포트 패턴, 그리고 엔터프라이즈 아이덴티티 + 인프라 공격 매트릭스 포함."
+   },
+   {
+    "rank": 8,
+    "name": "alibaba/open-code-review",
+    "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "lang": "Go",
+    "stars": 53855,
+    "stars_week": 3675,
+    "desc_ko": "Alibaba 규모에서 검증된 안전하고 빠르고 효율적인 도구. 하이브리드 아키텍처 코드 리뷰 도구: 결정론적 파이프라인 + LLM Agent, 정확한 줄 단위 주석, 내장 다국어 규칙 세트 (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic 호환."
+   },
+   {
+    "rank": 9,
+    "name": "vercel-labs/agent-browser",
+    "desc": "Browser automation CLI for AI agents",
+    "lang": "Rust",
+    "stars": 52419,
+    "stars_week": 3429,
+    "desc_ko": "AI 에이전트를 위한 브라우저 자동화 CLI"
+   },
+   {
+    "rank": 10,
+    "name": "ChromeDevTools/chrome-devtools-mcp",
+    "desc": "Chrome DevTools for coding agents",
+    "lang": "TypeScript",
+    "stars": 58076,
+    "stars_week": 2948,
+    "desc_ko": "코딩 에이전트를 위한 Chrome DevTools"
+   },
+   {
+    "rank": 11,
+    "name": "tradermonty/claude-trading-skills",
+    "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+    "lang": "Python",
+    "stars": 6903,
+    "stars_week": 2985,
+    "desc_ko": "주식 투자자와 트레이더를 위한 Claude Code 스킬 — 시장 분석, 기술적 차팅, 경제 캘린더, 스크리너 및 트레이딩 전략 개발."
+   },
+   {
+    "rank": 12,
+    "name": "google-labs-code/stitch-skills",
+    "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "lang": "TypeScript",
+    "stars": 10159,
+    "stars_week": 1197,
+    "desc_ko": "Stitch MCP 서버와 연동되도록 설계된 Agent Skills 라이브러리. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 오픈 표준을 따릅니다."
+   },
+   {
+    "rank": 13,
+    "name": "openai/codex-security",
+    "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+    "lang": "TypeScript",
+    "stars": 13985,
+    "stars_week": 2531,
+    "desc_ko": "보안 취약점을 찾고, 검증하고, 수정하기 위한 OpenAI의 Codex Security CLI 및 TypeScript SDK. npm: https://www.npmjs.com/package/@openai/codex-security"
+   },
+   {
+    "rank": 14,
+    "name": "addyosmani/agent-skills",
+    "desc": "Production-grade engineering skills for AI coding agents.",
+    "lang": "JavaScript",
+    "stars": 118702,
+    "stars_week": 3884,
+    "desc_ko": "AI 코딩 에이전트를 위한 프로덕션급 엔지니어링 기술."
+   }
+  ]
+ },
+ "hn": {
+  "items": [
+   {
+    "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+    "url": "https://calif.io/java4shell/",
+    "domain": "calif.io",
+    "points": 636,
+    "comments": 165,
+    "hn_url": "https://news.ycombinator.com/item?id=50538240",
+    "title_ko": "Java4Shell: Base64 처리 시 OpenJDK에서 발생하는 RCE"
+   },
+   {
+    "title": "ID.me terms required for IRS sign-in",
+    "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
+    "domain": "consumerrights.wiki",
+    "points": 187,
+    "comments": 69,
+    "hn_url": "https://news.ycombinator.com/item?id=50540437",
+    "title_ko": "IRS 로그인을 위해 요구되는 ID.me 약관"
+   },
+   {
+    "title": "Google's AI answers reducing search traffic by 40%",
+    "url": "https://revscope.co/blog/search-seo-geo-2026/",
+    "domain": "revscope.co",
+    "points": 174,
+    "comments": 121,
+    "hn_url": "https://news.ycombinator.com/item?id=50540178",
+    "title_ko": "Google의 AI 답변으로 인해 검색 트래픽 40% 감소"
+   },
+   {
+    "title": "GPT‑6.2 Astra and Sol",
+    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+    "domain": "openai.com",
+    "points": 1151,
+    "comments": 727,
+    "hn_url": "https://news.ycombinator.com/item?id=50535230",
+    "title_ko": "GPT‑6.2 Astra 및 Sol"
+   },
+   {
+    "title": "Quad9's withdrawal from France: A canary in the coal mine",
+    "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+    "domain": "blog.cloudflare.com",
+    "points": 361,
+    "comments": 114,
+    "hn_url": "https://news.ycombinator.com/item?id=50538994",
+    "title_ko": "Quad9의 프랑스 철수: 탄광 속의 카나리아"
+   },
+   {
+    "title": "Archive Team is archiving the Apple Support Community (closes November 20, 2026)",
+    "url": "https://wiki.archiveteam.org/index.php/Apple_Discussions",
+    "domain": "wiki.archiveteam.org",
+    "points": 117,
+    "comments": 46,
+    "hn_url": "https://news.ycombinator.com/item?id=50539747",
+    "title_ko": "Archive Team이 Apple Support Community를 아카이빙 중 (2026년 11월 20일 종료)"
+   },
+   {
+    "title": "GoGoGrandparent (YC S16) Is a Front End JavaScript / TypeScript Engineer",
+    "url": "https://www.ycombinator.com/companies/gogograndparent/jobs/05woouL-front-end-javascript-typescript-engineer",
+    "domain": "ycombinator.com",
+    "points": 1,
+    "comments": 0,
+    "hn_url": "https://news.ycombinator.com/item?id=50541538",
+    "title_ko": "GoGoGrandparent (YC S16) 프론트엔드 JavaScript / TypeScript 엔지니어 채용"
+   },
+   {
+    "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+    "url": "https://github.com/microsoft/onnxruntime",
+    "domain": "github.com",
+    "points": 181,
+    "comments": 43,
+    "hn_url": "https://news.ycombinator.com/item?id=50539610",
+    "title_ko": "Microsoft의 ONNX Runtime이 GitHub에서 사라졌습니다"
+   },
+   {
+    "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+    "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+    "domain": "ft.com",
+    "points": 431,
+    "comments": 212,
+    "hn_url": "https://news.ycombinator.com/item?id=50534631",
+    "title_ko": "Nvidia, 매출 1,040억 달러 달성 속 싱가포르 매출 공개 중단"
+   },
+   {
+    "title": "Highly classified US national security communications network goes down",
+    "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+    "domain": "cnn.com",
+    "points": 514,
+    "comments": 588,
+    "hn_url": "https://news.ycombinator.com/item?id=50532849",
+    "title_ko": "미국의 최고 기밀 국가 안보 통신망 마비"
+   }
+  ]
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "Know When to Zoom: How Small Is Too Small for Vision-Language Models?",
+    "first_author": "Siddharth Vohra",
+    "n_authors": 2,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.22709v1",
+    "title_ko": "확대할 시점 파악하기: 비전-언어 모델에 어느 정도 크기가 너무 작은 것인가?"
+   },
+   {
+    "title": "Cross-cultural Adaptation of Recipes for Low-Resource Languages: A Benchmark and Multilingual Culinary Lexicon for Hausa, Yorùbá, and Igbo",
+    "first_author": "Nuhu Ibrahim",
+    "n_authors": 6,
+    "cat": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.22708v1",
+    "title_ko": "저자원 언어를 위한 레시피의 교차 문화적 적응: 하우사어, 요루바어, 이그보어를 위한 벤치마크 및 다국어 요리 어휘집"
+   },
+   {
+    "title": "Remembered as Brief: Stored Preferences SilentlyRemove Decision-Critical Information",
+    "first_author": "Joshua Adrian Cahyono",
+    "n_authors": 1,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.22697v1",
+    "title_ko": "간략하게 기억됨: 저장된 선호도가 의사결정에 결정적인 정보를 조용히 제거한다"
+   },
+   {
+    "title": "Making the World React Realistically: A Closed-Loop Interactive World Model for Autonomous Driving",
+    "first_author": "Jia Hu",
+    "n_authors": 7,
+    "cat": "cs.RO",
+    "url": "https://arxiv.org/abs/2611.22691v1",
+    "title_ko": "세상이 현실적으로 반응하게 만들기: 자율 주행을 위한 폐루프 상호작용형 월드 모델"
+   },
+   {
+    "title": "CULypso: A Clustered Federated Unlearning paradigm for Vehicular Ad-Hoc Networks",
+    "first_author": "Eleftheria Chini",
+    "n_authors": 3,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.22682v1",
+    "title_ko": "CULypso: 차량용 애드혹 네트워크(VANET)를 위한 클러스터형 연합 언러닝 패러다임"
+   },
+   {
+    "title": "FVScore: Specification-Driven Neuro-Symbolic Video Evaluation",
+    "first_author": "Do Xuan Long",
+    "n_authors": 6,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.22673v1",
+    "title_ko": "FVScore: 명세 기반 신경-기호 비디오 평가"
+   },
+   {
+    "title": "Worldviews in Large Language Models",
+    "first_author": "Edmundo Lopez-Sola",
+    "n_authors": 3,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.22670v1",
+    "title_ko": "대형 언어 모델의 세계관"
+   },
+   {
+    "title": "The Between-Round Decision in Autonomous Research: An LLM Controller That Reads the Whole Trajectory",
+    "first_author": "Caoxin Wang",
+    "n_authors": 4,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.22661v1",
+    "title_ko": "자율 연구에서의 라운드 간 결정: 전체 궤적을 읽는 LLM 컨트롤러"
+   },
+   {
+    "title": "AlignedHPO: Efficient Surrogate-Guided Loss Hyperparameter Optimization",
+    "first_author": "Ivan Karpukhin",
+    "n_authors": 2,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.22658v1",
+    "title_ko": "AlignedHPO: 효율적인 대리 모델 기반 손실 하이퍼파라미터 최적화"
+   },
+   {
+    "title": "EDA: Observe, Verify, and Assess for Evidence-Grounded Multimodal Depression Analysis",
+    "first_author": "Changzeng Fu",
+    "n_authors": 6,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.22648v1",
+    "title_ko": "EDA: 근거 기반 다중모달 우울증 분석을 위한 관찰, 검증 및 평가"
+   }
+  ]
+ }
+}
