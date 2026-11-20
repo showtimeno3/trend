@@ -1,0 +1,302 @@
+{
+ "date": "2026-11-20",
+ "github": {
+  "repos": [
+   {
+    "rank": 1,
+    "name": "backnotprop/plannotator",
+    "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "lang": "TypeScript",
+    "stars": 13702,
+    "stars_week": 3468,
+    "desc_ko": "상황을 지속적으로 파악하고 agent를 완벽히 관리할 수 있는 워크스페이스 - 구상, 결정, 계획, 주석 달기, 코드 리뷰, 팀 공유 및 클릭 한 번으로 모든 피드백을 agent에 전송까지 가능합니다."
+   },
+   {
+    "rank": 2,
+    "name": "google-labs-code/stitch-skills",
+    "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "lang": "TypeScript",
+    "stars": 10772,
+    "stars_week": 1829,
+    "desc_ko": "Stitch MCP 서버와 연동되도록 설계된 Agent Skills 라이브러리. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 오픈 표준을 따릅니다."
+   },
+   {
+    "rank": 3,
+    "name": "GoogleChrome/modern-web-guidance-src",
+    "desc": "Keep your coding agent up to date with the latest web best practices",
+    "lang": "TypeScript",
+    "stars": 9203,
+    "stars_week": 6858,
+    "desc_ko": "코딩 에이전트를 최신 웹 모범 사례로 최신 상태로 유지하세요"
+   },
+   {
+    "rank": 4,
+    "name": "alibaba/open-code-review",
+    "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "lang": "Go",
+    "stars": 54434,
+    "stars_week": 4492,
+    "desc_ko": "Alibaba 규모에서 검증된 안전하고 빠르고 효율적인 도구. 하이브리드 아키텍처 코드 리뷰 도구: 결정론적 파이프라인 + LLM Agent, 정확한 줄 단위 주석, 내장 다국어 규칙 세트 (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic 호환."
+   },
+   {
+    "rank": 5,
+    "name": "mvanhorn/last30days-skill",
+    "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "lang": "Python",
+    "stars": 70904,
+    "stars_week": 3179,
+    "desc_ko": "Reddit, X, YouTube, HN, Polymarket 및 웹에서 모든 주제를 조사한 후 사실에 기반한 요약을 종합하는 AI 에이전트 스킬"
+   },
+   {
+    "rank": 6,
+    "name": "ChromeDevTools/chrome-devtools-mcp",
+    "desc": "Chrome DevTools for coding agents",
+    "lang": "TypeScript",
+    "stars": 58397,
+    "stars_week": 3229,
+    "desc_ko": "코딩 에이전트를 위한 Chrome DevTools"
+   },
+   {
+    "rank": 7,
+    "name": "tradermonty/claude-trading-skills",
+    "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+    "lang": "Python",
+    "stars": 7279,
+    "stars_week": 3385,
+    "desc_ko": "주식 투자자와 트레이더를 위한 Claude Code 스킬 — 시장 분석, 기술적 차팅, 경제 캘린더, 스크리너 및 트레이딩 전략 개발."
+   },
+   {
+    "rank": 8,
+    "name": "ag-ui-protocol/ag-ui",
+    "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+    "lang": "TypeScript",
+    "stars": 20668,
+    "stars_week": 3455,
+    "desc_ko": "AG-UI: 에이전트-사용자 상호작용 프로토콜. 프론트엔드 애플리케이션에 에이전트를 도입하세요."
+   },
+   {
+    "rank": 9,
+    "name": "meta/astryx",
+    "desc": "An open source design system that's fully customizable and agent ready",
+    "lang": "TypeScript",
+    "stars": 31042,
+    "stars_week": 4977,
+    "desc_ko": "완전히 커스텀할 수 있으며 agent 적용이 준비된 오픈소스 디자인 시스템"
+   },
+   {
+    "rank": 10,
+    "name": "pookjw/HermesEnabler",
+    "desc": "Enable Hermès Watch Faces on any Apple Watch devices",
+    "lang": "Objective-C",
+    "stars": 2260,
+    "stars_week": 904,
+    "desc_ko": "모든 Apple Watch 기기에서 Hermès 워치 페이스 활성화하기"
+   },
+   {
+    "rank": 11,
+    "name": "we-promise/sure",
+    "desc": "The personal finance app for everyone (by everyone)",
+    "lang": "Ruby",
+    "stars": 16745,
+    "stars_week": 3226,
+    "desc_ko": "모두를 위한 (모두에 의한) 개인 자산 관리 앱"
+   },
+   {
+    "rank": 12,
+    "name": "dream-num/univer",
+    "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+    "lang": "TypeScript",
+    "stars": 30337,
+    "stars_week": 7248,
+    "desc_ko": "Univer Office SDK로 나만의 AI 오피스를 구축하세요. 사람과 AI 에이전트를 위해 편집, 계산, 협업, 파일 처리를 제품에 도입할 수 있습니다. 확장 가능한 오픈소스 코어를 기반으로 구축되었습니다."
+   },
+   {
+    "rank": 13,
+    "name": "kajisho5/ffmpeg-skill",
+    "desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+    "lang": "Python",
+    "stars": 8428,
+    "stars_week": 2998,
+    "desc_ko": "코딩 에이전트를 위한 로컬 비디오 에디터: Claude Code, Cursor, Codex를 위한 기기 읽기 가능한 계약과 MCP 서버를 갖춘 42개의 FFmpeg 도구. 자르기, 자막, 리프레임, 음량, 플랫폼 내보내기 지원. 클라우드 없음, API 키 없음."
+   }
+  ]
+ },
+ "hn": {
+  "items": [
+   {
+    "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+    "url": "https://git-aarvin.github.io/mei/",
+    "domain": "git-aarvin.github.io",
+    "points": 236,
+    "comments": 140,
+    "hn_url": "https://news.ycombinator.com/item?id=50568130",
+    "title_ko": "Gemini 4 Neon, Models Engineering Index에서 새로운 1위 달성"
+   },
+   {
+    "title": "Anthropic’s Nasdaq debut",
+    "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+    "domain": "reuters.com",
+    "points": 992,
+    "comments": 1932,
+    "hn_url": "https://news.ycombinator.com/item?id=50562754",
+    "title_ko": "Anthropic의 나스닥 데뷔"
+   },
+   {
+    "title": "Pancreatic cancer halted by virus injection in three patients",
+    "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+    "domain": "newscientist.com",
+    "points": 652,
+    "comments": 103,
+    "hn_url": "https://news.ycombinator.com/item?id=50563066",
+    "title_ko": "환자 3명에게 바이러스 주입으로 췌장암 진행 멈춰"
+   },
+   {
+    "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+    "url": "https://github.com/openssl/openssl/pull/33652",
+    "domain": "github.com",
+    "points": 53,
+    "comments": 23,
+    "hn_url": "https://news.ycombinator.com/item?id=50569226",
+    "title_ko": "OpenSSL: EVP_EncodeBlock()의 버퍼 오버플로우 (CVE-2026-121481, CVSS 9.8)"
+   },
+   {
+    "title": "Vint Cerf on why TCP/IP was never patented",
+    "url": "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never",
+    "domain": "seremot.com",
+    "points": 43,
+    "comments": 7,
+    "hn_url": "https://news.ycombinator.com/item?id=50568861",
+    "title_ko": "Vint Cerf가 말하는 TCP/IP가 특허를 받지 않은 이유"
+   },
+   {
+    "title": "Claude solves two open problems in the physics of black holes",
+    "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+    "domain": "anthropic.com",
+    "points": 428,
+    "comments": 192,
+    "hn_url": "https://news.ycombinator.com/item?id=50563148",
+    "title_ko": "Claude, 블랙홀 물리학의 두 가지 미해결 문제 해결"
+   },
+   {
+    "title": "What Comes After AGI?",
+    "url": "https://institute.deepmind.com/essays/what-comes-after-agi/",
+    "domain": "institute.deepmind.com",
+    "points": 14,
+    "comments": 5,
+    "hn_url": "https://news.ycombinator.com/item?id=50569519",
+    "title_ko": "AGI 다음에는 무엇이 오는가?"
+   },
+   {
+    "title": "How to CAD Almost Anything",
+    "url": "https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024/",
+    "domain": "ocw.mit.edu",
+    "points": 170,
+    "comments": 42,
+    "hn_url": "https://news.ycombinator.com/item?id=50528119",
+    "title_ko": "거의 모든 것을 CAD로 모델링하는 방법"
+   },
+   {
+    "title": "Garage Door Spam",
+    "url": "https://blog.harrison.page/garage-door-spam/",
+    "domain": "blog.harrison.page",
+    "points": 784,
+    "comments": 323,
+    "hn_url": "https://news.ycombinator.com/item?id=50519231",
+    "title_ko": "차고 문 스팸"
+   },
+   {
+    "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
+    "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
+    "domain": "globalcommercegraph.com",
+    "points": 229,
+    "comments": 121,
+    "hn_url": "https://news.ycombinator.com/item?id=50564159",
+    "title_ko": "98% 슬롯머신: 유료 광고가 어떻게 추출세가 되었는가"
+   }
+  ]
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "Why Do LLMs Help with Scientific Misconduct Requests and What to Do About It?: Increasing the Trustworthiness of AI for Science",
+    "first_author": "Almene De Meran Meguimtsop",
+    "n_authors": 2,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.25492v1",
+    "title_ko": "LLM은 왜 과학적 부정행위 요청을 돕는가, 그리고 어떻게 해야 하는가?: 과학을 위한 AI의 신뢰성 향상"
+   },
+   {
+    "title": "When Should a Voice Agent Speak? End-of-Turn Detection in Turkish",
+    "first_author": "Ahmet Tuğrul Bayrak",
+    "n_authors": 4,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.25489v1",
+    "title_ko": "음성 에이전트는 언제 말해야 하는가?: 튀르키예어에서의 턴 종료(End-of-Turn) 감지"
+   },
+   {
+    "title": "Planning Width Is Hard to Approximate Even Given the Unique Optimal Plan",
+    "first_author": "Viet Bac Nguyen",
+    "n_authors": 1,
+    "cat": "cs.DS",
+    "url": "https://arxiv.org/abs/2611.25484v1",
+    "title_ko": "유일한 최적 계획이 주어진 경우에도 플래닝 너비(Planning Width)는 근사하기 어렵다"
+   },
+   {
+    "title": "AIstatLab at BraTS-GoAT 2026 Task 3: Quality-Controlled Consensus Pseudo-Labeling and Dense Expert Adaptation",
+    "first_author": "Heeseung Shin",
+    "n_authors": 2,
+    "cat": "eess.IV",
+    "url": "https://arxiv.org/abs/2611.25477v1",
+    "title_ko": "BraTS-GoAT 2026 Task 3의 AIstatLab: 품질 관리된 합의 의사 라벨링 및 밀집 전문가 적응"
+   },
+   {
+    "title": "WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming",
+    "first_author": "Bo Li",
+    "n_authors": 11,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.25476v1",
+    "title_ko": "WeightCode: 가중치 공간 프로그래밍을 통해 신경망에 새로운 기능 설치하기"
+   },
+   {
+    "title": "A four-level executable validation protocol for evaluating LLM-generated topology specifications of physics-based HVAC digital twins",
+    "first_author": "Younghwan Joo",
+    "n_authors": 5,
+    "cat": "eess.SY",
+    "url": "https://arxiv.org/abs/2611.25471v1",
+    "title_ko": "물리학 기반 HVAC 디지털 트윈의 LLM 생성 토폴로지 사양 평가를 위한 4단계 실행 가능 검증 프로토콜"
+   },
+   {
+    "title": "A Wolf in Sheep's Pixels: Visual Camouflage Attacks via HDR Gain Maps",
+    "first_author": "Qi Shen",
+    "n_authors": 4,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.25469v1",
+    "title_ko": "양의 픽셀 탈을 쓴 늑대: HDR Gain Map을 통한 시각적 위장 공격"
+   },
+   {
+    "title": "Demonstration-Free Skill Composition for Navigation and Manipulation",
+    "first_author": "Madeleine Nouri",
+    "n_authors": 3,
+    "cat": "cs.RO",
+    "url": "https://arxiv.org/abs/2611.25462v1",
+    "title_ko": "내비게이션 및 조작을 위한 시연 없는 스킬 합성"
+   },
+   {
+    "title": "LoongForge-Embodied: A Unified Framework for Training Heterogeneous Embodied Models",
+    "first_author": " LoongForge Team",
+    "n_authors": 1,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.25460v1",
+    "title_ko": "LoongForge-Embodied: 이종 임보디드 모델 학습을 위한 통합 프레임워크"
+   },
+   {
+    "title": "Raptor: Rejection-aware Adaptive Tree based on Speculative Decoding",
+    "first_author": "Qishu Hu",
+    "n_authors": 5,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.25436v1",
+    "title_ko": "Raptor: 추측적 디코딩(Speculative Decoding) 기반 거부 인식 적응형 트리"
+   }
+  ]
+ }
+}
