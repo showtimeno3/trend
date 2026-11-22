@@ -1,0 +1,302 @@
+{
+ "date": "2026-11-22",
+ "github": {
+  "repos": [
+   {
+    "rank": 1,
+    "name": "backnotprop/plannotator",
+    "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "lang": "TypeScript",
+    "stars": 14189,
+    "stars_week": 3396,
+    "desc_ko": "상황을 지속적으로 파악하고 agent를 완벽히 관리할 수 있는 워크스페이스 - 구상, 결정, 계획, 주석 달기, 코드 리뷰, 팀 공유 및 클릭 한 번으로 모든 피드백을 agent에 전송까지 가능합니다."
+   },
+   {
+    "rank": 2,
+    "name": "google-labs-code/stitch-skills",
+    "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "lang": "TypeScript",
+    "stars": 11484,
+    "stars_week": 2431,
+    "desc_ko": "Stitch MCP 서버와 연동되도록 설계된 Agent Skills 라이브러리. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 오픈 표준을 따릅니다."
+   },
+   {
+    "rank": 3,
+    "name": "GoogleChrome/modern-web-guidance-src",
+    "desc": "Keep your coding agent up to date with the latest web best practices",
+    "lang": "TypeScript",
+    "stars": 9924,
+    "stars_week": 4400,
+    "desc_ko": "코딩 에이전트를 최신 웹 모범 사례로 최신 상태로 유지하세요"
+   },
+   {
+    "rank": 4,
+    "name": "alibaba/open-code-review",
+    "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "lang": "Go",
+    "stars": 55137,
+    "stars_week": 4032,
+    "desc_ko": "Alibaba 규모에서 검증된 안전하고 빠르고 효율적인 도구. 하이브리드 아키텍처 코드 리뷰 도구: 결정론적 파이프라인 + LLM Agent, 정확한 줄 단위 주석, 내장 다국어 규칙 세트 (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic 호환."
+   },
+   {
+    "rank": 5,
+    "name": "mvanhorn/last30days-skill",
+    "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "lang": "Python",
+    "stars": 72054,
+    "stars_week": 4198,
+    "desc_ko": "Reddit, X, YouTube, HN, Polymarket 및 웹에서 모든 주제를 조사한 후 사실에 기반한 요약을 종합하는 AI 에이전트 스킬"
+   },
+   {
+    "rank": 6,
+    "name": "ChromeDevTools/chrome-devtools-mcp",
+    "desc": "Chrome DevTools for coding agents",
+    "lang": "TypeScript",
+    "stars": 58708,
+    "stars_week": 2795,
+    "desc_ko": "코딩 에이전트를 위한 Chrome DevTools"
+   },
+   {
+    "rank": 7,
+    "name": "tradermonty/claude-trading-skills",
+    "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+    "lang": "Python",
+    "stars": 7644,
+    "stars_week": 3113,
+    "desc_ko": "주식 투자자와 트레이더를 위한 Claude Code 스킬 — 시장 분석, 기술적 차팅, 경제 캘린더, 스크리너 및 트레이딩 전략 개발."
+   },
+   {
+    "rank": 8,
+    "name": "ag-ui-protocol/ag-ui",
+    "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+    "lang": "TypeScript",
+    "stars": 21038,
+    "stars_week": 3792,
+    "desc_ko": "AG-UI: 에이전트-사용자 상호작용 프로토콜. 프론트엔드 애플리케이션에 에이전트를 도입하세요."
+   },
+   {
+    "rank": 9,
+    "name": "meta/astryx",
+    "desc": "An open source design system that's fully customizable and agent ready",
+    "lang": "TypeScript",
+    "stars": 31849,
+    "stars_week": 3967,
+    "desc_ko": "완전히 커스텀할 수 있으며 agent 적용이 준비된 오픈소스 디자인 시스템"
+   },
+   {
+    "rank": 10,
+    "name": "pookjw/HermesEnabler",
+    "desc": "Enable Hermès Watch Faces on any Apple Watch devices",
+    "lang": "Objective-C",
+    "stars": 2358,
+    "stars_week": 524,
+    "desc_ko": "모든 Apple Watch 기기에서 Hermès 워치 페이스 활성화하기"
+   },
+   {
+    "rank": 11,
+    "name": "we-promise/sure",
+    "desc": "The personal finance app for everyone (by everyone)",
+    "lang": "Ruby",
+    "stars": 17169,
+    "stars_week": 2041,
+    "desc_ko": "모두를 위한 (모두에 의한) 개인 자산 관리 앱"
+   },
+   {
+    "rank": 12,
+    "name": "dream-num/univer",
+    "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+    "lang": "TypeScript",
+    "stars": 31111,
+    "stars_week": 7240,
+    "desc_ko": "Univer Office SDK로 나만의 AI 오피스를 구축하세요. 사람과 AI 에이전트를 위해 편집, 계산, 협업, 파일 처리를 제품에 도입할 수 있습니다. 확장 가능한 오픈소스 코어를 기반으로 구축되었습니다."
+   },
+   {
+    "rank": 13,
+    "name": "kajisho5/ffmpeg-skill",
+    "desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+    "lang": "Python",
+    "stars": 9324,
+    "stars_week": 3598,
+    "desc_ko": "코딩 에이전트를 위한 로컬 비디오 에디터: Claude Code, Cursor, Codex를 위한 기기 읽기 가능한 계약과 MCP 서버를 갖춘 42개의 FFmpeg 도구. 자르기, 자막, 리프레임, 음량, 플랫폼 내보내기 지원. 클라우드 없음, API 키 없음."
+   }
+  ]
+ },
+ "hn": {
+  "items": [
+   {
+    "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+    "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+    "domain": "theguardian.com",
+    "points": 694,
+    "comments": 167,
+    "hn_url": "https://news.ycombinator.com/item?id=50582069",
+    "title_ko": "췌장암 치료 알약, '수십 년 만의 가장 큰 돌파구'로 극찬받아"
+   },
+   {
+    "title": "Lean verification of the Riemann Hypothesis",
+    "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+    "domain": "leanprover-community.github.io",
+    "points": 869,
+    "comments": 727,
+    "hn_url": "https://news.ycombinator.com/item?id=50589618",
+    "title_ko": "리만 가설의 Lean 검증"
+   },
+   {
+    "title": "Inkling-2-Mini in 5.4 GB Memory",
+    "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+    "domain": "github.com",
+    "points": 377,
+    "comments": 95,
+    "hn_url": "https://news.ycombinator.com/item?id=50591853",
+    "title_ko": "5.4 GB 메모리에서의 Inkling-2-Mini"
+   },
+   {
+    "title": "Data Processing Incidents on Inference Providers",
+    "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+    "domain": "openrouter.ai",
+    "points": 24,
+    "comments": 7,
+    "hn_url": "https://news.ycombinator.com/item?id=50595554",
+    "title_ko": "추론 제공업체의 데이터 처리 사고"
+   },
+   {
+    "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+    "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+    "domain": "github.com",
+    "points": 77,
+    "comments": 9,
+    "hn_url": "https://news.ycombinator.com/item?id=50594132",
+    "title_ko": "PcapAnalyzer – 27개의 문제 탐지기를 갖춘 셀프 호스팅 pcap 분석기"
+   },
+   {
+    "title": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
+    "url": "https://github.com/ItsNotRexed/Leonida",
+    "domain": "github.com",
+    "points": 30,
+    "comments": 9,
+    "hn_url": "https://news.ycombinator.com/item?id=50595168",
+    "title_ko": "Leonida – GTA 6 Xbox 버전의 PC 재컴파일"
+   },
+   {
+    "title": "Detonating a pile of lead azide",
+    "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+    "domain": "science.org",
+    "points": 545,
+    "comments": 359,
+    "hn_url": "https://news.ycombinator.com/item?id=50588982",
+    "title_ko": "아지드화 납 더미 폭발시키기"
+   },
+   {
+    "title": "Sandwich Simulator",
+    "url": "https://stulle.app/",
+    "domain": "stulle.app",
+    "points": 47,
+    "comments": 22,
+    "hn_url": "https://news.ycombinator.com/item?id=50594911",
+    "title_ko": "샌드위치 시뮬레이터"
+   },
+   {
+    "title": "Getting the mind to steer the body to steer you",
+    "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
+    "domain": "notnottalmud.substack.com",
+    "points": 173,
+    "comments": 59,
+    "hn_url": "https://news.ycombinator.com/item?id=50583028",
+    "title_ko": "마음이 몸을 조종하여 당신을 이끌게 만드는 법"
+   },
+   {
+    "title": "My monitor was cutting my download speed by 75%",
+    "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+    "domain": "blog.tymscar.com",
+    "points": 511,
+    "comments": 244,
+    "hn_url": "https://news.ycombinator.com/item?id=50587875",
+    "title_ko": "내 모니터가 다운로드 속도를 75%나 떨어뜨리고 있었다"
+   }
+  ]
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+    "first_author": "Weihao Cheng",
+    "n_authors": 1,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.26624v1",
+    "title_ko": "PlayCraft: 에이전트 플레이 경험을 통한 매력적인 게임 설계"
+   },
+   {
+    "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+    "first_author": "Yuxin Jiang",
+    "n_authors": 7,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.26617v1",
+    "title_ko": "One Prior, Two Dynamics: 자기지도 잠재 행동 학습을 위한 Video Diffusion Transformers 재활용"
+   },
+   {
+    "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
+    "first_author": "Amine Lbath",
+    "n_authors": 6,
+    "cat": "cs.CR",
+    "url": "https://arxiv.org/abs/2611.26601v1",
+    "title_ko": "SoK: 소프트웨어 취약점 연구에서 LLM 역량의 진화 평가"
+   },
+   {
+    "title": "Active Feature Acquisition by Distilling an Oracle Teacher",
+    "first_author": "Yang Meng",
+    "n_authors": 4,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.26598v1",
+    "title_ko": "Oracle Teacher 증류를 통한 능동적 특성 수집"
+   },
+   {
+    "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+    "first_author": "Kai Lu",
+    "n_authors": 3,
+    "cat": "cs.RO",
+    "url": "https://arxiv.org/abs/2611.26596v1",
+    "title_ko": "PGX: 장기간 휴머노이드 이동-조작을 위한 물리 기반 실행"
+   },
+   {
+    "title": "Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning",
+    "first_author": "Terence D. Agbeyegbe",
+    "n_authors": 2,
+    "cat": "stat.ME",
+    "url": "https://arxiv.org/abs/2611.26592v1",
+    "title_ko": "실현된 신뢰성 대 모집단 신뢰성: 상관 관계가 있는 추론에서의 언제나 유효한 자기일관성 인증"
+   },
+   {
+    "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+    "first_author": "Jiahao Huang",
+    "n_authors": 2,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.26590v1",
+    "title_ko": "\"의식적인\" 마음 탐구: Vision-Language Models에서의 선택적 접근 및 전역 작업 공간"
+   },
+   {
+    "title": "Verify the Verifier: Specification-Grounded LLM Cross-Checking for Bugs That Escape UVM Scoreboards",
+    "first_author": "Ana E. Sanchez Villalobos",
+    "n_authors": 5,
+    "cat": "cs.SE",
+    "url": "https://arxiv.org/abs/2611.26588v1",
+    "title_ko": "Verify the Verifier: UVM Scoreboards를 벗어나는 버그에 대한 명세 기반 LLM 교차 검증"
+   },
+   {
+    "title": "ProtoDiffusion: Token-per-Layer Generative Modeling of Multi-Layer Images",
+    "first_author": "Adrià Ciurana Lanau",
+    "n_authors": 11,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.26586v1",
+    "title_ko": "ProtoDiffusion: 다중 레이어 이미지의 레이어별 토큰 생성 모델링"
+   },
+   {
+    "title": "GEOHunter: Mapping a Generative Engine Optimization Network in the Wild",
+    "first_author": "Sean Tang",
+    "n_authors": 6,
+    "cat": "cs.CR",
+    "url": "https://arxiv.org/abs/2611.26564v1",
+    "title_ko": "GEOHunter: 실제 환경에서의 Generative Engine Optimization 네트워크 매핑"
+   }
+  ]
+ }
+}
