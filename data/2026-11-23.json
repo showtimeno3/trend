@@ -1,0 +1,302 @@
+{
+ "date": "2026-11-23",
+ "github": {
+  "repos": [
+   {
+    "rank": 1,
+    "name": "backnotprop/plannotator",
+    "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "lang": "TypeScript",
+    "stars": 14477,
+    "stars_week": 2815,
+    "desc_ko": "상황을 지속적으로 파악하고 agent를 완벽히 관리할 수 있는 워크스페이스 - 구상, 결정, 계획, 주석 달기, 코드 리뷰, 팀 공유 및 클릭 한 번으로 모든 피드백을 agent에 전송까지 가능합니다."
+   },
+   {
+    "rank": 2,
+    "name": "google-labs-code/stitch-skills",
+    "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "lang": "TypeScript",
+    "stars": 11979,
+    "stars_week": 2683,
+    "desc_ko": "Stitch MCP 서버와 연동되도록 설계된 Agent Skills 라이브러리. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 오픈 표준을 따릅니다."
+   },
+   {
+    "rank": 3,
+    "name": "GoogleChrome/modern-web-guidance-src",
+    "desc": "Keep your coding agent up to date with the latest web best practices",
+    "lang": "TypeScript",
+    "stars": 10262,
+    "stars_week": 3575,
+    "desc_ko": "코딩 에이전트를 최신 웹 모범 사례로 최신 상태로 유지하세요"
+   },
+   {
+    "rank": 4,
+    "name": "alibaba/open-code-review",
+    "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "lang": "Go",
+    "stars": 55452,
+    "stars_week": 3700,
+    "desc_ko": "Alibaba 규모에서 검증된 안전하고 빠르고 효율적인 도구. 하이브리드 아키텍처 코드 리뷰 도구: 결정론적 파이프라인 + LLM Agent, 정확한 줄 단위 주석, 내장 다국어 규칙 세트 (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic 호환."
+   },
+   {
+    "rank": 5,
+    "name": "mvanhorn/last30days-skill",
+    "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "lang": "Python",
+    "stars": 72848,
+    "stars_week": 4731,
+    "desc_ko": "Reddit, X, YouTube, HN, Polymarket 및 웹에서 모든 주제를 조사한 후 사실에 기반한 요약을 종합하는 AI 에이전트 스킬"
+   },
+   {
+    "rank": 6,
+    "name": "ChromeDevTools/chrome-devtools-mcp",
+    "desc": "Chrome DevTools for coding agents",
+    "lang": "TypeScript",
+    "stars": 58874,
+    "stars_week": 2268,
+    "desc_ko": "코딩 에이전트를 위한 Chrome DevTools"
+   },
+   {
+    "rank": 7,
+    "name": "tradermonty/claude-trading-skills",
+    "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+    "lang": "Python",
+    "stars": 7814,
+    "stars_week": 2616,
+    "desc_ko": "주식 투자자와 트레이더를 위한 Claude Code 스킬 — 시장 분석, 기술적 차팅, 경제 캘린더, 스크리너 및 트레이딩 전략 개발."
+   },
+   {
+    "rank": 8,
+    "name": "ag-ui-protocol/ag-ui",
+    "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+    "lang": "TypeScript",
+    "stars": 21229,
+    "stars_week": 3620,
+    "desc_ko": "AG-UI: 에이전트-사용자 상호작용 프로토콜. 프론트엔드 애플리케이션에 에이전트를 도입하세요."
+   },
+   {
+    "rank": 9,
+    "name": "meta/astryx",
+    "desc": "An open source design system that's fully customizable and agent ready",
+    "lang": "TypeScript",
+    "stars": 32281,
+    "stars_week": 3626,
+    "desc_ko": "완전히 커스텀할 수 있으며 agent 적용이 준비된 오픈소스 디자인 시스템"
+   },
+   {
+    "rank": 10,
+    "name": "pookjw/HermesEnabler",
+    "desc": "Enable Hermès Watch Faces on any Apple Watch devices",
+    "lang": "Objective-C",
+    "stars": 2408,
+    "stars_week": 461,
+    "desc_ko": "모든 Apple Watch 기기에서 Hermès 워치 페이스 활성화하기"
+   },
+   {
+    "rank": 11,
+    "name": "we-promise/sure",
+    "desc": "The personal finance app for everyone (by everyone)",
+    "lang": "Ruby",
+    "stars": 17373,
+    "stars_week": 1771,
+    "desc_ko": "모두를 위한 (모두에 의한) 개인 자산 관리 앱"
+   },
+   {
+    "rank": 12,
+    "name": "dream-num/univer",
+    "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+    "lang": "TypeScript",
+    "stars": 31307,
+    "stars_week": 6436,
+    "desc_ko": "Univer Office SDK로 나만의 AI 오피스를 구축하세요. 사람과 AI 에이전트를 위해 편집, 계산, 협업, 파일 처리를 제품에 도입할 수 있습니다. 확장 가능한 오픈소스 코어를 기반으로 구축되었습니다."
+   },
+   {
+    "rank": 13,
+    "name": "kajisho5/ffmpeg-skill",
+    "desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+    "lang": "Python",
+    "stars": 9807,
+    "stars_week": 3748,
+    "desc_ko": "코딩 에이전트를 위한 로컬 비디오 에디터: Claude Code, Cursor, Codex를 위한 기기 읽기 가능한 계약과 MCP 서버를 갖춘 42개의 FFmpeg 도구. 자르기, 자막, 리프레임, 음량, 플랫폼 내보내기 지원. 클라우드 없음, API 키 없음."
+   }
+  ]
+ },
+ "hn": {
+  "items": [
+   {
+    "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+    "url": "https://spelunkr.tv",
+    "domain": "spelunkr.tv",
+    "points": 174,
+    "comments": 27,
+    "hn_url": "https://news.ycombinator.com/item?id=50606192",
+    "title_ko": "Internet Archive의 잊혀진 비디오로 구축된 무료 대안 TV 네트워크"
+   },
+   {
+    "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+    "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+    "domain": "gpupartner.com",
+    "points": 307,
+    "comments": 129,
+    "hn_url": "https://news.ycombinator.com/item?id=50603845",
+    "title_ko": "Inkling, Qwen, Unsloth를 활용한 로컬 AI 초보자 가이드"
+   },
+   {
+    "title": "Masullo on the Riemann Hypothesis",
+    "url": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/",
+    "domain": "johncarlosbaez.wordpress.com",
+    "points": 84,
+    "comments": 17,
+    "hn_url": "https://news.ycombinator.com/item?id=50598441",
+    "title_ko": "Masullo의 리만 가설 이야기"
+   },
+   {
+    "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+    "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+    "domain": "audubon.org",
+    "points": 393,
+    "comments": 195,
+    "hn_url": "https://news.ycombinator.com/item?id=50602843",
+    "title_ko": "GTA 6의 새들: Vice City와 Leonida의 야생 동물 도감"
+   },
+   {
+    "title": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
+    "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527",
+    "domain": "apnews.com",
+    "points": 137,
+    "comments": 15,
+    "hn_url": "https://news.ycombinator.com/item?id=50547698",
+    "title_ko": "수단에서 대성당 바닥 발굴, 가장 큰 중세 교회 중 하나를 드러내다"
+   },
+   {
+    "title": "GL.iNet Security Notice 2026-11-20",
+    "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
+    "domain": "gl-inet.com",
+    "points": 122,
+    "comments": 51,
+    "hn_url": "https://news.ycombinator.com/item?id=50604988",
+    "title_ko": "GL.iNet 보안 공지 2026-11-20"
+   },
+   {
+    "title": "A miniature San Francisco with live buses, planes and boats",
+    "url": "https://smallsf.com/",
+    "domain": "smallsf.com",
+    "points": 173,
+    "comments": 78,
+    "hn_url": "https://news.ycombinator.com/item?id=50603589",
+    "title_ko": "실제 운행하는 버스, 비행기, 배가 있는 미니어처 샌프란시스코"
+   },
+   {
+    "title": "The Usefulness of Useless Knowledge [pdf] (1939)",
+    "url": "https://www.ias.edu/sites/default/files/library/UsefulnessHarpers.pdf",
+    "domain": "ias.edu",
+    "points": 78,
+    "comments": 14,
+    "hn_url": "https://news.ycombinator.com/item?id=50604472",
+    "title_ko": "유용하지 않은 지식의 유용성 [pdf] (1939)"
+   },
+   {
+    "title": "The struggle for freedom: How BSD escaped AT&T licensing",
+    "url": "https://fosscomics.com/posts/16.%20BSD%20Unix%20Part%206%20-%20The%20Struggle%20for%20Freedom/",
+    "domain": "fosscomics.com",
+    "points": 66,
+    "comments": 19,
+    "hn_url": "https://news.ycombinator.com/item?id=50604123",
+    "title_ko": "자유를 위한 투쟁: BSD가 AT&T 라이선스에서 벗어난 방법"
+   },
+   {
+    "title": "The Unlicensed Gospel: Wisdom Tree's Bible Games on the Game Boy",
+    "url": "https://www.gameboymuseum.com/single-post/the-unlicensed-gospel-wisdom-tree-s-bible-games-on-the-game-boy",
+    "domain": "gameboymuseum.com",
+    "points": 16,
+    "comments": 1,
+    "hn_url": "https://news.ycombinator.com/item?id=50560563",
+    "title_ko": "비라이선스 복음: Game Boy용 Wisdom Tree의 성경 게임들"
+   }
+  ]
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "LingSante-Pulse: Unified Physiological Pretraining through Random-Feature Prediction and Cross-Modal Alignment",
+    "first_author": "Linxiao Yang",
+    "n_authors": 8,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.27206v1",
+    "title_ko": "LingSante-Pulse: 무작위 특징 예측 및 크로스 모달 정렬을 통한 통합 생리학적 사전 학습"
+   },
+   {
+    "title": "DepthMSA: Combinatorial Training and Budget-Aware Depth Allocation for Multimodal Sentiment Analysis",
+    "first_author": "Pan Wang",
+    "n_authors": 9,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.27198v1",
+    "title_ko": "DepthMSA: 다중 모달 감정 분석을 위한 조합 학습 및 예산 인식 깊이 할당"
+   },
+   {
+    "title": "EDAGoat: An EDA-Aware Agent for Project-Level GPU Optimization",
+    "first_author": "Chengxi Li",
+    "n_authors": 7,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.27196v1",
+    "title_ko": "EDAGoat: 프로젝트 수준 GPU 최적화를 위한 EDA 인식 에이전트"
+   },
+   {
+    "title": "A Frugal AI Framework for India: Responsible and Right-sized AI",
+    "first_author": "Balaraman Ravindran",
+    "n_authors": 5,
+    "cat": "cs.CY",
+    "url": "https://arxiv.org/abs/2611.27189v1",
+    "title_ko": "인도를 위한 절약형 AI 프레임워크: 책임감 있고 적절한 규모의 AI"
+   },
+   {
+    "title": "What Does Matching a Human Intervention Effect Establish? Benchmark Checks for LLM Simulations",
+    "first_author": "Tengfei Shao",
+    "n_authors": 3,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.27186v1",
+    "title_ko": "인간 개입 효과와 일치시키는 것은 무엇을 입증하는가? LLM 시뮬레이션을 위한 벤치마크 검증"
+   },
+   {
+    "title": "GEG-SAM: Gaze Exploration-Guided Segment Anything Model for Weakly Supervised Polyp Segmentation",
+    "first_author": "Ao Wang",
+    "n_authors": 9,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.27183v1",
+    "title_ko": "GEG-SAM: 약지도 용종 분할을 위한 시선 탐색 유도 Segment Anything 모델"
+   },
+   {
+    "title": "Learning Adaptive Defense Strategies: Fine-Tuned LLMs for Network Security Games under Network Mobility",
+    "first_author": "Md Abu Sayed",
+    "n_authors": 6,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.27180v1",
+    "title_ko": "적응형 방어 전략 학습: 네트워크 이동성 환경의 네트워크 보안 게임을 위한 미세 조정된 LLM"
+   },
+   {
+    "title": "Felid: A Flexible and Efficient Design for Transformer Fine-Tuning over Encrypted Data",
+    "first_author": "Linru Zhang",
+    "n_authors": 14,
+    "cat": "cs.CR",
+    "url": "https://arxiv.org/abs/2611.27175v1",
+    "title_ko": "Felid: 암호화된 데이터 기반의 Transformer 미세 조정을 위한 유연하고 효율적인 설계"
+   },
+   {
+    "title": "From Acting to Learning: Experience Selection toward Continually Learning Agents",
+    "first_author": "Yaoyuan Yan",
+    "n_authors": 7,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.27159v1",
+    "title_ko": "행동에서 학습으로: 지속 학습 에이전트를 향한 경험 선택"
+   },
+   {
+    "title": "Co-Evolving Behavioral Agents and Detectors for Adaptive Information Operations",
+    "first_author": "Lin Tian",
+    "n_authors": 2,
+    "cat": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.27156v1",
+    "title_ko": "적응형 정보 작전을 위한 행동 에이전트와 탐지기의 공진화"
+   }
+  ]
+ }
+}
