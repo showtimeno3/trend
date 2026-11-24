@@ -1,0 +1,302 @@
+{
+ "date": "2026-11-24",
+ "github": {
+  "repos": [
+   {
+    "rank": 1,
+    "name": "backnotprop/plannotator",
+    "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "lang": "TypeScript",
+    "stars": 14738,
+    "stars_week": 2395,
+    "desc_ko": "상황을 지속적으로 파악하고 agent를 완벽히 관리할 수 있는 워크스페이스 - 구상, 결정, 계획, 주석 달기, 코드 리뷰, 팀 공유 및 클릭 한 번으로 모든 피드백을 agent에 전송까지 가능합니다."
+   },
+   {
+    "rank": 2,
+    "name": "google-labs-code/stitch-skills",
+    "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "lang": "TypeScript",
+    "stars": 12423,
+    "stars_week": 2572,
+    "desc_ko": "Stitch MCP 서버와 연동되도록 설계된 Agent Skills 라이브러리. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 오픈 표준을 따릅니다."
+   },
+   {
+    "rank": 3,
+    "name": "GoogleChrome/modern-web-guidance-src",
+    "desc": "Keep your coding agent up to date with the latest web best practices",
+    "lang": "TypeScript",
+    "stars": 10609,
+    "stars_week": 2694,
+    "desc_ko": "코딩 에이전트를 최신 웹 모범 사례로 최신 상태로 유지하세요"
+   },
+   {
+    "rank": 4,
+    "name": "alibaba/open-code-review",
+    "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "lang": "Go",
+    "stars": 55837,
+    "stars_week": 3015,
+    "desc_ko": "Alibaba 규모에서 검증된 안전하고 빠르고 효율적인 도구. 하이브리드 아키텍처 코드 리뷰 도구: 결정론적 파이프라인 + LLM Agent, 정확한 줄 단위 주석, 내장 다국어 규칙 세트 (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic 호환."
+   },
+   {
+    "rank": 5,
+    "name": "mvanhorn/last30days-skill",
+    "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "lang": "Python",
+    "stars": 73643,
+    "stars_week": 5448,
+    "desc_ko": "Reddit, X, YouTube, HN, Polymarket 및 웹에서 모든 주제를 조사한 후 사실에 기반한 요약을 종합하는 AI 에이전트 스킬"
+   },
+   {
+    "rank": 6,
+    "name": "ChromeDevTools/chrome-devtools-mcp",
+    "desc": "Chrome DevTools for coding agents",
+    "lang": "TypeScript",
+    "stars": 59089,
+    "stars_week": 1581,
+    "desc_ko": "코딩 에이전트를 위한 Chrome DevTools"
+   },
+   {
+    "rank": 7,
+    "name": "tradermonty/claude-trading-skills",
+    "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+    "lang": "Python",
+    "stars": 8150,
+    "stars_week": 1903,
+    "desc_ko": "주식 투자자와 트레이더를 위한 Claude Code 스킬 — 시장 분석, 기술적 차팅, 경제 캘린더, 스크리너 및 트레이딩 전략 개발."
+   },
+   {
+    "rank": 8,
+    "name": "ag-ui-protocol/ag-ui",
+    "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+    "lang": "TypeScript",
+    "stars": 21448,
+    "stars_week": 2966,
+    "desc_ko": "AG-UI: 에이전트-사용자 상호작용 프로토콜. 프론트엔드 애플리케이션에 에이전트를 도입하세요."
+   },
+   {
+    "rank": 9,
+    "name": "meta/astryx",
+    "desc": "An open source design system that's fully customizable and agent ready",
+    "lang": "TypeScript",
+    "stars": 32668,
+    "stars_week": 3165,
+    "desc_ko": "완전히 커스텀할 수 있으며 agent 적용이 준비된 오픈소스 디자인 시스템"
+   },
+   {
+    "rank": 10,
+    "name": "pookjw/HermesEnabler",
+    "desc": "Enable Hermès Watch Faces on any Apple Watch devices",
+    "lang": "Objective-C",
+    "stars": 2463,
+    "stars_week": 390,
+    "desc_ko": "모든 Apple Watch 기기에서 Hermès 워치 페이스 활성화하기"
+   },
+   {
+    "rank": 11,
+    "name": "we-promise/sure",
+    "desc": "The personal finance app for everyone (by everyone)",
+    "lang": "Ruby",
+    "stars": 17638,
+    "stars_week": 1612,
+    "desc_ko": "모두를 위한 (모두에 의한) 개인 자산 관리 앱"
+   },
+   {
+    "rank": 12,
+    "name": "dream-num/univer",
+    "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+    "lang": "TypeScript",
+    "stars": 31574,
+    "stars_week": 4324,
+    "desc_ko": "Univer Office SDK로 나만의 AI 오피스를 구축하세요. 사람과 AI 에이전트를 위해 편집, 계산, 협업, 파일 처리를 제품에 도입할 수 있습니다. 확장 가능한 오픈소스 코어를 기반으로 구축되었습니다."
+   },
+   {
+    "rank": 13,
+    "name": "kajisho5/ffmpeg-skill",
+    "desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+    "lang": "Python",
+    "stars": 10377,
+    "stars_week": 3891,
+    "desc_ko": "코딩 에이전트를 위한 로컬 비디오 에디터: Claude Code, Cursor, Codex를 위한 기기 읽기 가능한 계약과 MCP 서버를 갖춘 42개의 FFmpeg 도구. 자르기, 자막, 리프레임, 음량, 플랫폼 내보내기 지원. 클라우드 없음, API 키 없음."
+   }
+  ]
+ },
+ "hn": {
+  "items": [
+   {
+    "title": "Nvidia Reinstates Jensen Huang as CEO",
+    "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+    "domain": "cnbc.com",
+    "points": 2438,
+    "comments": 3376,
+    "hn_url": "https://news.ycombinator.com/item?id=50611576",
+    "title_ko": "Nvidia, 젠슨 황을 CEO로 재선임"
+   },
+   {
+    "title": "India's opposition storms Meta's offices to get its Instagram accounts back",
+    "url": "https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html",
+    "domain": "korben.info",
+    "points": 26,
+    "comments": 0,
+    "hn_url": "https://news.ycombinator.com/item?id=50624487",
+    "title_ko": "인도 야당, 인스타그램 계정 복구를 위해 Meta 사무실 급습"
+   },
+   {
+    "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+    "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+    "domain": "stalw.art",
+    "points": 371,
+    "comments": 181,
+    "hn_url": "https://news.ycombinator.com/item?id=50620349",
+    "title_ko": "Stalwart, 이제 Microsoft Exchange의 드롭인 대체재가 됨"
+   },
+   {
+    "title": "Ladybird is now in alpha",
+    "url": "https://ladybird.org/posts/alpha/",
+    "domain": "ladybird.org",
+    "points": 1702,
+    "comments": 393,
+    "hn_url": "https://news.ycombinator.com/item?id=50614249",
+    "title_ko": "Ladybird, 알파 버전 출시"
+   },
+   {
+    "title": "Drone Maps of Salvage Yards",
+    "url": "https://salvageyarddrone.wordpress.com/",
+    "domain": "salvageyarddrone.wordpress.com",
+    "points": 43,
+    "comments": 13,
+    "hn_url": "https://news.ycombinator.com/item?id=50623515",
+    "title_ko": "고철 처리장 드론 지도"
+   },
+   {
+    "title": "Modernizing iperf/iperf3 and introducing fireperf",
+    "url": "https://blog.daniel-baumann.ch/posts/20261122-1.html",
+    "domain": "blog.daniel-baumann.ch",
+    "points": 62,
+    "comments": 3,
+    "hn_url": "https://news.ycombinator.com/item?id=50604710",
+    "title_ko": "iperf/iperf3 현대화 및 fireperf 소개"
+   },
+   {
+    "title": "Lowering Perplexity Without Scaling",
+    "url": "https://micjm.com/blog/lowering-perplexity-without-scaling/",
+    "domain": "micjm.com",
+    "points": 17,
+    "comments": 3,
+    "hn_url": "https://news.ycombinator.com/item?id=50607512",
+    "title_ko": "스케일링 없이 Perplexity 낮추기"
+   },
+   {
+    "title": "Making a dumb TV just smart enough",
+    "url": "https://qsantos.fr/2026/11/19/making-a-dumb-tv-just-smart-enough/",
+    "domain": "qsantos.fr",
+    "points": 45,
+    "comments": 14,
+    "hn_url": "https://news.ycombinator.com/item?id=50622934",
+    "title_ko": "멍청한 TV를 딱 스마트하게 만들기"
+   },
+   {
+    "title": "GPUI is getting its own repository",
+    "url": "https://github.com/zed-industries/gpui",
+    "domain": "github.com",
+    "points": 219,
+    "comments": 81,
+    "hn_url": "https://news.ycombinator.com/item?id=50619103",
+    "title_ko": "GPUI가 자체 저장소로 분리됨"
+   },
+   {
+    "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
+    "url": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription",
+    "domain": "governor.ny.gov",
+    "points": 208,
+    "comments": 61,
+    "hn_url": "https://news.ycombinator.com/item?id=50622774",
+    "title_ko": "뉴욕주, 자동차 구독 및 구매 후 수수료 금지"
+   }
+  ]
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "TrialAgentBench: Evaluating AI Agents for Clinical-Trial Analysis and Long-Horizon Drug-Development Decisions",
+    "first_author": "Bradley Segal",
+    "n_authors": 5,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.30916v1",
+    "title_ko": "TrialAgentBench: 임상시험 분석 및 장기 신약 개발 결정을 위한 AI 에이전트 평가"
+   },
+   {
+    "title": "Replay Before You Reply: Second-Look Prompting for Unified Multimodal Encoding",
+    "first_author": "Yicheng Zhang",
+    "n_authors": 5,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.30909v1",
+    "title_ko": "답변 전 다시 보기: 통합 멀티모달 인코딩을 위한 세컨드 룩 프롬프팅"
+   },
+   {
+    "title": "Predicting Rare-Mode Collapse in Recursive Generative Training from Single-Generation Calibration",
+    "first_author": "Jingyao Zhang",
+    "n_authors": 3,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.30897v1",
+    "title_ko": "단일 세대 캘리브레이션을 통한 재귀적 생성 학습에서의 희귀 모드 붕괴 예측"
+   },
+   {
+    "title": "Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock",
+    "first_author": "Bohe Chen",
+    "n_authors": 1,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.30895v1",
+    "title_ko": "보일 때 말하기: 능동형 태스크 어시스턴트는 시계가 아니라 증거를 기다려야 한다"
+   },
+   {
+    "title": "AeroJEPA: A Two-Stage Framework for Aerosol Forecasting with Joint-Embedding Predictive Learning",
+    "first_author": "Zitong Shuai",
+    "n_authors": 9,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.30891v1",
+    "title_ko": "AeroJEPA: 조인트 임베딩 예측 학습을 이용한 에어로졸 예측 2단계 프레임워크"
+   },
+   {
+    "title": "Bridging Continuous-Time MAPF and Industrial AGV Fleet Coordination with Lazy Priority-Based Search",
+    "first_author": "Federico Signorile",
+    "n_authors": 6,
+    "cat": "cs.RO",
+    "url": "https://arxiv.org/abs/2611.30874v1",
+    "title_ko": "지연 우선순위 기반 검색을 통한 연속 시간 MAPF와 산업용 AGV 함대 조율의 연결"
+   },
+   {
+    "title": "Semantic-aware Decoding for Diverse Text-to-SQL under Schema Ambiguity",
+    "first_author": "Yuxuan Jiang",
+    "n_authors": 5,
+    "cat": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.30873v1",
+    "title_ko": "스키마 모호성 하에서 다양한 Text-to-SQL을 위한 시맨틱 인식 디코딩"
+   },
+   {
+    "title": "Can Multimodal Fusion MakeSense for Embodied Vision in Degraded Sensing?",
+    "first_author": "Cheng-Ru Chou",
+    "n_authors": 10,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.30836v1",
+    "title_ko": "멀티모달 융합이 저하된 센싱 환경의 체화된 비전에 의미가 있을까?"
+   },
+   {
+    "title": "Unpacking the Evaluators: How Configuration Shapes the Evaluation of Alignment in Explainable AI",
+    "first_author": "Gizem Karagoz",
+    "n_authors": 3,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.30816v1",
+    "title_ko": "평가자 파헤치기: 설정이 설명 가능한 AI의 정렬 평가를 형성하는 방식"
+   },
+   {
+    "title": "Random Feature Neural Networks for Stochastic Optimal Control",
+    "first_author": "Guangyi He",
+    "n_authors": 3,
+    "cat": "math.OC",
+    "url": "https://arxiv.org/abs/2611.30804v1",
+    "title_ko": "확률적 최적 제어를 위한 무작위 특성 신경망"
+   }
+  ]
+ }
+}
