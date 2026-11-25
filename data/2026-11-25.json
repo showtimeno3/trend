@@ -1,0 +1,302 @@
+{
+ "date": "2026-11-25",
+ "github": {
+  "repos": [
+   {
+    "rank": 1,
+    "name": "backnotprop/plannotator",
+    "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "lang": "TypeScript",
+    "stars": 14934,
+    "stars_week": 1956,
+    "desc_ko": "상황을 지속적으로 파악하고 agent를 완벽히 관리할 수 있는 워크스페이스 - 구상, 결정, 계획, 주석 달기, 코드 리뷰, 팀 공유 및 클릭 한 번으로 모든 피드백을 agent에 전송까지 가능합니다."
+   },
+   {
+    "rank": 2,
+    "name": "google-labs-code/stitch-skills",
+    "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "lang": "TypeScript",
+    "stars": 12739,
+    "stars_week": 2626,
+    "desc_ko": "Stitch MCP 서버와 연동되도록 설계된 Agent Skills 라이브러리. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 오픈 표준을 따릅니다."
+   },
+   {
+    "rank": 3,
+    "name": "GoogleChrome/modern-web-guidance-src",
+    "desc": "Keep your coding agent up to date with the latest web best practices",
+    "lang": "TypeScript",
+    "stars": 10872,
+    "stars_week": 2494,
+    "desc_ko": "코딩 에이전트를 최신 웹 모범 사례로 최신 상태로 유지하세요"
+   },
+   {
+    "rank": 4,
+    "name": "alibaba/open-code-review",
+    "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "lang": "Go",
+    "stars": 56112,
+    "stars_week": 2638,
+    "desc_ko": "Alibaba 규모에서 검증된 안전하고 빠르고 효율적인 도구. 하이브리드 아키텍처 코드 리뷰 도구: 결정론적 파이프라인 + LLM Agent, 정확한 줄 단위 주석, 내장 다국어 규칙 세트 (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic 호환."
+   },
+   {
+    "rank": 5,
+    "name": "mvanhorn/last30days-skill",
+    "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "lang": "Python",
+    "stars": 74431,
+    "stars_week": 5369,
+    "desc_ko": "Reddit, X, YouTube, HN, Polymarket 및 웹에서 모든 주제를 조사한 후 사실에 기반한 요약을 종합하는 AI 에이전트 스킬"
+   },
+   {
+    "rank": 6,
+    "name": "ChromeDevTools/chrome-devtools-mcp",
+    "desc": "Chrome DevTools for coding agents",
+    "lang": "TypeScript",
+    "stars": 59247,
+    "stars_week": 1258,
+    "desc_ko": "코딩 에이전트를 위한 Chrome DevTools"
+   },
+   {
+    "rank": 7,
+    "name": "tradermonty/claude-trading-skills",
+    "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+    "lang": "Python",
+    "stars": 8332,
+    "stars_week": 1504,
+    "desc_ko": "주식 투자자와 트레이더를 위한 Claude Code 스킬 — 시장 분석, 기술적 차팅, 경제 캘린더, 스크리너 및 트레이딩 전략 개발."
+   },
+   {
+    "rank": 8,
+    "name": "ag-ui-protocol/ag-ui",
+    "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+    "lang": "TypeScript",
+    "stars": 21613,
+    "stars_week": 1753,
+    "desc_ko": "AG-UI: 에이전트-사용자 상호작용 프로토콜. 프론트엔드 애플리케이션에 에이전트를 도입하세요."
+   },
+   {
+    "rank": 9,
+    "name": "meta/astryx",
+    "desc": "An open source design system that's fully customizable and agent ready",
+    "lang": "TypeScript",
+    "stars": 32919,
+    "stars_week": 2890,
+    "desc_ko": "완전히 커스텀할 수 있으며 agent 적용이 준비된 오픈소스 디자인 시스템"
+   },
+   {
+    "rank": 10,
+    "name": "pookjw/HermesEnabler",
+    "desc": "Enable Hermès Watch Faces on any Apple Watch devices",
+    "lang": "Objective-C",
+    "stars": 2497,
+    "stars_week": 328,
+    "desc_ko": "모든 Apple Watch 기기에서 Hermès 워치 페이스 활성화하기"
+   },
+   {
+    "rank": 11,
+    "name": "we-promise/sure",
+    "desc": "The personal finance app for everyone (by everyone)",
+    "lang": "Ruby",
+    "stars": 17806,
+    "stars_week": 1567,
+    "desc_ko": "모두를 위한 (모두에 의한) 개인 자산 관리 앱"
+   },
+   {
+    "rank": 12,
+    "name": "dream-num/univer",
+    "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+    "lang": "TypeScript",
+    "stars": 31732,
+    "stars_week": 3278,
+    "desc_ko": "Univer Office SDK로 나만의 AI 오피스를 구축하세요. 사람과 AI 에이전트를 위해 편집, 계산, 협업, 파일 처리를 제품에 도입할 수 있습니다. 확장 가능한 오픈소스 코어를 기반으로 구축되었습니다."
+   },
+   {
+    "rank": 13,
+    "name": "kajisho5/ffmpeg-skill",
+    "desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+    "lang": "Python",
+    "stars": 10779,
+    "stars_week": 2993,
+    "desc_ko": "코딩 에이전트를 위한 로컬 비디오 에디터: Claude Code, Cursor, Codex를 위한 기기 읽기 가능한 계약과 MCP 서버를 갖춘 42개의 FFmpeg 도구. 자르기, 자막, 리프레임, 음량, 플랫폼 내보내기 지원. 클라우드 없음, API 키 없음."
+   }
+  ]
+ },
+ "hn": {
+  "items": [
+   {
+    "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+    "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+    "domain": "github.com",
+    "points": 350,
+    "comments": 164,
+    "hn_url": "https://news.ycombinator.com/item?id=50637220",
+    "title_ko": "행렬 곱셈은 Θ(n^2.25)이다 [pdf]"
+   },
+   {
+    "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+    "url": "https://buttons.joshwcomeau.com/",
+    "domain": "buttons.joshwcomeau.com",
+    "points": 101,
+    "comments": 8,
+    "hn_url": "https://news.ycombinator.com/item?id=50638032",
+    "title_ko": "Button Sounds – 전문적으로 녹음된 버튼 클릭 및 누름 소리 모음"
+   },
+   {
+    "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+    "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+    "domain": "comentr.com",
+    "points": 43,
+    "comments": 28,
+    "hn_url": "https://news.ycombinator.com/item?id=50638320",
+    "title_ko": "Gemini가 Twinkle Twinkle Little Star 가사를 알려주길 거부했습니다"
+   },
+   {
+    "title": "I've been drinking wine in my kitchen",
+    "url": "https://scottaaronson.blog/?p=10362",
+    "domain": "scottaaronson.blog",
+    "points": 86,
+    "comments": 44,
+    "hn_url": "https://news.ycombinator.com/item?id=50637874",
+    "title_ko": "나는 주방에서 와인을 마시고 있었다"
+   },
+   {
+    "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+    "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+    "domain": "lesswrong.com",
+    "points": 89,
+    "comments": 34,
+    "hn_url": "https://news.ycombinator.com/item?id=50637686",
+    "title_ko": "모델은 샌드박스로 격리되어 있음에도 추론 서버를 통해 통신할 수 있다"
+   },
+   {
+    "title": "Show HN: U.S. Interstate Weather",
+    "url": "https://www.interstateweather.com/",
+    "domain": "interstateweather.com",
+    "points": 14,
+    "comments": 4,
+    "hn_url": "https://news.ycombinator.com/item?id=50638523",
+    "title_ko": "Show HN: 미국 주간 고속도로 날씨"
+   },
+   {
+    "title": "Ternary Bonsai 2.5 27B",
+    "url": "https://prismml.com/news/bonsai-2-5-27b",
+    "domain": "prismml.com",
+    "points": 392,
+    "comments": 129,
+    "hn_url": "https://news.ycombinator.com/item?id=50633922",
+    "title_ko": "Ternary Bonsai 2.5 27B"
+   },
+   {
+    "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+    "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+    "domain": "greydanus.github.io",
+    "points": 147,
+    "comments": 25,
+    "hn_url": "https://news.ycombinator.com/item?id=50637056",
+    "title_ko": "PenGPT: 손글씨 및 스케치를 위한 생성형 트랜스포머"
+   },
+   {
+    "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+    "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+    "domain": "marginalia.nu",
+    "points": 34,
+    "comments": 6,
+    "hn_url": "https://news.ycombinator.com/item?id=50638220",
+    "title_ko": "Marginalia Search, 돈, C++, Rust, AI, 이것저것"
+   },
+   {
+    "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+    "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+    "domain": "rida.dev",
+    "points": 56,
+    "comments": 13,
+    "hn_url": "https://news.ycombinator.com/item?id=50637890",
+    "title_ko": "네이티브 앱 느낌의 웹 애플리케이션을 구축하기 위해 iOS Safari의 60 FPS 제한 우회하기"
+   }
+  ]
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "Benchmarking Evidence Sufficiency in Vision-Language Models for Autonomous Driving",
+    "first_author": "Nhat Ha Nguyen",
+    "n_authors": 3,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.32964v1",
+    "title_ko": "자율 주행을 위한 Vision-Language Models의 증거 충분성 벤치마킹"
+   },
+   {
+    "title": "Attestation is All You Need: Toward a Zero-Trust Architecture for HPC AI Agents",
+    "first_author": "Jie Li",
+    "n_authors": 4,
+    "cat": "cs.CR",
+    "url": "https://arxiv.org/abs/2611.32958v1",
+    "title_ko": "Attestation이 필요한 전부이다: HPC AI Agents를 위한 제로 트러스트 아키텍처를 향하여"
+   },
+   {
+    "title": "\"I Do Intend to Deliver\": Will LLMs Run a Marketplace Advance-Fee Scam?",
+    "first_author": "Megan Squire",
+    "n_authors": 1,
+    "cat": "cs.SI",
+    "url": "https://arxiv.org/abs/2611.32957v1",
+    "title_ko": "\"I Do Intend to Deliver\": LLM이 마켓플레이스 선수금 사기를 저지를 것인가?"
+   },
+   {
+    "title": "LoomKV: Lossless KV Cache Compression from GPU Memory to SSD for LLM Serving",
+    "first_author": "Wentao Zhu",
+    "n_authors": 7,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.32954v1",
+    "title_ko": "LoomKV: LLM 서빙을 위한 GPU 메모리에서 SSD로의 무손실 KV Cache 압축"
+   },
+   {
+    "title": "Beyond Expected Value: PPO with Distributional Critics for Systematic Conservation Planning",
+    "first_author": "Ana Maria Quintero Ossa",
+    "n_authors": 4,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.32948v1",
+    "title_ko": "기댓값을 넘어서: 체계적 보전 계획을 위한 분포 크리틱 적용 PPO"
+   },
+   {
+    "title": "ShellBench: What Matters More for AI Agents, Models, or Harness for Everyday Tasks",
+    "first_author": "Vincent Koc",
+    "n_authors": 22,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.32946v1",
+    "title_ko": "ShellBench: 일상 작업을 수행하는 AI Agents에게 모델과 하네스 중 무엇이 더 중요한가"
+   },
+   {
+    "title": "Do Vision-Language Models Know Their Own Visual Weaknesses? Probing Capability-Level Metacognition",
+    "first_author": "Dohoon Kim",
+    "n_authors": 2,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.32940v1",
+    "title_ko": "Vision-Language Models는 자신의 시각적 약점을 알고 있는가? 능력 수준의 메타인지 탐구"
+   },
+   {
+    "title": "Efficient Video Retrieval Augmented Generation via Token Allocation",
+    "first_author": "Ayush Barik",
+    "n_authors": 3,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.32938v1",
+    "title_ko": "토큰 할당을 통한 효율적인 비디오 Retrieval Augmented Generation"
+   },
+   {
+    "title": "Reading Decisions Before Spans: Efficient Generative Verification",
+    "first_author": "Yanbin Gong",
+    "n_authors": 2,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.32931v1",
+    "title_ko": "스팬을 읽기 전 결정 읽기: 효율적인 생성형 검증"
+   },
+   {
+    "title": "InstructReplay: Replaying Assistant Turns to Preserve General Behavior During Factual Fine-Tuning",
+    "first_author": "Xiaofeng Shi",
+    "n_authors": 3,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.32918v1",
+    "title_ko": "InstructReplay: 사실적 파인튜닝 동안 일반적 동작을 보존하기 위한 어시스턴트 턴 재연"
+   }
+  ]
+ }
+}
