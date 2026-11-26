@@ -1,0 +1,311 @@
+{
+ "date": "2026-11-26",
+ "github": {
+  "repos": [
+   {
+    "rank": 1,
+    "name": "backnotprop/plannotator",
+    "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "lang": "TypeScript",
+    "stars": 15116,
+    "stars_week": 1764,
+    "desc_ko": "상황을 지속적으로 파악하고 agent를 완벽히 관리할 수 있는 워크스페이스 - 구상, 결정, 계획, 주석 달기, 코드 리뷰, 팀 공유 및 클릭 한 번으로 모든 피드백을 agent에 전송까지 가능합니다."
+   },
+   {
+    "rank": 2,
+    "name": "google-labs-code/stitch-skills",
+    "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "lang": "TypeScript",
+    "stars": 13040,
+    "stars_week": 2616,
+    "desc_ko": "Stitch MCP 서버와 연동되도록 설계된 Agent Skills 라이브러리. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 오픈 표준을 따릅니다."
+   },
+   {
+    "rank": 3,
+    "name": "GoogleChrome/modern-web-guidance-src",
+    "desc": "Keep your coding agent up to date with the latest web best practices",
+    "lang": "TypeScript",
+    "stars": 11089,
+    "stars_week": 2309,
+    "desc_ko": "코딩 에이전트를 최신 웹 모범 사례로 최신 상태로 유지하세요"
+   },
+   {
+    "rank": 4,
+    "name": "n8n-io/nod",
+    "desc": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
+    "lang": "TypeScript",
+    "stars": 3622,
+    "stars_week": 1008,
+    "desc_ko": "자체 컴퓨터를 갖춘 오픈소스 개인용 에이전트. 실제 웹사이트에서 청구서를 추적하고, 통화를 준비하며, 무료 체험을 취소하고, 실행하기 전에 확인을 요청합니다. 선택한 모델로 사용자의 기기에서 실행됩니다. n8n 제작."
+   },
+   {
+    "rank": 5,
+    "name": "alibaba/open-code-review",
+    "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "lang": "Go",
+    "stars": 56415,
+    "stars_week": 2259,
+    "desc_ko": "Alibaba 규모에서 검증된 안전하고 빠르고 효율적인 도구. 하이브리드 아키텍처 코드 리뷰 도구: 결정론적 파이프라인 + LLM Agent, 정확한 줄 단위 주석, 내장 다국어 규칙 세트 (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic 호환."
+   },
+   {
+    "rank": 6,
+    "name": "mvanhorn/last30days-skill",
+    "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "lang": "Python",
+    "stars": 75239,
+    "stars_week": 5302,
+    "desc_ko": "Reddit, X, YouTube, HN, Polymarket 및 웹에서 모든 주제를 조사한 후 사실에 기반한 요약을 종합하는 AI 에이전트 스킬"
+   },
+   {
+    "rank": 7,
+    "name": "ChromeDevTools/chrome-devtools-mcp",
+    "desc": "Chrome DevTools for coding agents",
+    "lang": "TypeScript",
+    "stars": 59388,
+    "stars_week": 1203,
+    "desc_ko": "코딩 에이전트를 위한 Chrome DevTools"
+   },
+   {
+    "rank": 8,
+    "name": "tradermonty/claude-trading-skills",
+    "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+    "lang": "Python",
+    "stars": 8480,
+    "stars_week": 1422,
+    "desc_ko": "주식 투자자와 트레이더를 위한 Claude Code 스킬 — 시장 분석, 기술적 차팅, 경제 캘린더, 스크리너 및 트레이딩 전략 개발."
+   },
+   {
+    "rank": 9,
+    "name": "ag-ui-protocol/ag-ui",
+    "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+    "lang": "TypeScript",
+    "stars": 21752,
+    "stars_week": 1421,
+    "desc_ko": "AG-UI: 에이전트-사용자 상호작용 프로토콜. 프론트엔드 애플리케이션에 에이전트를 도입하세요."
+   },
+   {
+    "rank": 10,
+    "name": "meta/astryx",
+    "desc": "An open source design system that's fully customizable and agent ready",
+    "lang": "TypeScript",
+    "stars": 33178,
+    "stars_week": 2635,
+    "desc_ko": "완전히 커스텀할 수 있으며 agent 적용이 준비된 오픈소스 디자인 시스템"
+   },
+   {
+    "rank": 11,
+    "name": "pookjw/HermesEnabler",
+    "desc": "Enable Hermès Watch Faces on any Apple Watch devices",
+    "lang": "Objective-C",
+    "stars": 2524,
+    "stars_week": 318,
+    "desc_ko": "모든 Apple Watch 기기에서 Hermès 워치 페이스 활성화하기"
+   },
+   {
+    "rank": 12,
+    "name": "we-promise/sure",
+    "desc": "The personal finance app for everyone (by everyone)",
+    "lang": "Ruby",
+    "stars": 17957,
+    "stars_week": 1509,
+    "desc_ko": "모두를 위한 (모두에 의한) 개인 자산 관리 앱"
+   },
+   {
+    "rank": 13,
+    "name": "dream-num/univer",
+    "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+    "lang": "TypeScript",
+    "stars": 31882,
+    "stars_week": 2319,
+    "desc_ko": "Univer Office SDK로 나만의 AI 오피스를 구축하세요. 사람과 AI 에이전트를 위해 편집, 계산, 협업, 파일 처리를 제품에 도입할 수 있습니다. 확장 가능한 오픈소스 코어를 기반으로 구축되었습니다."
+   },
+   {
+    "rank": 14,
+    "name": "kajisho5/ffmpeg-skill",
+    "desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+    "lang": "Python",
+    "stars": 11189,
+    "stars_week": 3048,
+    "desc_ko": "코딩 에이전트를 위한 로컬 비디오 에디터: Claude Code, Cursor, Codex를 위한 기기 읽기 가능한 계약과 MCP 서버를 갖춘 42개의 FFmpeg 도구. 자르기, 자막, 리프레임, 음량, 플랫폼 내보내기 지원. 클라우드 없음, API 키 없음."
+   }
+  ]
+ },
+ "hn": {
+  "items": [
+   {
+    "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+    "url": "https://scottaaronson.blog/?p=10379",
+    "domain": "scottaaronson.blog",
+    "points": 1148,
+    "comments": 976,
+    "hn_url": "https://news.ycombinator.com/item?id=50646108",
+    "title_ko": "세상에 세상에 세상에 세상에: 지금 일어나고 있는 일의 거대한 규모"
+   },
+   {
+    "title": "1Password Security Incident",
+    "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+    "domain": "1password.com",
+    "points": 1278,
+    "comments": 539,
+    "hn_url": "https://news.ycombinator.com/item?id=50644817",
+    "title_ko": "1Password 보안 사고"
+   },
+   {
+    "title": "Much shorter version of GRH Lean verification from Anthropic",
+    "url": "https://github.com/lsernau/grh-lean",
+    "domain": "github.com",
+    "points": 356,
+    "comments": 179,
+    "hn_url": "https://news.ycombinator.com/item?id=50648050",
+    "title_ko": "Anthropic의 훨씬 더 짧은 GRH Lean 검증 버전"
+   },
+   {
+    "title": "The Great Automatic Grammatizator (By Roald Dahl), 1954 [pdf]",
+    "url": "https://gwern.net/doc/fiction/science-fiction/1953-dahl-thegreatautomaticgrammatizator.pdf",
+    "domain": "gwern.net",
+    "points": 23,
+    "comments": 2,
+    "hn_url": "https://news.ycombinator.com/item?id=50598636",
+    "title_ko": "위대한 자동 문장 작성기 (Roald Dahl 저), 1954 [pdf]"
+   },
+   {
+    "title": "Tell HN: Lots of Ask HNs again",
+    "url": "https://news.ycombinator.com/item?id=50649864",
+    "domain": "news.ycombinator.com",
+    "points": 165,
+    "comments": 71,
+    "hn_url": "https://news.ycombinator.com/item?id=50649864",
+    "title_ko": "Tell HN: 다시 늘어나는 Ask HN 글들"
+   },
+   {
+    "title": "What VP ≠ VNP Means (In 3 Minutes)",
+    "url": "https://www.friedgil.com/vpvnp",
+    "domain": "friedgil.com",
+    "points": 42,
+    "comments": 1,
+    "hn_url": "https://news.ycombinator.com/item?id=50626466",
+    "title_ko": "VP ≠ VNP가 의미하는 바 (3분 만에 보기)"
+   },
+   {
+    "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+    "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+    "domain": "bjin.github.io",
+    "points": 307,
+    "comments": 85,
+    "hn_url": "https://news.ycombinator.com/item?id=50601280",
+    "title_ko": "GPT-6.2 Astra는 Googler들의 코드 골프 기록을 깬 최초의 모델입니다"
+   },
+   {
+    "title": "Collection of preserved UI style guides",
+    "url": "https://aresluna.org/ui-style-guides/",
+    "domain": "aresluna.org",
+    "points": 55,
+    "comments": 3,
+    "hn_url": "https://news.ycombinator.com/item?id=50649834",
+    "title_ko": "보존된 UI 스타일 가이드 모음"
+   },
+   {
+    "title": "Slow Ubuntu security response times",
+    "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+    "domain": "openwall.com",
+    "points": 196,
+    "comments": 97,
+    "hn_url": "https://news.ycombinator.com/item?id=50647181",
+    "title_ko": "느린 Ubuntu 보안 대응 시간"
+   },
+   {
+    "title": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
+    "url": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
+    "domain": "vox.com",
+    "points": 457,
+    "comments": 112,
+    "hn_url": "https://news.ycombinator.com/item?id=50643129",
+    "title_ko": "Home Depot 유류지에서 스노클링을 한 사람에게 묻는 몇 가지 질문"
+   }
+  ]
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "RAP: Radial-Angular Random Projection for Hyperbolic Representations",
+    "first_author": "Jiahong Liu",
+    "n_authors": 7,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.34298v1",
+    "title_ko": "RAP: 쌍곡 표현을 위한 방사형-각도 랜덤 투영"
+   },
+   {
+    "title": "WebVibe: Multimodal Interactive Website Generation via Reverse Synthesis and Visual Self-Distillation",
+    "first_author": "Tianxiang Jiang",
+    "n_authors": 11,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.34292v1",
+    "title_ko": "WebVibe: 역합성 및 시각적 자가 증류를 통한 멀티모달 대화형 웹사이트 생성"
+   },
+   {
+    "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+    "first_author": "Modi Jin",
+    "n_authors": 9,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.34290v1",
+    "title_ko": "StateWeaver: 장기 비디오 생성을 위한 스토리-상태 전이의 멀티 에이전트 조율"
+   },
+   {
+    "title": "Latent-in-the-Middle: On the Security of Cross-Model Latent Communication in Multi-Agent Systems",
+    "first_author": "Manit Baser",
+    "n_authors": 6,
+    "cat": "cs.CR",
+    "url": "https://arxiv.org/abs/2611.34278v1",
+    "title_ko": "Latent-in-the-Middle: 멀티 에이전트 시스템에서 모델 간 잠재 통신의 보안에 관하여"
+   },
+   {
+    "title": "LatentCP-DPO: Conformal Pessimism for DPO with Finite-Sample Guarantees",
+    "first_author": "Hongwei Xu",
+    "n_authors": 5,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.34275v1",
+    "title_ko": "LatentCP-DPO: 유한 샘플 보장이 있는 DPO를 위한 컨포멀 비관론"
+   },
+   {
+    "title": "LLM-coupled interpretable tool wear monitoring with multi-evidence reasoning in CNC machining",
+    "first_author": "Yuntong Chen",
+    "n_authors": 6,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.34270v1",
+    "title_ko": "CNC 가공에서 다중 증거 추론을 활용한 LLM 결합 해석 가능한 공구 마모 모니터링"
+   },
+   {
+    "title": "Crucible: Evaluating LLM Agents in Executable Chemistry Research Environments",
+    "first_author": "Yinjun Liu",
+    "n_authors": 7,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.34254v1",
+    "title_ko": "Crucible: 실행 가능한 화학 연구 환경에서의 LLM 에이전트 평가"
+   },
+   {
+    "title": "MedSkill-E$^{2}$: Evaluating and Evolving Skills for Medical Agents",
+    "first_author": "Jingjing Hua",
+    "n_authors": 14,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.34250v1",
+    "title_ko": "MedSkill-E$^{2}$: 의료 에이전트를 위한 스킬 평가 및 진화"
+   },
+   {
+    "title": "Navigent: A Geometry-Grounded Agentic Framework for Vision Language Navigation",
+    "first_author": "Xinyu Zhou",
+    "n_authors": 10,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.34249v1",
+    "title_ko": "Navigent: 비전-언어 탐색을 위한 기하학 기반 에이전트 프레임워크"
+   },
+   {
+    "title": "EXPOSURE: Explaining Sources of Uncertainty in Reinforcement Learning",
+    "first_author": "Kiana Farhadyar",
+    "n_authors": 7,
+    "cat": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.34248v1",
+    "title_ko": "EXPOSURE: 강화 학습에서 불확실성의 원인 설명"
+   }
+  ]
+ }
+}
