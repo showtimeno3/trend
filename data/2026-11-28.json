@@ -1,0 +1,320 @@
+{
+ "date": "2026-11-28",
+ "github": {
+  "repos": [
+   {
+    "rank": 1,
+    "name": "backnotprop/plannotator",
+    "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "lang": "TypeScript",
+    "stars": 15446,
+    "stars_week": 1596,
+    "desc_ko": "상황을 지속적으로 파악하고 agent를 완벽히 관리할 수 있는 워크스페이스 - 구상, 결정, 계획, 주석 달기, 코드 리뷰, 팀 공유 및 클릭 한 번으로 모든 피드백을 agent에 전송까지 가능합니다."
+   },
+   {
+    "rank": 2,
+    "name": "google-labs-code/stitch-skills",
+    "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "lang": "TypeScript",
+    "stars": 13637,
+    "stars_week": 2616,
+    "desc_ko": "Stitch MCP 서버와 연동되도록 설계된 Agent Skills 라이브러리. 각 스킬은 Antigravity, Gemini CLI, Claude Code, Cursor와 같은 코딩 에이전트와의 호환성을 위해 Agent Skills 오픈 표준을 따릅니다."
+   },
+   {
+    "rank": 3,
+    "name": "GoogleChrome/modern-web-guidance-src",
+    "desc": "Keep your coding agent up to date with the latest web best practices",
+    "lang": "TypeScript",
+    "stars": 11487,
+    "stars_week": 2008,
+    "desc_ko": "코딩 에이전트를 최신 웹 모범 사례로 최신 상태로 유지하세요"
+   },
+   {
+    "rank": 4,
+    "name": "n8n-io/nod",
+    "desc": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
+    "lang": "TypeScript",
+    "stars": 4415,
+    "stars_week": 1424,
+    "desc_ko": "자체 컴퓨터를 갖춘 오픈소스 개인용 에이전트. 실제 웹사이트에서 청구서를 추적하고, 통화를 준비하며, 무료 체험을 취소하고, 실행하기 전에 확인을 요청합니다. 선택한 모델로 사용자의 기기에서 실행됩니다. n8n 제작."
+   },
+   {
+    "rank": 5,
+    "name": "alibaba/open-code-review",
+    "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "lang": "Go",
+    "stars": 56942,
+    "stars_week": 2335,
+    "desc_ko": "Alibaba 규모에서 검증된 안전하고 빠르고 효율적인 도구. 하이브리드 아키텍처 코드 리뷰 도구: 결정론적 파이프라인 + LLM Agent, 정확한 줄 단위 주석, 내장 다국어 규칙 세트 (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic 호환."
+   },
+   {
+    "rank": 6,
+    "name": "mvanhorn/last30days-skill",
+    "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "lang": "Python",
+    "stars": 76436,
+    "stars_week": 5072,
+    "desc_ko": "Reddit, X, YouTube, HN, Polymarket 및 웹에서 모든 주제를 조사한 후 사실에 기반한 요약을 종합하는 AI 에이전트 스킬"
+   },
+   {
+    "rank": 7,
+    "name": "ChromeDevTools/chrome-devtools-mcp",
+    "desc": "Chrome DevTools for coding agents",
+    "lang": "TypeScript",
+    "stars": 59644,
+    "stars_week": 1150,
+    "desc_ko": "코딩 에이전트를 위한 Chrome DevTools"
+   },
+   {
+    "rank": 8,
+    "name": "tradermonty/claude-trading-skills",
+    "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+    "lang": "Python",
+    "stars": 8751,
+    "stars_week": 1332,
+    "desc_ko": "주식 투자자와 트레이더를 위한 Claude Code 스킬 — 시장 분석, 기술적 차팅, 경제 캘린더, 스크리너 및 트레이딩 전략 개발."
+   },
+   {
+    "rank": 9,
+    "name": "ag-ui-protocol/ag-ui",
+    "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+    "lang": "TypeScript",
+    "stars": 21967,
+    "stars_week": 1185,
+    "desc_ko": "AG-UI: 에이전트-사용자 상호작용 프로토콜. 프론트엔드 애플리케이션에 에이전트를 도입하세요."
+   },
+   {
+    "rank": 10,
+    "name": "meta/astryx",
+    "desc": "An open source design system that's fully customizable and agent ready",
+    "lang": "TypeScript",
+    "stars": 33554,
+    "stars_week": 2306,
+    "desc_ko": "완전히 커스텀할 수 있으며 agent 적용이 준비된 오픈소스 디자인 시스템"
+   },
+   {
+    "rank": 11,
+    "name": "pookjw/HermesEnabler",
+    "desc": "Enable Hermès Watch Faces on any Apple Watch devices",
+    "lang": "Objective-C",
+    "stars": 2586,
+    "stars_week": 296,
+    "desc_ko": "모든 Apple Watch 기기에서 Hermès 워치 페이스 활성화하기"
+   },
+   {
+    "rank": 12,
+    "name": "we-promise/sure",
+    "desc": "The personal finance app for everyone (by everyone)",
+    "lang": "Ruby",
+    "stars": 18237,
+    "stars_week": 1375,
+    "desc_ko": "모두를 위한 (모두에 의한) 개인 자산 관리 앱"
+   },
+   {
+    "rank": 13,
+    "name": "obsidianmd/obsidian-skills",
+    "desc": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
+    "lang": "Shell",
+    "stars": 54386,
+    "stars_week": 950,
+    "desc_ko": "Obsidian과 Markdown, Bases, JSON Canvas를 포함한 오픈 포맷을 사용하도록 에이전트를 가르치세요."
+   },
+   {
+    "rank": 14,
+    "name": "dream-num/univer",
+    "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+    "lang": "TypeScript",
+    "stars": 32074,
+    "stars_week": 1280,
+    "desc_ko": "Univer Office SDK로 나만의 AI 오피스를 구축하세요. 사람과 AI 에이전트를 위해 편집, 계산, 협업, 파일 처리를 제품에 도입할 수 있습니다. 확장 가능한 오픈소스 코어를 기반으로 구축되었습니다."
+   },
+   {
+    "rank": 15,
+    "name": "kajisho5/ffmpeg-skill",
+    "desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+    "lang": "Python",
+    "stars": 11974,
+    "stars_week": 3169,
+    "desc_ko": "코딩 에이전트를 위한 로컬 비디오 에디터: Claude Code, Cursor, Codex를 위한 기기 읽기 가능한 계약과 MCP 서버를 갖춘 42개의 FFmpeg 도구. 자르기, 자막, 리프레임, 음량, 플랫폼 내보내기 지원. 클라우드 없음, API 키 없음."
+   }
+  ]
+ },
+ "hn": {
+  "items": [
+   {
+    "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+    "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+    "domain": "research.google",
+    "points": 221,
+    "comments": 75,
+    "hn_url": "https://news.ycombinator.com/item?id=50672565",
+    "title_ko": "Google의 DeepCrossAttention, 동등한 모델 품질을 최대 3배 빠르게 달성"
+   },
+   {
+    "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+    "url": "https://unkernel.dev",
+    "domain": "unkernel.dev",
+    "points": 39,
+    "comments": 4,
+    "hn_url": "https://news.ycombinator.com/item?id=50674218",
+    "title_ko": "Unkernel: WebAssembly로 컴파일된 실제 Linux kernel"
+   },
+   {
+    "title": "The Balatro Timeline",
+    "url": "https://localthunk.com/blog/balatro-timeline-3aarh",
+    "domain": "localthunk.com",
+    "points": 167,
+    "comments": 37,
+    "hn_url": "https://news.ycombinator.com/item?id=50657346",
+    "title_ko": "Balatro 타임라인"
+   },
+   {
+    "title": "GPT 6.2 Astra Solves a Historical Mystery",
+    "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+    "domain": "generativehistory.substack.com",
+    "points": 375,
+    "comments": 236,
+    "hn_url": "https://news.ycombinator.com/item?id=50643158",
+    "title_ko": "GPT 6.2 Astra가 역사적 미스터리를 해결하다"
+   },
+   {
+    "title": "Cyberpunk Television Shows",
+    "url": "https://shellzine.net/cyberpunk-television/",
+    "domain": "shellzine.net",
+    "points": 63,
+    "comments": 50,
+    "hn_url": "https://news.ycombinator.com/item?id=50644213",
+    "title_ko": "사이버펑크 TV 프로그램"
+   },
+   {
+    "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+    "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+    "domain": "infohawk.com",
+    "points": 469,
+    "comments": 239,
+    "hn_url": "https://news.ycombinator.com/item?id=50668145",
+    "title_ko": "인기 쇼핑 사이트에서 발견된 WebRTC 사용 신용카드 스키밍 스크립트"
+   },
+   {
+    "title": "Atari Homebrew Awards Cancelled",
+    "url": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
+    "domain": "forums.atariage.com",
+    "points": 132,
+    "comments": 116,
+    "hn_url": "https://news.ycombinator.com/item?id=50673688",
+    "title_ko": "Atari Homebrew Awards 취소됨"
+   },
+   {
+    "title": "Convex skills send the user's app idea to a remote server without telling them",
+    "url": "https://github.com/convex/convex-backend-skill/issues/64",
+    "domain": "github.com",
+    "points": 255,
+    "comments": 81,
+    "hn_url": "https://news.ycombinator.com/item?id=50669765",
+    "title_ko": "Convex skills가 사용자에게 알리지 않고 앱 아이디어를 원격 서버로 전송함"
+   },
+   {
+    "title": "9/UX: a Macintosh-inspired desktop for 9front",
+    "url": "https://progrium.github.io/9ux/",
+    "domain": "progrium.github.io",
+    "points": 93,
+    "comments": 22,
+    "hn_url": "https://news.ycombinator.com/item?id=50672008",
+    "title_ko": "9/UX: 9front를 위한 Macintosh 기반 데스크톱"
+   },
+   {
+    "title": "Citroën Hydraulic System",
+    "url": "https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html",
+    "domain": "citroenet.org.uk",
+    "points": 149,
+    "comments": 50,
+    "hn_url": "https://news.ycombinator.com/item?id=50662313",
+    "title_ko": "Citroën 유압 시스템"
+   }
+  ]
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
+    "first_author": "Yalin E. Sagduyu",
+    "n_authors": 2,
+    "cat": "cs.NI",
+    "url": "https://arxiv.org/abs/2611.34942v1",
+    "title_ko": "전이 학습을 통한 AI-Native 오토인코더 통신의 스펙트럼 적응"
+   },
+   {
+    "title": "Attack Policy Selection can Mislead Monitor Evaluators",
+    "first_author": "Charlie Griffin",
+    "n_authors": 7,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.34934v1",
+    "title_ko": "공격 정책 선택이 모니터 평가자를 오도할 수 있습니다"
+   },
+   {
+    "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
+    "first_author": "Lukas Aichberger",
+    "n_authors": 8,
+    "cat": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.34928v1",
+    "title_ko": "어려운 수학 문제를 위한 다양한 대안적 추론 추적"
+   },
+   {
+    "title": "$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents",
+    "first_author": "Qihao Lin",
+    "n_authors": 10,
+    "cat": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.34920v1",
+    "title_ko": "$μ$-Bench: 공유 상호작용 음성 에이전트의 다중 사용자 작업 완료 벤치마킹"
+   },
+   {
+    "title": "Enhancing Maritime Domain Awareness using Latent Space Representations",
+    "first_author": "Rikard Vinge",
+    "n_authors": 7,
+    "cat": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.34899v1",
+    "title_ko": "잠재 공간 표현을 활용한 해양 영역 인식 향상"
+   },
+   {
+    "title": "Interpretable and Accurate Hybrid Decision Trees with Selective Case-Based Splits",
+    "first_author": "Cristiano Landi",
+    "n_authors": 3,
+    "cat": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.34887v1",
+    "title_ko": "선택적 사례 기반 분할을 적용한 해석 가능하고 정확한 하이브리드 의사결정 나무"
+   },
+   {
+    "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
+    "first_author": "Aakash Goel",
+    "n_authors": 3,
+    "cat": "cs.SE",
+    "url": "https://arxiv.org/abs/2611.34875v1",
+    "title_ko": "코딩 에이전트는 얼마나 과도하게 수정하며, 그 이유는 무엇인가? 리포지토리 수준 에이전트 패치의 불필요한 수정에 대한 실증적 연구"
+   },
+   {
+    "title": "Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defines the conflict: an implementation and evaluation",
+    "first_author": "Steve Brown",
+    "n_authors": 1,
+    "cat": "cs.DB",
+    "url": "https://arxiv.org/abs/2611.34870v1",
+    "title_ko": "RDF 지식 그래프를 위한 형태 인식 3방향 병합: 스키마가 충돌을 정의한다 - 구현 및 평가"
+   },
+   {
+    "title": "A Survey of Security, Privacy, and Ethics of Large Language Models in Telecom",
+    "first_author": "Joy Bose",
+    "n_authors": 2,
+    "cat": "cs.CR",
+    "url": "https://arxiv.org/abs/2611.34868v1",
+    "title_ko": "통신 분야에서 Large Language Models의 보안, 프라이버시 및 윤리에 관한 동향 조사"
+   },
+   {
+    "title": "RePace: Reasoning about Demonstration Speedup for Faster Vision-Language-Action Policies",
+    "first_author": "Insup Lee",
+    "n_authors": 7,
+    "cat": "cs.RO",
+    "url": "https://arxiv.org/abs/2611.34864v1",
+    "title_ko": "RePace: 더 빠른 Vision-Language-Action 정책을 위한 시연 속도 향상 추론"
+   }
+  ]
+ }
+}
